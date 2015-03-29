@@ -999,13 +999,13 @@ msgid "Immune to drain, poison, and plague"
 msgstr "Odolný vůči vysátí, jedu a nákaze"
 
 #. [scenario]: id = Southern_Lands;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:9
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:11
 msgid "1p - EB - Southern Lands"
 msgstr "1p - EB - Jižní země"
 
 #. [scenario]: id = Southern_Lands;
 #. [campaign]: id = Empire_Builder;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:11
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:13
 #: add-ons/Empire_Builder/_main.cfg:16
 msgid ""
 "You are a new noble and your task is to found a new province for your "
@@ -1022,14 +1022,14 @@ msgstr ""
 
 #. [side]: type = Sergeant; id = player;
 #. [side]: type = Lieutenant; id = player;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:20
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:22
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:23
 msgid "Player"
 msgstr "Hráč"
 
 #. [unit]: type = Town_Hall; id = hq;
 #. [unit]: type = Tower_House;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:41
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:43
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:43
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:96
 msgid "South Star"
@@ -1037,7 +1037,7 @@ msgstr "Jižní hvězda"
 
 #. [side]: type = Orcish Sovereign; id = enemy1; gender = male;
 #. [side]: type = Elvish High Lord; id = enemy2; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:54
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:56
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:55
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:77
 msgid "Enemies"
@@ -1713,6 +1713,11 @@ msgid ""
 "Wizards are experienced healers and have a considerable skill of welding "
 "fireballs."
 msgstr ""
+
+#. [unit_type]: id = Village_Healer;
+#: add-ons/Empire_Builder/units/humans/Village_Healer.cfg:8
+msgid "Village Healer"
+msgstr "Vesnický léčitel"
 
 #. [unit_type]: id = Orcish Shaman;
 #: add-ons/Empire_Builder/units/orcs/Shaman.cfg:5
