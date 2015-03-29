@@ -15,7 +15,7 @@ acquire certain score (by constructing/upgading buildings and training units) an
 * add more technologies and upgrades for units
 * allow exchange of resources and trading between players
 * code diplomacy
-* complete factions (The Cult is missing healers, Drakes worker and mages, Humans level 1 healer)
+* complete factions (The Cult is missing healers, Drakes worker and mages)
 * complete tutorial
 * add some scenarios for this era
 * write in-game help
