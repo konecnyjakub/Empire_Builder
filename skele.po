@@ -1,0 +1,1331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: wespo 2.2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [era]: id = Era_of_Empires; 
+#: add-ons/Empire_Builder/era.cfg: 5
+msgid "Era of Empires"
+msgstr ""
+
+#. [multiplayer_side]: id = cult; 
+#: add-ons/Empire_Builder/era.cfg: 56
+msgid "The Cult"
+msgstr ""
+
+#. [multiplayer_side]: id = gang; 
+#: add-ons/Empire_Builder/era.cfg: 65
+msgid "The Gang"
+msgstr ""
+
+#. [checkbox]: id = headquarters_mode; 
+#: add-ons/Empire_Builder/era.cfg: 76
+msgid "Headquarters mode"
+msgstr ""
+
+#. [checkbox]: id = headquarters_mode; 
+#: add-ons/Empire_Builder/era.cfg: 77
+msgid "Whether you lose when your headquarters are destroyed"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 6
+msgid "This feature is not implemented yet."
+msgstr ""
+
+#. [set_menu_item]: id = cutdown; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 15
+msgid "Cut down a tree"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 36
+msgid "$wood_gathered wood gathered."
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 151
+msgid "Dominate the area"
+msgstr ""
+
+#. [objective]: condition = lose; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 155
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 202
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 319
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 370
+msgid "Death of your leader"
+msgstr ""
+
+#. [objective]: condition = lose; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 159
+msgid "Destruction of your headquarters"
+msgstr ""
+
+#. [objective]: condition = lose; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 169
+msgid "You cannot pay taxes"
+msgstr ""
+
+#. [note]: 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 179
+msgid "You have to pay taxes to the King every twelfth turn."
+msgstr ""
+
+#. [note]: 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 188
+msgid "Your former liege will attack you every twelfth turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 243
+msgid "Before you can start the game, you have to choose name for your main character. Your noble title will come before it."
+msgstr ""
+
+#. [text_input]: 
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 248
+msgid "The name of your character:"
+msgstr ""
+
+#. [hides]: id = camouflage; 
+#: add-ons/Empire_Builder/macros/abilities.cfg: 6
+msgid "camouflage"
+msgstr ""
+
+#. [hides]: id = camouflage; 
+#: add-ons/Empire_Builder/macros/abilities.cfg: 7
+msgid ""
+"This unit can hide in forests and hills, and remain undetected by its enemies.\n"
+"    \n"
+"Enemy units cannot see this unit while it is in forests and hills, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 71
+msgid "You do not have enough ores!"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 93
+msgid ""
+"You currently have $player_resources[$side_number].ore ores. Your mines produce $ore_income ores per turn.\n"
+"      \n"
+"Researched upgrades\n"
+"Sharp Blade I: $player_upgrades[$side_number].sharp_blade1\n"
+"Sharp Blade II: $player_upgrades[$side_number].sharp_blade2\n"
+"Fire Arrows: $player_upgrades[$side_number].fire_arrows\n"
+"Piercing Arrow I: $player_upgrades[$side_number].piercing_arrow1\n"
+"Piercing Arrow II: $player_upgrades[$side_number].piercing_arrow2"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 104
+#: add-ons/Empire_Builder/macros/research.cfg: 91
+msgid "Back"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 107
+msgid "Research new upgrade"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 129
+msgid "Which upgrade do you want to research?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 133
+msgid "upgrade^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 136
+msgid "Sharp Blade I (15 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 144
+msgid "Upgrade Sharp Blade I researched. Your units will deal 1 more damage with bladed weapons from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 148
+msgid "Sharp Blade II (20 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 162
+msgid "Upgrade Sharp Blade II researched. Your units will deal 1 more damage with bladed weapons from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 166
+msgid "Fire Arrows (25 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 174
+msgid "Upgrade Fire Arrows researched. Your archers will deal fire damage now."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 178
+msgid "Piercing Arrow I (10 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 186
+msgid "Upgrade Piercing Arrow I researched. Your units will deal 1 more damage with ranged weapons from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 190
+msgid "Piercing Arrow II (15 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 204
+msgid "Upgrade Piercing Arrow II researched. Your units will deal 1 more damage with ranged weapons from now on."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 44
+#: add-ons/Empire_Builder/macros/buildings.cfg: 94
+#: add-ons/Empire_Builder/macros/training.cfg: 64
+msgid "You do not have enough resources!"
+msgstr ""
+
+#. [set_menu_item]: id = bconstructa; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 108
+msgid "Construct a building"
+msgstr ""
+
+#. [set_menu_item]: id = bdconstructmine; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 137
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 377
+msgid "Build a mine"
+msgstr ""
+
+#. [set_menu_item]: id = bdconstructtower; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 159
+msgid "Build a tower (8 gold, 6 wood)"
+msgstr ""
+
+#. [set_menu_item]: id = zdemolish; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 179
+msgid "Demolish this building"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 197
+msgid "After demolishing the building, you will get half of the invested gold and wood back but lose the score. Do you really want to do that?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 200
+#: add-ons/Empire_Builder/macros/titles.cfg: 134
+msgid "No"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 203
+#: add-ons/Empire_Builder/macros/titles.cfg: 118
+msgid "Yes"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 222
+msgid "Building demolished. You got $unit.variables.gold_cost gold and $unit.variables.wood_cost wood but lost $unit.variables.score points."
+msgstr ""
+
+#. [set_menu_item]: id = cfoundcity; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 234
+msgid "Found a new city"
+msgstr ""
+
+#. [message]: speaker = unit; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 280
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 239
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 328
+msgid "What kind of building do you want me to construct?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 283
+msgid "building^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 286
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 330
+msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 292
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 241
+msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 298
+msgid "&scenery/temple1.png=Temple (30 gold, 4 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 304
+msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 310
+msgid "&scenery/mausoleum01.png=Embassy (60 gold, 10 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 329
+msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 348
+msgid "&scenery/leanto.png=Market (60 gold, 10 wood)"
+msgstr ""
+
+#. [message]: speaker = unit; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 374
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 420
+msgid "What kind of mine do you want me to build?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 377
+msgid "mine^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 380
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 422
+msgid "Gold mine"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 386
+msgid "Ore mine"
+msgstr ""
+
+#. [set_menu_item]: id = dupgrade_atownhall; 
+#. [set_menu_item]: id = dupgrade_aucityhall; 
+#. [set_menu_item]: id = dupgrade_avtowerhouse; 
+#. [set_menu_item]: id = aupgrade_building; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 400
+#: add-ons/Empire_Builder/macros/buildings.cfg: 420
+#: add-ons/Empire_Builder/macros/buildings.cfg: 440
+#: add-ons/Empire_Builder/macros/buildings.cfg: 460
+msgid "Upgrade this building"
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 415
+msgid "Town Hall upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 435
+msgid "City Hall upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 455
+msgid "Tower House upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 473
+msgid "Gold Mine upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 477
+msgid "Ore Mine upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 481
+msgid "Farm upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 485
+msgid "Barracks upgraded."
+msgstr ""
+
+#. {UPGRADE_BUILDING ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg: 489
+msgid "School upgraded."
+msgstr ""
+
+#. [set_menu_item]: id = ccityhall_economy; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 502
+msgid "Economy overview"
+msgstr ""
+
+#. [set_menu_item]: id = ehire_worker; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 518
+msgid "Hire a worker"
+msgstr ""
+
+#. [set_menu_item]: id = aresearch; 
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 537
+#: add-ons/Empire_Builder/macros/buildings.cfg: 725
+#: add-ons/Empire_Builder/macros/research.cfg: 77
+msgid "Research"
+msgstr ""
+
+#. [set_menu_item]: id = buniversity_train; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 553
+msgid "Train a unit"
+msgstr ""
+
+#. [set_menu_item]: id = blacksmith; 
+#. [unit_type]: id = Blacksmith; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 572
+#: add-ons/Empire_Builder/units/buildings/Blacksmith.cfg: 5
+msgid "Blacksmith"
+msgstr ""
+
+#. [set_menu_item]: id = abarracks; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 588
+msgid "Train soldiers"
+msgstr ""
+
+#. [set_menu_item]: id = diplomacy; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 607
+msgid "Diplomacy"
+msgstr ""
+
+#. [set_menu_item]: id = atemple; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 623
+msgid "Train a healer"
+msgstr ""
+
+#. [set_menu_item]: id = exchange_resources; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 642
+msgid "Exchange resources"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 674
+#: add-ons/Empire_Builder/macros/buildings.cfg: 684
+msgid "Gold"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 675
+msgid "Your income from taxes and gold mines is $gold_income gold marks per turn, your expenses are $gold_expenses per turn. You earn $net_gold_income gold marks per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 685
+msgid "Your income from taxes and gold mines is $gold_income gold marks per turn, your expenses are $gold_expenses per turn. You lose $net_gold_income gold marks per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 699
+#: add-ons/Empire_Builder/macros/buildings.cfg: 709
+msgid "Food"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 700
+msgid "Your farms produce $food_income food per turn, your soldiers require $food_expenses per turn. You earn $net_food_income food per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 710
+msgid "Your farms produce $food_income food per turn, your soldiers require $food_expenses per turn. You lose $net_food_income food per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 718
+msgid "Ore"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 719
+msgid "Your ore mines produce $ore_income ore per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 726
+msgid "Your scholars produce $rp_income research points per turn."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/buildings.cfg: 732
+msgid ""
+"Your current resources: $current_gold gold marks, $player_resources[$side_number].food food, $player_resources[$side_number].wood wood, $player_resources[$side_number].ore ores and $player_resources[$side_number].rp research points.\n"
+"Your current score is $player_info[$side_number].score"
+msgstr ""
+
+#. [set_menu_item]: id = move_headquarters; 
+#: add-ons/Empire_Builder/macros/headquarters_mode.cfg: 35
+msgid "Move headquarters here"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/research.cfg: 54
+msgid "You do not have enough research points!"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/research.cfg: 80
+msgid ""
+"You currently have $player_resources[$side_number].rp research points. Your scholars produce $rp_income research points per turn.\n"
+"      \n"
+"Researched technologies\n"
+"Spying: $player_technologies[$side_number].spying\n"
+"- Camouflage: $player_technologies[$side_number].camouflage\n"
+"Diplomacy: $player_technologies[$side_number].diplomacy\n"
+"Smithery: $player_technologies[$side_number].smithery\n"
+"Trading: $player_technologies[$side_number].trading\n"
+"- Economy: $player_technologies[$side_number].economy\n"
+"Advanced mining: $player_technologies[$side_number].mining"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 94
+msgid "Research new technology"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/research.cfg: 115
+msgid "Which technology do you want to research?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 119
+msgid "technology^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 122
+msgid "Spying (20 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 130
+msgid "Technology Spying researched. You can build towers and train scouts from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 134
+msgid "Camouflage (30 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 148
+msgid "Technology Camouflage researched. Your scouts can hide in forests and hills now."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 168
+msgid "Diplomacy (40 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 176
+msgid "Technology Diplomacy researched. You can build embassy now."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 180
+msgid "Smithery (30 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 188
+msgid "Technology Smithery researched. You can build blacksmith now."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 192
+msgid "Trading (30 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 200
+msgid "Technology Trading researched. You can build market now."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 204
+msgid "Economy (45 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 218
+msgid "Technology Economy researched. Your cities will produce more gold from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 222
+msgid "Advanced mining (40 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 230
+msgid "Technology Advanced mining researched. Your mines will produce 1 more gold/ore per turn."
+msgstr ""
+
+#. [unit]: type = Knight; id = collector; gender = male; 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 69
+msgid "Tax Collector"
+msgstr ""
+
+#. [message]: speaker = collector; 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 79
+msgid "Time to pay taxes, $player_title|. It's $current_tax gold marks this time."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 81
+msgid "Here you go."
+msgstr ""
+
+#. [message]: speaker = collector; 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 95
+msgid "Very well. Next collector will come by you in 12 turns."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 101
+msgid "Uhm, I don't have enough money."
+msgstr ""
+
+#. [message]: speaker = collector; 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 111
+msgid "You'll be executed for your incompetence."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/taxes.cfg: 119
+msgid "I'm not going to pay the old bastard anymore. I declare my province an independent kingdom!"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 4
+msgid "title^Knight"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 8
+msgid "title^Baronet"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 12
+msgid "title^Baron"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 16
+msgid "title^Marquis"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 20
+msgid "title^Earl"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 24
+msgid "title^Duke"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 28
+msgid "title^King"
+msgstr ""
+
+#. {VARIABLE ...}:
+#: add-ons/Empire_Builder/macros/titles.cfg: 32
+msgid "title^Emperor"
+msgstr ""
+
+#. [set_menu_item]: id = apromote_leader; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 70
+msgid "Promote"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 92
+msgid "Your current title is $titles[$player_title].name|. To be promoted to $titles[$next_rank].name|, you need to acquire at least $titles[$next_rank].score| points and pay $titles[$next_rank].gold| gold marks."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 102
+msgid "Congratulation! You are ready to be promoted to $titles[$next_rank].name|. Do you really want it?"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 127
+msgid "You are $titles[$next_rank].name| from now on!"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 139
+msgid "You are not ready for the next promotion yet. Improve your score and try again."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/titles.cfg: 151
+msgid "You are not ready for the next promotion yet. Earn more gold and try again."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/training.cfg: 80
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 281
+msgid "What kind of soldier do you want to train?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 84
+msgid "soldier^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 87
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 284
+msgid "&$player_recruits[$side_number].fighter1.image|=$player_recruits[$side_number].fighter1.name ($player_recruits[$side_number].fighter1.gold_cost gold, $player_recruits[$side_number].fighter1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 93
+msgid "&$player_recruits[$side_number].fighter2.image|=$player_recruits[$side_number].fighter2.name ($player_recruits[$side_number].fighter2.gold_cost gold, $player_recruits[$side_number].fighter2.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 105
+msgid "&$player_recruits[$side_number].tank1.image|=$player_recruits[$side_number].tank1.name ($player_recruits[$side_number].tank1.gold_cost gold, $player_recruits[$side_number].tank1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 111
+msgid "&$player_recruits[$side_number].tank2.image|=$player_recruits[$side_number].tank2.name ($player_recruits[$side_number].tank2.gold_cost gold, $player_recruits[$side_number].tank2.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 123
+msgid "&$player_recruits[$side_number].archer1.image|=$player_recruits[$side_number].archer1.name ($player_recruits[$side_number].archer1.gold_cost gold, $player_recruits[$side_number].archer1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 129
+msgid "&$player_recruits[$side_number].archer2.image|=$player_recruits[$side_number].archer2.name ($player_recruits[$side_number].archer2.gold_cost gold, $player_recruits[$side_number].archer2.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 141
+msgid "&$player_recruits[$side_number].scout1.image|=$player_recruits[$side_number].scout1.name ($player_recruits[$side_number].scout1.gold_cost gold, $player_recruits[$side_number].scout1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 153
+msgid "&$player_recruits[$side_number].scout2.image|=$player_recruits[$side_number].scout2.name ($player_recruits[$side_number].scout2.gold_cost gold, $player_recruits[$side_number].scout2.food_cost food)"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/training.cfg: 178
+msgid "What kind of healer do you want to train?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 182
+msgid "healer^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 185
+msgid "&$player_recruits[$side_number].healer1.image|=$player_recruits[$side_number].healer1.name ($player_recruits[$side_number].healer1.gold_cost gold, $player_recruits[$side_number].healer1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 191
+msgid "&$player_recruits[$side_number].healer2.image|=$player_recruits[$side_number].healer2.name ($player_recruits[$side_number].healer2.gold_cost gold, $player_recruits[$side_number].healer2.food_cost food)"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/macros/training.cfg: 210
+msgid "What kind of unit do you want to train?"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 214
+msgid "unit^None"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 217
+msgid "&$player_recruits[$side_number].mage1.image|=$player_recruits[$side_number].mage1.name ($player_recruits[$side_number].mage1.gold_cost gold, $player_recruits[$side_number].mage1.food_cost food)"
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/training.cfg: 223
+msgid "&$player_recruits[$side_number].mage2.image|=$player_recruits[$side_number].mage2.name ($player_recruits[$side_number].mage2.gold_cost gold, $player_recruits[$side_number].mage2.food_cost food)"
+msgstr ""
+
+#. [trait]: id = building; 
+#: add-ons/Empire_Builder/macros/traits.cfg: 7
+msgid "building"
+msgstr ""
+
+#. [trait]: id = building; 
+#: add-ons/Empire_Builder/macros/traits.cfg: 8
+msgid "Immune to drain, poison, and plague"
+msgstr ""
+
+#. [scenario]: id = Southern_Lands; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 9
+msgid "1p - EB - Southern Lands"
+msgstr ""
+
+#. [scenario]: id = Southern_Lands; 
+#. [campaign]: id = Empire_Builder; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 11
+#: add-ons/Empire_Builder/_main.cfg: 16
+msgid "You are a new noble and your task is to found a new province for your kingdom. The area is fitting for a new settlement but it seems that it is not completely uninhabited so you will have to find a way to befriend or conquer the residents. And what would happen if you even tried to become independent from your king?"
+msgstr ""
+
+#. [side]: type = Sergeant; id = player; 
+#. [side]: type = Lieutenant; id = player; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 20
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 23
+msgid "Player"
+msgstr ""
+
+#. [unit]: type = Town_Hall; id = hq; 
+#. [unit]: type = Tower_House; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 41
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 43
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 96
+msgid "South Star"
+msgstr ""
+
+#. [side]: type = Orcish Sovereign; id = enemy1; gender = male; 
+#. [side]: type = Elvish High Lord; id = enemy2; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 54
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 55
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 77
+msgid "Enemies"
+msgstr ""
+
+#. [multiplayer]: id = EB Tutorial; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 12
+msgid "1p - EB - Tutorial"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 150
+msgid "Welcome to tutorial to Era of Empires. You will learn about its special features here."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 155
+msgid "First remarkable thing about it is that you cannot recruit units from your castle. Instead, you have to build certain buildings (for example Barracks) first and then you can buy a unit."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 160
+msgid "To construct a building you need a worker. You will start every scenario with at least 1 worker, more can be hired in Town Hall, City Hall, Tower House or Castle."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 165
+msgid "You first task in this tutorial will be constructing Barracks and training a Spearman. To do it, right-click a worker and select Construct a building and in the menu that will appear then double click Barracks. Once you do it, you will receive next instructions."
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 198
+msgid "Train a Spearman"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 261
+msgid "Very well. This way you will be able to construct more buildings later. But back to training units."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 267
+msgid "If you want to train a new unit, right-click a building and select Train soldiers. For now, you can train only spearmen but in other scenarios there will be more options. Also upgrading Barracks will allow you to train level 2 units. Keep in mind that in different building you can train different units."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 272
+msgid "But for now we want the Spearman so train one."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 304
+msgid "Excellent. But we have got a problem now. In this era, units do not require just upkeep every turn but also also food. If you do not have enough food for them, they will starve and lose some hitpoints."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 309
+msgid "To avoid this, you have to build farms. It is done the same way as you built Barracks. So, hire a worker (from the Town Hall) and tell him to build a Farm."
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 315
+msgid "Build a Farm"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 350
+msgid "Good job. But as you can see, you spent almost all of your gold. It is very easy but there are some ways to earn gold. The first one is founding new cities. Their central buildings collect gold from taxes."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 355
+msgid "Only your leader can found new cities (via right-click menu). The maximum number of cities that you can build depends on your noble title. You start as a Knight and can have only 3 cities. Also if you upgrade your cities, they will produce more gold. But for it you need a higher title."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 360
+msgid "The second way to improve your income is building gold mines and you will learn it now. It is similar to building farms and barracks. You right-click a worker but now you select Build a mine and in the next menu Gold Mine. But unlike other building, mines can be built only on hills or mountains. So why do you not try it now?"
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 366
+msgid "Build a Gold Mine"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 442
+msgid "Alright, now you will earn 2 gold and food per turn. Upgrading a mine would increase your income. You can do that right-clicking the mine and selecting Upgrade this building. It applies to other buildings as well though this is not possible in the tutorial. So moving on ..."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 447
+msgid "Well, next step is ending your turn. At the start of your next turn you will get that 2 gold and food. That and the lesson will continue. So ..."
+msgstr ""
+
+#. [unit_type]: id = Barracks1; 
+#: add-ons/Empire_Builder/units/buildings/Barracks.cfg: 5
+msgid "Basic Barracks"
+msgstr ""
+
+#. [unit_type]: id = Barracks1; 
+#: add-ons/Empire_Builder/units/buildings/Barracks.cfg: 16
+msgid "Barracks allow you to train soldiers. In the basic version you can train level 1 soldiers."
+msgstr ""
+
+#. [unit_type]: id = Barracks2; 
+#: add-ons/Empire_Builder/units/buildings/Barracks.cfg: 21
+msgid "Advanced Barracks"
+msgstr ""
+
+#. [unit_type]: id = Barracks2; 
+#: add-ons/Empire_Builder/units/buildings/Barracks.cfg: 32
+msgid "Barracks allow you to train soldiers. In the advanced version you can train level 1 and 2 soldiers."
+msgstr ""
+
+#. [unit_type]: id = Blacksmith; 
+#: add-ons/Empire_Builder/units/buildings/Blacksmith.cfg: 16
+msgid "Blacksmith produces better weapons and armors for your soldiers."
+msgstr ""
+
+#. [unit_type]: id = Embassy; 
+#: add-ons/Empire_Builder/units/buildings/Embassy.cfg: 5
+msgid "Embassy"
+msgstr ""
+
+#. [unit_type]: id = Embassy; 
+#: add-ons/Empire_Builder/units/buildings/Embassy.cfg: 16
+msgid "In Embassy, you can maintain your relationships with other states."
+msgstr ""
+
+#. [unit_type]: id = Farm1; 
+#: add-ons/Empire_Builder/units/buildings/Farm.cfg: 5
+msgid "Basic Farm"
+msgstr ""
+
+#. [unit_type]: id = Farm1; 
+#: add-ons/Empire_Builder/units/buildings/Farm.cfg: 16
+msgid "Farms produce the necessary food for your subjects. This basic version is able to produce 3 food per turn."
+msgstr ""
+
+#. [unit_type]: id = Farm2; 
+#: add-ons/Empire_Builder/units/buildings/Farm.cfg: 21
+msgid "Advanced Farm"
+msgstr ""
+
+#. [unit_type]: id = Farm2; 
+#: add-ons/Empire_Builder/units/buildings/Farm.cfg: 32
+msgid "Farms produce the necessary food for your subjects. This advanced version is able to produce 5 food per turn."
+msgstr ""
+
+#. [unit_type]: id = GoldMine1; 
+#: add-ons/Empire_Builder/units/buildings/Gold_Mine.cfg: 5
+msgid "Basic Gold Mine"
+msgstr ""
+
+#. [unit_type]: id = GoldMine1; 
+#: add-ons/Empire_Builder/units/buildings/Gold_Mine.cfg: 16
+msgid "Miners in this mine extract 1 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = GoldMine2; 
+#: add-ons/Empire_Builder/units/buildings/Gold_Mine.cfg: 21
+msgid "Advanced Gold Mine"
+msgstr ""
+
+#. [unit_type]: id = GoldMine2; 
+#: add-ons/Empire_Builder/units/buildings/Gold_Mine.cfg: 32
+msgid "Miners in this mine extract 2 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = Market; 
+#: add-ons/Empire_Builder/units/buildings/Market.cfg: 5
+msgid "Market"
+msgstr ""
+
+#. [unit_type]: id = Market; 
+#: add-ons/Empire_Builder/units/buildings/Market.cfg: 16
+msgid "Market allows you to exchange resources and trade with other states. It also produces 5 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = OreMine1; 
+#: add-ons/Empire_Builder/units/buildings/Ore_Mine.cfg: 5
+msgid "Basic Ore Mine"
+msgstr ""
+
+#. [unit_type]: id = OreMine1; 
+#: add-ons/Empire_Builder/units/buildings/Ore_Mine.cfg: 16
+msgid "Miners in this mine extract 1 ore per turn. It can be then used by the Blacksmith or sold on market."
+msgstr ""
+
+#. [unit_type]: id = OreMine2; 
+#: add-ons/Empire_Builder/units/buildings/Ore_Mine.cfg: 21
+msgid "Advanced Ore Mine"
+msgstr ""
+
+#. [unit_type]: id = OreMine2; 
+#: add-ons/Empire_Builder/units/buildings/Ore_Mine.cfg: 32
+msgid "Miners in this mine extract 2 ore per turn. It can be then used by the Blacksmith or sold on market."
+msgstr ""
+
+#. [unit_type]: id = School; 
+#: add-ons/Empire_Builder/units/buildings/School.cfg: 5
+msgid "School"
+msgstr ""
+
+#. [unit_type]: id = School; 
+#: add-ons/Empire_Builder/units/buildings/School.cfg: 16
+msgid "Scholars in school produce 2 research point per turn."
+msgstr ""
+
+#. [unit_type]: id = University; 
+#: add-ons/Empire_Builder/units/buildings/School.cfg: 21
+msgid "University"
+msgstr ""
+
+#. [unit_type]: id = University; 
+#: add-ons/Empire_Builder/units/buildings/School.cfg: 32
+msgid "Scholars in university produce 5 research point per turn."
+msgstr ""
+
+#. [unit_type]: id = Temple; 
+#: add-ons/Empire_Builder/units/buildings/Temple.cfg: 5
+msgid "Temple"
+msgstr ""
+
+#. [unit_type]: id = Temple; 
+#: add-ons/Empire_Builder/units/buildings/Temple.cfg: 16
+msgid "Temples train healers and heal adjacent allied units at the start of our turn."
+msgstr ""
+
+#. [unit_type]: id = Tower; 
+#: add-ons/Empire_Builder/units/buildings/Tower.cfg: 5
+msgid "Tower"
+msgstr ""
+
+#. [unit_type]: id = Tower; 
+#: add-ons/Empire_Builder/units/buildings/Tower.cfg: 32
+msgid "Towers are used to observe a small surrounding area. Archers can also hide in them and shoot nearby enemies."
+msgstr ""
+
+#. [unit_type]: id = Manned_Tower; 
+#: add-ons/Empire_Builder/units/buildings/Tower.cfg: 37
+msgid "Manned Tower"
+msgstr ""
+
+#. [unit_type]: id = Manned_Tower; 
+#: add-ons/Empire_Builder/units/buildings/Tower.cfg: 64
+msgid "Towers are used to observe a small surrounding area. Archers hidden in them will shoot nearby enemies."
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/buildings/Tower.cfg: 67
+msgid "archers"
+msgstr ""
+
+#. [unit_type]: id = Town_Hall; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 5
+msgid "Town Hall"
+msgstr ""
+
+#. [unit_type]: id = Town_Hall; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 16
+msgid "Town Hall is the central building of a village or small town. It produces 2 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = City_Hall; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 21
+msgid "City Hall"
+msgstr ""
+
+#. [unit_type]: id = City_Hall; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 32
+msgid "City Hall is the central building of a city. It produces 4 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = Tower_House; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 37
+msgid "Tower House"
+msgstr ""
+
+#. [unit_type]: id = Tower_House; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 48
+msgid "Tower House serves as a residence for a nobleman. It produces 6 gold per turn."
+msgstr ""
+
+#. [unit_type]: id = Castle; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 53
+msgid "Castle"
+msgstr ""
+
+#. [unit_type]: id = Castle; 
+#: add-ons/Empire_Builder/units/buildings/Town_Hall.cfg: 64
+msgid "Only a great ruler can build castles. It produces 10 gold per turn."
+msgstr ""
+
+#. [race]: id = buildings; 
+#: add-ons/Empire_Builder/units/buildings.cfg: 5
+#: add-ons/Empire_Builder/units/buildings.cfg: 6
+#: add-ons/Empire_Builder/units/buildings.cfg: 7
+msgid "race^Building"
+msgstr ""
+
+#. [race]: id = buildings; 
+#: add-ons/Empire_Builder/units/buildings.cfg: 8
+msgid "race^Buldings"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Alchemist; 
+#: add-ons/Empire_Builder/units/dwarves/Alchemist.cfg: 5
+msgid "Dwarvish Alchemist"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Alchemist; 
+#: add-ons/Empire_Builder/units/dwarves/Alchemist.cfg: 25
+msgid "The practice of Alchemy among Dwarves began as an attempt to produce gold and other valuable resources from worthless rock. A dismal failure, the practice was shunned and mocked by many. Despite that, many dwarves continued in the study and discovered ways to use their potions for healing. As a matter of tradition, any dwarf who enters the profession begins as an Alchemist and is expected to be able to make potions and clever concoctions of his own before he is allowed to learn more tricks of the trade. An Alchemist has learned the basics of the practice, and can heal wounded units around himself, while preventing poisoned units from weakening."
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Blacksmith; 
+#: add-ons/Empire_Builder/units/dwarves/Blacksmith.cfg: 5
+msgid "Dwarvish Blacksmith"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Blacksmith; 
+#: add-ons/Empire_Builder/units/dwarves/Blacksmith.cfg: 20
+msgid "TODO."
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Master of Alchemy; 
+#: add-ons/Empire_Builder/units/dwarves/Master_of_Alchemy.cfg: 5
+msgid "Dwarvish Master of Alchemy"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Master of Alchemy; 
+#: add-ons/Empire_Builder/units/dwarves/Master_of_Alchemy.cfg: 28
+msgid "After having at least five decades of experience, an Alchemist may finally be able to earn the title 'Master of Alchemy', awarded yearly to elder Alchemists who have proven their worth on the battlefield. The rare few who attain this level of experience often retire to train initiate Alchemists, while some remain on the battlefield for even several more decades. Masters of Alchemy are revered by even the strongest Dwarvish Lords, and protecting a Master in battle is considered an honor for only the bravest of dwarvish warriors."
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Miner; 
+#: add-ons/Empire_Builder/units/dwarves/Miner.cfg: 4
+msgid "Dwarvish Miner"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Miner; 
+#: add-ons/Empire_Builder/units/dwarves/Miner.cfg: 17
+msgid "Dwarvish miners are the grunt workers of Dwarvish society. They take the precious ores out of the ground, but do not ever take part in the crafting of weapons or artifacts."
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/dwarves/Miner.cfg: 45
+msgid "pick"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Potion Smith; 
+#: add-ons/Empire_Builder/units/dwarves/Potion_Smith.cfg: 5
+msgid "Dwarvish Potion Smith"
+msgstr ""
+
+#. [unit_type]: id = Dwarvish Potion Smith; 
+#: add-ons/Empire_Builder/units/dwarves/Potion_Smith.cfg: 24
+msgid "The first 'Potion Smiths' were mockingly named by rival Runesmiths who believed that devoting one's time to the study of mixing potions and leaves was a worthless endeavor. As time passed the name remained, and is now given as a title of honor to Alchemists who have advanced their skills sufficiently to earn them renown on the battlefield. Defeating the effects of poison is the accomplishment of any Alchemist who becomes a Potion Smith, and their skills make them in high demand."
+msgstr ""
+
+#. [unit_type]: id = Elvish Civilian; 
+#: add-ons/Empire_Builder/units/elves-wood/Civilian.cfg: 5
+msgid "Elvish Civilian"
+msgstr ""
+
+#. [unit_type]: id = Elvish Civilian; 
+#: add-ons/Empire_Builder/units/elves-wood/Civilian.cfg: 21
+msgid "Since elves are not warlike by nature, most of their population is composed by civilians who learn, at very early age, basic usage of swords and bows. This enables them to defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you’re clearly out of superior forces."
+msgstr ""
+
+#. [unit_type]: id = Elvish Initiate; 
+#: add-ons/Empire_Builder/units/elves-wood/Elvish_Initiate.cfg: 5
+msgid "female^Elvish Initiate"
+msgstr ""
+
+#. [unit_type]: id = Elvish Initiate; 
+#: add-ons/Empire_Builder/units/elves-wood/Elvish_Initiate.cfg: 21
+msgid ""
+"Some elves show a remarkable gift in their ability to call upon the faerie world, and can control its use only with minimal training. To concentrate upon honing this ability to its greatest use however, their healing abilities are left neglected.\n"
+"\n"
+"Unlike their shaman counterparts, initiates are used mainly in assisting in the destruction of hostile units, rather than helping prolong the lives of friendly units."
+msgstr ""
+
+#. [unit_type]: id = EB Rogue Mage; 
+#: add-ons/Empire_Builder/units/human-outlaws/Rogue_Mage.cfg: 5
+msgid "Rogue Mage"
+msgstr ""
+
+#. [unit_type]: id = EB Rogue Mage; 
+#: add-ons/Empire_Builder/units/human-outlaws/Rogue_Mage.cfg: 19
+msgid "Some mages are thrown out of the mage’s guild for attempting to practice forbidden arts. Now completely outside the law, these rogue mages do whatever necessary to support their study of black magic. Although not as skilled as mages with more formal training, their magic can be quite lethal, while their banditry has resulted in moderate skill with the short sword."
+msgstr ""
+
+#. [unit_type]: id = EB Shadow Lord; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Lord.cfg: 5
+msgid "Shadow Lord"
+msgstr ""
+
+#. [unit_type]: id = EB Shadow Lord; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Lord.cfg: 23
+msgid "Few humans fathom the secrets of light and dark magic and retain their sanity. Those that can master that balance become Shadow Lords, fully existing neither in the world of light nor the world of darkness. No longer needing physical weapons, they are fearsome to both their enemies and those they lord over."
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Lord.cfg: 29
+msgid "astral blade"
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Lord.cfg: 40
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Mage.cfg: 41
+msgid "shadow bolt"
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Lord.cfg: 52
+msgid "shadow blast"
+msgstr ""
+
+#. [unit_type]: id = EB Shadow Mage; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Mage.cfg: 5
+msgid "Shadow Mage"
+msgstr ""
+
+#. [unit_type]: id = EB Shadow Mage; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shadow_Mage.cfg: 22
+msgid "Years of violence and brutality to support the study of forbidden magical arts have turned the shadow mages into feared fighters. Now completely enthralled with power, they have been known to command small followings of henchmen. They are outmatched in direct magical combat with their magic-using peers, instead channeling their energies into devastating melee attacks. Despite their offensive power, the corruption in their souls has begun to adversely affect their health."
+msgstr ""
+
+#. [unit_type]: id = EB Shaman; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shaman.cfg: 5
+msgid "Shaman"
+msgstr ""
+
+#. [unit_type]: id = EB Shaman; 
+#: add-ons/Empire_Builder/units/human-outlaws/Shaman.cfg: 19
+msgid "The study of magic followed by the these mages is based on both healing and fire. The shamans are skilled in both close and long ranged combat but proficient in neither."
+msgstr ""
+
+#. [unit_type]: id = EB Sorcerer; 
+#: add-ons/Empire_Builder/units/human-outlaws/Sorcerer.cfg: 4
+msgid "Sorcerer"
+msgstr ""
+
+#. [unit_type]: id = EB Sorcerer; 
+#: add-ons/Empire_Builder/units/human-outlaws/Sorcerer.cfg: 19
+msgid "Sorcerers are the eldest among all humans. No one knows how these mages have lived to be more than a hundred years of age, but many suspect that it is due to their mastery of healing. Though physically weak, their magical skill is not to be undervalued."
+msgstr ""
+
+#. [unit_type]: id = EB Wizard; 
+#: add-ons/Empire_Builder/units/human-outlaws/Wizard.cfg: 4
+msgid "Wizard"
+msgstr ""
+
+#. [unit_type]: id = EB Wizard; 
+#: add-ons/Empire_Builder/units/human-outlaws/Wizard.cfg: 18
+msgid "Wizards are experienced healers and have a considerable skill of welding fireballs."
+msgstr ""
+
+#. [unit_type]: id = Orcish Shaman; 
+#: add-ons/Empire_Builder/units/orcs/Shaman.cfg: 5
+msgid "Orcish Shaman"
+msgstr ""
+
+#. [unit_type]: id = Orcish Shaman; 
+#: add-ons/Empire_Builder/units/orcs/Shaman.cfg: 20
+msgid "Orcish Shamans are the guardians of orcish magic. Respected among orcish tribes, they form the Orcish Council, which makes important decisions for the whole Orcish community and arbitrates the many conflicts that arise between tribes of this argumentative race. Although physically weak (for Orcs), Orcish Shamans have a moderate ability in using their nature magic."
+msgstr ""
+
+#. [attack]: 
+#: add-ons/Empire_Builder/units/orcs/Shaman.cfg: 40
+#: add-ons/Empire_Builder/units/orcs/Sorcerer.cfg: 40
+#: add-ons/Empire_Builder/units/orcs/Warlock.cfg: 39
+msgid "nature flare"
+msgstr ""
+
+#. [unit_type]: id = Orcish Sorcerer; 
+#: add-ons/Empire_Builder/units/orcs/Sorcerer.cfg: 5
+msgid "Orcish Sorcerer"
+msgstr ""
+
+#. [unit_type]: id = Orcish Sorcerer; 
+#: add-ons/Empire_Builder/units/orcs/Sorcerer.cfg: 21
+msgid "Orcish Sorcerers are the most respected leaders of the Orcish Council. They are known throughout the tribes as the masters of nature magic."
+msgstr ""
+
+#. [unit_type]: id = Orcish Warlock; 
+#: add-ons/Empire_Builder/units/orcs/Warlock.cfg: 5
+msgid "Orcish Warlock"
+msgstr ""
+
+#. [unit_type]: id = Orcish Warlock; 
+#: add-ons/Empire_Builder/units/orcs/Warlock.cfg: 20
+msgid "The Orcish Warlocks are seen only when the orcs are on the verge of a bloody revolt. They are well respected among the tribes and their mastery of magic is not to be to underestimated."
+msgstr ""
+
+#. [campaign]: id = Empire_Builder; 
+#: add-ons/Empire_Builder/_main.cfg: 10
+msgid "Empire Builder"
+msgstr ""
+
+#. [campaign]: id = Empire_Builder; 
+#: add-ons/Empire_Builder/_main.cfg: 11
+msgid "EB"
+msgstr ""
