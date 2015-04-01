@@ -12,7 +12,7 @@ User made era for Battle for Wesnoth in which you can build your own empire. You
 * add more technologies and upgrades for units
 * allow exchange of resources and trading between players
 * code diplomacy
-* complete factions (The Cult is missing healers, Drakes worker and mages, Humans level 1 healer)
+* complete factions (The Cult is missing healers, Drakes worker and mages)
 * complete tutorial
 * add some scenarios for this era
 * write in-game help

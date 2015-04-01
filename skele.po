@@ -793,27 +793,27 @@ msgid "Immune to drain, poison, and plague"
 msgstr ""
 
 #. [scenario]: id = Southern_Lands; 
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 9
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 11
 msgid "1p - EB - Southern Lands"
 msgstr ""
 
 #. [scenario]: id = Southern_Lands; 
 #. [campaign]: id = Empire_Builder; 
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 11
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 13
 #: add-ons/Empire_Builder/_main.cfg: 16
 msgid "You are a new noble and your task is to found a new province for your kingdom. The area is fitting for a new settlement but it seems that it is not completely uninhabited so you will have to find a way to befriend or conquer the residents. And what would happen if you even tried to become independent from your king?"
 msgstr ""
 
 #. [side]: type = Sergeant; id = player; 
 #. [side]: type = Lieutenant; id = player; 
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 20
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 22
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 23
 msgid "Player"
 msgstr ""
 
 #. [unit]: type = Town_Hall; id = hq; 
 #. [unit]: type = Tower_House; 
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 41
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 43
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 43
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 96
 msgid "South Star"
@@ -821,7 +821,7 @@ msgstr ""
 
 #. [side]: type = Orcish Sovereign; id = enemy1; gender = male; 
 #. [side]: type = Elvish High Lord; id = enemy2; gender = male; 
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 54
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 56
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 55
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 77
 msgid "Enemies"
@@ -1281,6 +1281,11 @@ msgstr ""
 #. [unit_type]: id = EB Wizard; 
 #: add-ons/Empire_Builder/units/human-outlaws/Wizard.cfg: 18
 msgid "Wizards are experienced healers and have a considerable skill of welding fireballs."
+msgstr ""
+
+#. [unit_type]: id = Village_Healer; 
+#: add-ons/Empire_Builder/units/humans/Village_Healer.cfg: 8
+msgid "Village Healer"
 msgstr ""
 
 #. [unit_type]: id = Orcish Shaman; 
