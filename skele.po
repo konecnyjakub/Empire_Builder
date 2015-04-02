@@ -31,7 +31,7 @@ msgstr ""
 
 #. [checkbox]: id = headquarters_mode; 
 #: add-ons/Empire_Builder/era.cfg: 77
-msgid "Whether you lose when your headquarters are destroyed"
+msgid "When enabled, a side is considered defeated also when its headquarters are destroyed"
 msgstr ""
 
 #. [message]: speaker = narrator; 
@@ -50,45 +50,48 @@ msgid "$wood_gathered wood gathered."
 msgstr ""
 
 #. [objective]: condition = win; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 151
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 153
 msgid "Dominate the area"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 155
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 202
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 319
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 157
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 257
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 370
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 418
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 580
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 722
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 822
 msgid "Death of your leader"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 159
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 161
 msgid "Destruction of your headquarters"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 169
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 171
 msgid "You cannot pay taxes"
 msgstr ""
 
 #. [note]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 179
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 181
 msgid "You have to pay taxes to the King every twelfth turn."
 msgstr ""
 
 #. [note]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 188
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 190
 msgid "Your former liege will attack you every twelfth turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 243
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 245
 msgid "Before you can start the game, you have to choose name for your main character. Your noble title will come before it."
 msgstr ""
 
 #. [text_input]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 248
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 250
 msgid "The name of your character:"
 msgstr ""
 
@@ -111,7 +114,7 @@ msgid "You do not have enough ores!"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 93
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 95
 msgid ""
 "You currently have $player_resources[$side_number].ore ores. Your mines produce $ore_income ores per turn.\n"
 "      \n"
@@ -120,78 +123,103 @@ msgid ""
 "Sharp Blade II: $player_upgrades[$side_number].sharp_blade2\n"
 "Fire Arrows: $player_upgrades[$side_number].fire_arrows\n"
 "Piercing Arrow I: $player_upgrades[$side_number].piercing_arrow1\n"
-"Piercing Arrow II: $player_upgrades[$side_number].piercing_arrow2"
+"Piercing Arrow II: $player_upgrades[$side_number].piercing_arrow2\n"
+"Armor I: $player_upgrades[$side_number].armor1\n"
+"Armor II: $player_upgrades[$side_number].armor2"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 104
-#: add-ons/Empire_Builder/macros/research.cfg: 91
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 108
+#: add-ons/Empire_Builder/macros/research.cfg: 92
 msgid "Back"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 107
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 111
 msgid "Research new upgrade"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 129
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 133
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 787
 msgid "Which upgrade do you want to research?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 133
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 137
 msgid "upgrade^None"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 136
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 140
 msgid "Sharp Blade I (15 ores)"
 msgstr ""
 
 #. {RESEARCH_UPGRADE ...}:
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 144
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 148
 msgid "Upgrade Sharp Blade I researched. Your units will deal 1 more damage with bladed weapons from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 148
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 152
 msgid "Sharp Blade II (20 ores)"
 msgstr ""
 
 #. {RESEARCH_UPGRADE ...}:
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 162
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 166
 msgid "Upgrade Sharp Blade II researched. Your units will deal 1 more damage with bladed weapons from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 166
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 170
 msgid "Fire Arrows (25 ores)"
 msgstr ""
 
 #. {RESEARCH_UPGRADE ...}:
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 174
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 178
 msgid "Upgrade Fire Arrows researched. Your archers will deal fire damage now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 178
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 182
 msgid "Piercing Arrow I (10 ores)"
 msgstr ""
 
 #. {RESEARCH_UPGRADE ...}:
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 186
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 190
 msgid "Upgrade Piercing Arrow I researched. Your units will deal 1 more damage with ranged weapons from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 190
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 194
 msgid "Piercing Arrow II (15 ores)"
 msgstr ""
 
 #. {RESEARCH_UPGRADE ...}:
-#: add-ons/Empire_Builder/macros/blacksmith.cfg: 204
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 208
 msgid "Upgrade Piercing Arrow II researched. Your units will deal 1 more damage with ranged weapons from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 212
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 790
+msgid "Armor I (20 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 220
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 792
+msgid "Upgrade Armor I researched. Your units will receive 5% less from physical attacks from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 224
+msgid "Armor II (30 ores)"
+msgstr ""
+
+#. {RESEARCH_UPGRADE ...}:
+#: add-ons/Empire_Builder/macros/blacksmith.cfg: 238
+msgid "Upgrade Armor I researched. Your units will receive 10% less from physical attacks from now on."
 msgstr ""
 
 #. [message]: speaker = narrator; 
@@ -208,7 +236,7 @@ msgstr ""
 
 #. [set_menu_item]: id = bdconstructmine; 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 137
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 377
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 424
 msgid "Build a mine"
 msgstr ""
 
@@ -236,6 +264,7 @@ msgstr ""
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 203
 #: add-ons/Empire_Builder/macros/titles.cfg: 118
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 671
 msgid "Yes"
 msgstr ""
 
@@ -251,8 +280,11 @@ msgstr ""
 
 #. [message]: speaker = unit; 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 280
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 239
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 328
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 296
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 379
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 552
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 630
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 755
 msgid "What kind of building do you want me to construct?"
 msgstr ""
 
@@ -263,13 +295,13 @@ msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 286
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 330
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 381
 msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
 msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 292
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 241
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 298
 msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
 msgstr ""
 
@@ -280,16 +312,19 @@ msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 304
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 554
 msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
 msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 310
-msgid "&scenery/mausoleum01.png=Embassy (60 gold, 10 wood)"
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 632
+msgid "&scenery/mausoleum01.png~SCALE(72,72)=Embassy (60 gold, 10 wood)"
 msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 329
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 757
 msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
 msgstr ""
 
@@ -300,7 +335,7 @@ msgstr ""
 
 #. [message]: speaker = unit; 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 374
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 420
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 467
 msgid "What kind of mine do you want me to build?"
 msgstr ""
 
@@ -311,7 +346,7 @@ msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 380
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 422
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 469
 msgid "Gold mine"
 msgstr ""
 
@@ -385,7 +420,7 @@ msgstr ""
 #. [message]: speaker = narrator; 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 537
 #: add-ons/Empire_Builder/macros/buildings.cfg: 725
-#: add-ons/Empire_Builder/macros/research.cfg: 77
+#: add-ons/Empire_Builder/macros/research.cfg: 78
 msgid "Research"
 msgstr ""
 
@@ -407,7 +442,9 @@ msgid "Train soldiers"
 msgstr ""
 
 #. [set_menu_item]: id = diplomacy; 
+#. [message]: speaker = narrator; 
 #: add-ons/Empire_Builder/macros/buildings.cfg: 607
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 657
 msgid "Diplomacy"
 msgstr ""
 
@@ -486,7 +523,7 @@ msgid "You do not have enough research points!"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/research.cfg: 80
+#: add-ons/Empire_Builder/macros/research.cfg: 81
 msgid ""
 "You currently have $player_resources[$side_number].rp research points. Your scholars produce $rp_income research points per turn.\n"
 "      \n"
@@ -501,87 +538,93 @@ msgid ""
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 94
+#: add-ons/Empire_Builder/macros/research.cfg: 95
 msgid "Research new technology"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/research.cfg: 115
+#: add-ons/Empire_Builder/macros/research.cfg: 117
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 606
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 731
 msgid "Which technology do you want to research?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 119
+#: add-ons/Empire_Builder/macros/research.cfg: 121
 msgid "technology^None"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 122
+#: add-ons/Empire_Builder/macros/research.cfg: 124
 msgid "Spying (20 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 130
+#: add-ons/Empire_Builder/macros/research.cfg: 132
 msgid "Technology Spying researched. You can build towers and train scouts from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 134
+#: add-ons/Empire_Builder/macros/research.cfg: 136
 msgid "Camouflage (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 148
+#: add-ons/Empire_Builder/macros/research.cfg: 150
 msgid "Technology Camouflage researched. Your scouts can hide in forests and hills now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 168
+#: add-ons/Empire_Builder/macros/research.cfg: 170
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 610
 msgid "Diplomacy (40 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 176
+#: add-ons/Empire_Builder/macros/research.cfg: 178
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 612
 msgid "Technology Diplomacy researched. You can build embassy now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 180
+#: add-ons/Empire_Builder/macros/research.cfg: 182
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 735
 msgid "Smithery (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 188
+#: add-ons/Empire_Builder/macros/research.cfg: 190
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 737
 msgid "Technology Smithery researched. You can build blacksmith now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 192
+#: add-ons/Empire_Builder/macros/research.cfg: 194
 msgid "Trading (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 200
+#: add-ons/Empire_Builder/macros/research.cfg: 202
 msgid "Technology Trading researched. You can build market now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 204
+#: add-ons/Empire_Builder/macros/research.cfg: 206
 msgid "Economy (45 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 218
+#: add-ons/Empire_Builder/macros/research.cfg: 220
 msgid "Technology Economy researched. Your cities will produce more gold from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 222
+#: add-ons/Empire_Builder/macros/research.cfg: 224
 msgid "Advanced mining (40 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 230
+#: add-ons/Empire_Builder/macros/research.cfg: 232
 msgid "Technology Advanced mining researched. Your mines will produce 1 more gold/ore per turn."
 msgstr ""
 
@@ -692,7 +735,7 @@ msgstr ""
 
 #. [message]: speaker = narrator; 
 #: add-ons/Empire_Builder/macros/training.cfg: 80
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 281
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 335
 msgid "What kind of soldier do you want to train?"
 msgstr ""
 
@@ -703,7 +746,7 @@ msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/training.cfg: 87
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 284
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 338
 msgid "&$player_recruits[$side_number].fighter1.image|=$player_recruits[$side_number].fighter1.name ($player_recruits[$side_number].fighter1.gold_cost gold, $player_recruits[$side_number].fighter1.food_cost food)"
 msgstr ""
 
@@ -807,24 +850,48 @@ msgstr ""
 #. [side]: type = Sergeant; id = player; 
 #. [side]: type = Lieutenant; id = player; 
 #: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 22
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 23
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 24
 msgid "Player"
 msgstr ""
 
 #. [unit]: type = Town_Hall; id = hq; 
-#. [unit]: type = Tower_House; 
 #: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 43
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 43
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 96
 msgid "South Star"
 msgstr ""
 
+#. [side]: type = Orcish Sovereign; id = orc; gender = male; 
+#. [side]: type = Elvish Shyde; id = elf1; gender = female; 
+#. [side]: type = Elvish Champion; id = elf2; gender = male; 
+#. [side]: type = Dwarvish Lord; id = dwarf1; gender = male; 
 #. [side]: type = Orcish Sovereign; id = enemy1; gender = male; 
 #. [side]: type = Elvish High Lord; id = enemy2; gender = male; 
 #: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 56
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 55
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 77
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 76
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 97
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 118
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 56
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 124
 msgid "Enemies"
+msgstr ""
+
+#. [side]: type = Orcish Sovereign; id = orc; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 60
+msgid "Vrugdush"
+msgstr ""
+
+#. [side]: type = Elvish Shyde; id = elf1; gender = female; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 80
+msgid "Elviniel"
+msgstr ""
+
+#. [side]: type = Elvish Champion; id = elf2; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 101
+msgid "Celundir"
+msgstr ""
+
+#. [side]: type = Dwarvish Lord; id = dwarf1; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg: 122
+msgid "Narthaol"
 msgstr ""
 
 #. [multiplayer]: id = EB Tutorial; 
@@ -832,89 +899,223 @@ msgstr ""
 msgid "1p - EB - Tutorial"
 msgstr ""
 
+#. [multiplayer]: id = EB Tutorial; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 14
+msgid "Tutorial for Era of Empires. It is a single-scenario that will teach you the basics of this era. More detailed info can be found under right-click menu item Era of Empires Help."
+msgstr ""
+
+#. [unit]: type = Town_Hall; id = hq; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 44
+msgid "Brightvale"
+msgstr ""
+
+#. [side]: type = Orcish Sovereign; id = enemy1; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 60
+msgid "Vridish"
+msgstr ""
+
+#. [unit]: type = Tower_House; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 77
+msgid "Burford"
+msgstr ""
+
+#. [side]: type = Elvish High Lord; id = enemy2; gender = male; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 128
+msgid "Fyrion"
+msgstr ""
+
+#. [unit]: type = Tower_House; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 147
+msgid "Elkguard"
+msgstr ""
+
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 150
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 201
 msgid "Welcome to tutorial to Era of Empires. You will learn about its special features here."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 155
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 206
 msgid "First remarkable thing about it is that you cannot recruit units from your castle. Instead, you have to build certain buildings (for example Barracks) first and then you can buy a unit."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 160
-msgid "To construct a building you need a worker. You will start every scenario with at least 1 worker, more can be hired in Town Hall, City Hall, Tower House or Castle."
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 211
+msgid "To construct a building you need a worker. You will start every scenario with at least 1 worker, more can be hired in Town Hall, City Hall, Tower House or Castle. Constructing a building costs you gold and wood. You can get wood by cutting down trees. To do it, move a worker to a forest, right-click him and select Cut down a tree. How to get gold will be explained later."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 165
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 216
 msgid "You first task in this tutorial will be constructing Barracks and training a Spearman. To do it, right-click a worker and select Construct a building and in the menu that will appear then double click Barracks. Once you do it, you will receive next instructions."
 msgstr ""
 
 #. [objective]: condition = win; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 198
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 253
 msgid "Train a Spearman"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 261
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 315
 msgid "Very well. This way you will be able to construct more buildings later. But back to training units."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 267
-msgid "If you want to train a new unit, right-click a building and select Train soldiers. For now, you can train only spearmen but in other scenarios there will be more options. Also upgrading Barracks will allow you to train level 2 units. Keep in mind that in different building you can train different units."
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 321
+msgid "If you want to train a new unit, right-click a building and select Train soldiers. To train units you need gold and food. For now, you can train only spearmen but in other scenarios there will be more options. Also upgrading Barracks will allow you to train level 2 units. Keep in mind that in different building you can train different units."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 272
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 326
 msgid "But for now we want the Spearman so train one."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 304
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 355
 msgid "Excellent. But we have got a problem now. In this era, units do not require just upkeep every turn but also also food. If you do not have enough food for them, they will starve and lose some hitpoints."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 309
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 360
 msgid "To avoid this, you have to build farms. It is done the same way as you built Barracks. So, hire a worker (from the Town Hall) and tell him to build a Farm."
 msgstr ""
 
 #. [objective]: condition = win; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 315
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 366
 msgid "Build a Farm"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 350
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 398
 msgid "Good job. But as you can see, you spent almost all of your gold. It is very easy but there are some ways to earn gold. The first one is founding new cities. Their central buildings collect gold from taxes."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 355
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 403
 msgid "Only your leader can found new cities (via right-click menu). The maximum number of cities that you can build depends on your noble title. You start as a Knight and can have only 3 cities. Also if you upgrade your cities, they will produce more gold. But for it you need a higher title."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 360
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 408
 msgid "The second way to improve your income is building gold mines and you will learn it now. It is similar to building farms and barracks. You right-click a worker but now you select Build a mine and in the next menu Gold Mine. But unlike other building, mines can be built only on hills or mountains. So why do you not try it now?"
 msgstr ""
 
 #. [objective]: condition = win; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 366
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 414
 msgid "Build a Gold Mine"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 442
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 486
 msgid "Alright, now you will earn 2 gold and food per turn. Upgrading a mine would increase your income. You can do that right-clicking the mine and selecting Upgrade this building. It applies to other buildings as well though this is not possible in the tutorial. So moving on ..."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 447
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 491
 msgid "Well, next step is ending your turn. At the start of your next turn you will get that 2 gold and food. That and the lesson will continue. So ..."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 501
+msgid "Now you have a bit more gold and food. But wait, something is wrong."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 529
+msgid "The Elves are attacking us! ... Well, maybe not. It does not seem that they are going to fight. Then I guess that they want to end the war between us. But they will not talk to us until we build an Embassy."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 534
+msgid "Before you can construct certain buildings, like Embassy, you need to research a technology. This can be done in School. Schools produce research points that can be used to research a new technology. The list of all technologies with their effects can be found under right-click menu item Era of Empires Help/Technologies."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 539
+msgid "We need an Embassy now which requires technology Diplomacy. So build a School firstly, then you will learn how to research technologies. You received enough resources for it."
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 576
+msgid "Build an Embassy"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 592
+msgid "Very well. Now you have a School, it will produce 2 research points a turn (5 if upgraded). Diplomacy costs 40 research points. Gathering them would take too much time so you will receive them right now."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 598
+msgid "So you have enough research points but do not know how to research, right? Well, it is quite simple. Right-click a School or University, then select Research new technology and in the next menu choose one. For now, you have only 1 option - Diplomacy. So, research it."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 649
+msgid "Excellent! Well, I was right, they want to conclude peace. They even offer you some goods if you accept. To see details, right-click your Embassy and select Diplomacy."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 658
+msgid ""
+"Your current relationships:\n"
+"Side 2 - orcs (Vridish) - enemies\n"
+"Side 3 - elves (Fyrion) - enemies\n"
+"You have the following pending declarations:"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 669
+msgid "Leader of side 3 (Fyrion) proposed you a peace treaty. He will send you 120 gold marks, 20 food and 20 ores if you accept. But he requires you to assist him in fighting side 2 (orcs). Do you accept?"
+msgstr ""
+
+#. [modify_side]: 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 695
+msgid "Elves"
+msgstr ""
+
+#. [modify_side]: 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 700
+msgid "Orcs"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 706
+msgid "So we have to fight anyway. Well, with that gold and food from elves you can build a small troop and the elves will support us but you should try to get an upper hand anyway. You can use the ore which you just received to research an upgrade for your soldiers."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 711
+msgid "Upgrades can be researched at Blacksmith. But to be able to build it, you need to research technology Smithery in School firstly. I gave you enough research points for that."
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 718
+msgid "Build Blacksmith"
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 774
+msgid "Good job. In Blacksmith, you can research various upgrades for your units. They are applied both to units that you have at that moment and also all units that you will train for the rest of the scenario. All upgrades require ore which is produced by ore mines. You can build just like gold mines."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 779
+msgid "To research an upgrade, right-click your Blacksmith, select Blacksmith, then Research new upgrade and choose one from the list. The only available one at the momement is Armor I but in other scenarios there will be more of them."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 807
+msgid "Well done! Now you know how to do almost everything in this era. Remember that you can always get some help by right-clicking your units and selecting Era of Empires Help."
+msgstr ""
+
+#. [message]: speaker = narrator; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 812
+msgid "But we still have a battle to fight. From now on, you can recruit more units from Barracks and also Mage from School. So, on the orcs. Best of luck!"
+msgstr ""
+
+#. [objective]: condition = win; 
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 818
+msgid "Defeat orcs' leader"
 msgstr ""
 
 #. [unit_type]: id = Barracks1; 
@@ -1145,7 +1346,9 @@ msgid "Dwarvish Blacksmith"
 msgstr ""
 
 #. [unit_type]: id = Dwarvish Blacksmith; 
+#. [unit_type]: id = Village_Healer; 
 #: add-ons/Empire_Builder/units/dwarves/Blacksmith.cfg: 20
+#: add-ons/Empire_Builder/units/humans/Village_Healer.cfg: 11
 msgid "TODO."
 msgstr ""
 
