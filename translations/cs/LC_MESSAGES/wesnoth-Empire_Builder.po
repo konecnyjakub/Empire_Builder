@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. [era]: id = Era_of_Empires;
 #: add-ons/Empire_Builder/era.cfg:5
@@ -661,6 +661,19 @@ msgid ""
 "King     1750 1100     20 \n"
 "Emperor  2200 2300    100"
 msgstr ""
+"Tvůj vůdce je šlechtic (obvykle Rytíř na začátku scénáře). Můžeš vylepšit "
+"jeho titul po dosažení požadovaného skóre a zaplacení jistého množství "
+"zlata. S vyššími šlechtickými tituly můžeš postavit více měst, někdy to také "
+"odemkne nové možnosti.\n"
+"Titul   Skóre Zlata Měst Dodatečné poznámky\n"
+"Rytíř      0    0      3 \n"
+"Baronet   130   30      5 You can upgrade Town Hall for first time\n"
+"Baron     320   60      8 \n"
+"Markýz   500  120     10 You can upgrade Town Hall for second time\n"
+"Hrabě      900  250     15 \n"
+"Vévoda     1350  520     18 You can upgrade Town Hall for third time\n"
+"Král     1750 1100     20 \n"
+"Císař  2200 2300    100"
 
 #. [option]:
 #. [message]: speaker = narrator;
@@ -719,6 +732,17 @@ msgid ""
 "Research points: are used to research technologies. Are produced by Schools/"
 "Universities."
 msgstr ""
+"Ve Věku říše je 5 zdrojů: zlato, jídlo, dřevo, ruda a výzkumné body.\n"
+"Zlato: je jedním z nezbytných zdrojů pro stavbu/vylepšení budov a trénování "
+"jednotek. Také všechny tvé jednotky (kromě vůdce) vyžadují každé kole žold. "
+"Je proukováno zlatými doly a městy.\n"
+"Jídlo: je nezbytné pro trénování jednotek. Také všechny tvé jednotky (kromě "
+"vůdce) vyžadují každé kolo jídlo. Je produkováno farmami.\n"
+"Dřevo: je nezbytné pro stavění/vylepšování budov. Je shromažďováno dělníky.\n"
+"Ruda: používá se k výzkumu upgradů pro tvé jednotky v kovárně. Je "
+"produkována rudnými doly.\n"
+"Výzkumné body: používají se k výzkumu technologií. Jsou produkovány školami/"
+"univerzitami."
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/macros/help.cfg:120
@@ -737,6 +761,14 @@ msgid ""
 "- Economy (45 rp): you cities will produce more gold\n"
 "Advanced mining (30 rp): you mines will produce 1 more gold/ore per turn"
 msgstr ""
+"Mohou být vyzkoumány ve škole/univerzitě za výzkumné body.\n"
+"Vyzvědačství (20 vb): umožňí ti stavět věže a trénovat zvědy v kasárnách\n"
+"- Kamufláž (30 vb): tví zvědové se mohou skrýt v lesích a kopcích\n"
+"Diplomacie (40 vb): můžeš postavit velvyslanectví\n"
+"Kovářství (30 vb): můžeš postavit kovárnu\n"
+"Obchod (30 vb): můžeš postavit tržiště\n"
+"- Ekonomie (45 vb): tvá města budou produkovat více zlata\n"
+"Pokročilá těžba (30 vb): tvé doly vyprodukují o 1 více zlata/rudy za kolo"
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/macros/help.cfg:133
