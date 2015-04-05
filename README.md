@@ -6,7 +6,7 @@ User made era for Battle for Wesnoth in which you can build your own empire. You
 * diplomacy    -   0%
 * buildings    - 100%
 * resources    -  50%
-* research     -  85%
+* research     -  90%
 
 ### TODO list
 * add more technologies and upgrades for units
