@@ -2,11 +2,11 @@
 User made era for Battle for Wesnoth in which you can build your own empire. You are able to construct various buildings here (some of them can be even upgraded), they will produce some resources for you, allow you to train units or research  technologies/upgrades. To perform certain actions, you will need a higher noble title. To upgrade your title, you have to acquire certain score (by constructing/upgrading buildings and training units) and pay a certain amount of gold.
 
 ### Progress on features
-* noble titles -  60%
+* noble titles -  65%
 * diplomacy    -   0%
 * buildings    - 100%
 * resources    -  50%
-* research     -  90%
+* research     -  95%
 
 ### TODO list
 * add more technologies and upgrades for units
