@@ -5,3 +5,4 @@ Dwarvish Alchemist, Potion Smith, Master of Alchemy - from The Earth's Gut
 Shaman, Wizard, Sorcerer, Orcish Shaman, Orcish Warlock, Orcish Sorcerer - from War of Legends
 Elvish Initiate - from A Vision Blinded
 Rogue Mage, Shadow Mage, Shadow Lord - from older version version of Liberty
+Orcish Nighblade - by Sleepwalker
