@@ -56,12 +56,12 @@ msgid "$wood_gathered wood gathered."
 msgstr "$wood_gathered dřeva nasbíráno."
 
 #. [objective]: condition = win;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:161
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:162
 msgid "Dominate the area"
 msgstr "Ovládni oblast"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:165
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:166
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:259
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:372
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:420
@@ -72,27 +72,27 @@ msgid "Death of your leader"
 msgstr "Tvůj vůdce umře"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:169
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:170
 msgid "Destruction of your headquarters"
 msgstr "Tvé velitelství je zničené"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:179
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:180
 msgid "You cannot pay taxes"
 msgstr "Nebudeš moci zaplatit daně"
 
 #. [note]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:189
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:190
 msgid "You have to pay taxes to the King every twelfth turn."
 msgstr "Každé dvanácté kolo musíš platit daně králi."
 
 #. [note]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:198
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:199
 msgid "Your former liege will attack you every twelfth turn."
 msgstr "Tvůj bývalý lenní pán tě bude napadat každé dvanácté kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:253
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:254
 msgid ""
 "Before you can start the game, you have to choose name for your main "
 "character. Your noble title will come before it."
@@ -101,7 +101,7 @@ msgstr ""
 "šlechtický titul mu bude předcházet."
 
 #. [text_input]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:258
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:259
 msgid "The name of your character:"
 msgstr "Jméno tvé postavy:"
 
@@ -169,8 +169,8 @@ msgstr ""
 
 #. [option]:
 #: add-ons/Empire_Builder/macros/blacksmith.cfg:116
-#: add-ons/Empire_Builder/macros/help.cfg:165
-#: add-ons/Empire_Builder/macros/research.cfg:100
+#: add-ons/Empire_Builder/macros/help.cfg:172
+#: add-ons/Empire_Builder/macros/research.cfg:102
 msgid "Back"
 msgstr "Zpět"
 
@@ -344,41 +344,41 @@ msgstr ""
 "způsobovat o 2 více poškození."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:44
-#: add-ons/Empire_Builder/macros/buildings.cfg:94
-#: add-ons/Empire_Builder/macros/buildings.cfg:243
+#: add-ons/Empire_Builder/macros/buildings.cfg:67
+#: add-ons/Empire_Builder/macros/buildings.cfg:117
+#: add-ons/Empire_Builder/macros/buildings.cfg:266
 #: add-ons/Empire_Builder/macros/training.cfg:64
 msgid "You do not have enough resources!"
 msgstr "Nemáš dost zdrojů!"
 
 #. [set_menu_item]: id = bconstructa;
-#: add-ons/Empire_Builder/macros/buildings.cfg:108
+#: add-ons/Empire_Builder/macros/buildings.cfg:131
 msgid "Construct a building"
 msgstr "Postavit budovu"
 
 #. [set_menu_item]: id = bdconstructmine;
-#: add-ons/Empire_Builder/macros/buildings.cfg:140
+#: add-ons/Empire_Builder/macros/buildings.cfg:163
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:426
 msgid "Build a mine"
 msgstr "Postavit důl"
 
 #. [set_menu_item]: id = bdconstructtower;
-#: add-ons/Empire_Builder/macros/buildings.cfg:162
+#: add-ons/Empire_Builder/macros/buildings.cfg:185
 msgid "Build a tower (8 gold, 6 wood)"
 msgstr "Postavit věž (8 zlata, 6 dřeva)"
 
 #. [set_menu_item]: id = bdconstructuroad;
-#: add-ons/Empire_Builder/macros/buildings.cfg:182
+#: add-ons/Empire_Builder/macros/buildings.cfg:205
 msgid "Construct road (3 gold)"
 msgstr "Vybudovat cestu (3 zlata)"
 
 #. [set_menu_item]: id = zdemolish;
-#: add-ons/Empire_Builder/macros/buildings.cfg:254
+#: add-ons/Empire_Builder/macros/buildings.cfg:277
 msgid "Demolish this building"
 msgstr "Zbořit tuto budovu"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:272
+#: add-ons/Empire_Builder/macros/buildings.cfg:295
 msgid ""
 "After demolishing the building, you will get half of the invested gold and "
 "wood back but lose the score. Do you really want to do that?"
@@ -387,20 +387,20 @@ msgstr ""
 "ztratíš skóre. Opravdu to chceš udělat?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:275
+#: add-ons/Empire_Builder/macros/buildings.cfg:298
 #: add-ons/Empire_Builder/macros/titles.cfg:141
 msgid "No"
 msgstr "Ne"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:278
+#: add-ons/Empire_Builder/macros/buildings.cfg:301
 #: add-ons/Empire_Builder/macros/titles.cfg:125
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:673
 msgid "Yes"
 msgstr "Ano"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:297
+#: add-ons/Empire_Builder/macros/buildings.cfg:320
 msgid ""
 "Building demolished. You got $unit.variables.gold_cost gold and $unit."
 "variables.wood_cost wood but lost $unit.variables.score points."
@@ -409,12 +409,12 @@ msgstr ""
 "wood_cost dřeva, ale ztratil $unit.variables.score bodů."
 
 #. [set_menu_item]: id = cfoundcity;
-#: add-ons/Empire_Builder/macros/buildings.cfg:309
+#: add-ons/Empire_Builder/macros/buildings.cfg:332
 msgid "Found a new city"
 msgstr "Založit nové město"
 
 #. [message]: speaker = unit;
-#: add-ons/Empire_Builder/macros/buildings.cfg:355
+#: add-ons/Empire_Builder/macros/buildings.cfg:378
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:298
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:381
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:554
@@ -424,70 +424,70 @@ msgid "What kind of building do you want me to construct?"
 msgstr "Jaký druh budovy chcete, abych postavil?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:358
+#: add-ons/Empire_Builder/macros/buildings.cfg:381
 msgid "building^None"
 msgstr "Žádnou"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:361
+#: add-ons/Empire_Builder/macros/buildings.cfg:384
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:383
 msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
 msgstr "&scenery/windmill-01.png=Farmu (12 zlata, 7 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:367
+#: add-ons/Empire_Builder/macros/buildings.cfg:390
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:300
 msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
 msgstr "&scenery/tent-ruin-1.png=Kasárny (25 zlata, 12 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:373
+#: add-ons/Empire_Builder/macros/buildings.cfg:396
 msgid "&scenery/temple1.png=Temple (30 gold, 4 wood)"
 msgstr "&scenery/temple1.png=Chrám (30 zlata, 4 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:385
+#: add-ons/Empire_Builder/macros/buildings.cfg:408
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:556
 msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
 msgstr "&terrain/village/elven2.png=Školu (40 zlata, 4 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:391
+#: add-ons/Empire_Builder/macros/buildings.cfg:414
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:634
 msgid "&scenery/mausoleum01.png~SCALE(72,72)=Embassy (60 gold, 10 wood)"
 msgstr ""
 "&scenery/mausoleum01.png~SCALE(72,72)=Velvyslanectví (60 zlata, 10 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:410
+#: add-ons/Empire_Builder/macros/buildings.cfg:433
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:759
 msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
 msgstr "&scenery/tent-shop-weapons.png=Kovárnu (40 zlata, 8 dřeva)"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:429
+#: add-ons/Empire_Builder/macros/buildings.cfg:452
 msgid "&scenery/leanto.png=Market (60 gold, 10 wood)"
 msgstr "&scenery/leanto.png=Tržiště (60 zlata, 10 dřeva)"
 
 #. [message]: speaker = unit;
-#: add-ons/Empire_Builder/macros/buildings.cfg:455
+#: add-ons/Empire_Builder/macros/buildings.cfg:478
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:469
 msgid "What kind of mine do you want me to build?"
 msgstr "Jaký druh dolu chcete, abych postavil?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:458
+#: add-ons/Empire_Builder/macros/buildings.cfg:481
 msgid "mine^None"
 msgstr "Žádný"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:461
+#: add-ons/Empire_Builder/macros/buildings.cfg:484
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:471
 msgid "Gold mine"
 msgstr "Zlatý důl"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:467
+#: add-ons/Empire_Builder/macros/buildings.cfg:490
 msgid "Ore mine"
 msgstr "Rudný důl"
 
@@ -496,118 +496,118 @@ msgstr "Rudný důl"
 #. [set_menu_item]: id = dupgrade_avtowerhouse;
 #. [set_menu_item]: id = aupgrade_building;
 #. [set_menu_item]: id = aupgrade_barracks;
-#: add-ons/Empire_Builder/macros/buildings.cfg:481
-#: add-ons/Empire_Builder/macros/buildings.cfg:498
-#: add-ons/Empire_Builder/macros/buildings.cfg:515
-#: add-ons/Empire_Builder/macros/buildings.cfg:532
-#: add-ons/Empire_Builder/macros/buildings.cfg:564
+#: add-ons/Empire_Builder/macros/buildings.cfg:504
+#: add-ons/Empire_Builder/macros/buildings.cfg:521
+#: add-ons/Empire_Builder/macros/buildings.cfg:538
+#: add-ons/Empire_Builder/macros/buildings.cfg:555
+#: add-ons/Empire_Builder/macros/buildings.cfg:587
 msgid "Upgrade this building"
 msgstr "Vylepšit tuto budovu"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:493
+#: add-ons/Empire_Builder/macros/buildings.cfg:516
 msgid "Town Hall upgraded."
 msgstr "Radnice vylepšena"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:510
+#: add-ons/Empire_Builder/macros/buildings.cfg:533
 msgid "City Hall upgraded."
 msgstr "Radnice vylepšena"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:527
+#: add-ons/Empire_Builder/macros/buildings.cfg:550
 msgid "Tower House upgraded."
 msgstr "Hrad vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:545
+#: add-ons/Empire_Builder/macros/buildings.cfg:568
 msgid "Gold Mine upgraded."
 msgstr "Zlatý důl vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:549
+#: add-ons/Empire_Builder/macros/buildings.cfg:572
 msgid "Ore Mine upgraded."
 msgstr "Rudný důl vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:553
+#: add-ons/Empire_Builder/macros/buildings.cfg:576
 msgid "Farm upgraded."
 msgstr "Farma vylepšena."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:557
+#: add-ons/Empire_Builder/macros/buildings.cfg:580
 msgid "School upgraded."
 msgstr "Škola vylepšena."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:576
+#: add-ons/Empire_Builder/macros/buildings.cfg:599
 msgid "Barracks upgraded."
 msgstr "Kasárny vylepšeny."
 
 #. [set_menu_item]: id = ccityhall_economy;
-#: add-ons/Empire_Builder/macros/buildings.cfg:587
+#: add-ons/Empire_Builder/macros/buildings.cfg:610
 msgid "Economy overview"
 msgstr "Ekonomický přehled"
 
 #. [set_menu_item]: id = ehire_worker;
-#: add-ons/Empire_Builder/macros/buildings.cfg:603
+#: add-ons/Empire_Builder/macros/buildings.cfg:626
 msgid "Hire a worker"
 msgstr "Najmout dělníka"
 
 #. [set_menu_item]: id = aresearch;
 #. [message]: speaker = narrator;
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:622
-#: add-ons/Empire_Builder/macros/buildings.cfg:822
-#: add-ons/Empire_Builder/macros/help.cfg:115
-#: add-ons/Empire_Builder/macros/research.cfg:82
+#: add-ons/Empire_Builder/macros/buildings.cfg:645
+#: add-ons/Empire_Builder/macros/buildings.cfg:845
+#: add-ons/Empire_Builder/macros/help.cfg:119
+#: add-ons/Empire_Builder/macros/research.cfg:83
 msgid "Research"
 msgstr "Výzkum"
 
 #. [set_menu_item]: id = buniversity_train;
-#: add-ons/Empire_Builder/macros/buildings.cfg:638
+#: add-ons/Empire_Builder/macros/buildings.cfg:661
 msgid "Train a unit"
 msgstr "Trénovat jednotku"
 
 #. [set_menu_item]: id = blacksmith;
 #. [unit_type]: id = Blacksmith;
-#: add-ons/Empire_Builder/macros/buildings.cfg:663
+#: add-ons/Empire_Builder/macros/buildings.cfg:686
 #: add-ons/Empire_Builder/units/buildings/Blacksmith.cfg:5
 msgid "Blacksmith"
 msgstr "Kovárna"
 
 #. [set_menu_item]: id = abarracks;
-#: add-ons/Empire_Builder/macros/buildings.cfg:679
+#: add-ons/Empire_Builder/macros/buildings.cfg:702
 msgid "Train soldiers"
 msgstr "Trénovat vojáky"
 
 #. [set_menu_item]: id = diplomacy;
 #. [option]:
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:698
-#: add-ons/Empire_Builder/macros/help.cfg:157
+#: add-ons/Empire_Builder/macros/buildings.cfg:721
+#: add-ons/Empire_Builder/macros/help.cfg:164
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:659
 msgid "Diplomacy"
 msgstr "Diplomacie"
 
 #. [set_menu_item]: id = atemple;
-#: add-ons/Empire_Builder/macros/buildings.cfg:714
+#: add-ons/Empire_Builder/macros/buildings.cfg:737
 msgid "Train a healer"
 msgstr "Trénovat léčitele"
 
 #. [set_menu_item]: id = exchange_resources;
-#: add-ons/Empire_Builder/macros/buildings.cfg:739
+#: add-ons/Empire_Builder/macros/buildings.cfg:762
 msgid "Exchange resources"
 msgstr "Vyměnit zdroje"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:771
-#: add-ons/Empire_Builder/macros/buildings.cfg:781
+#: add-ons/Empire_Builder/macros/buildings.cfg:794
+#: add-ons/Empire_Builder/macros/buildings.cfg:804
 msgid "Gold"
 msgstr "Zlato"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:772
+#: add-ons/Empire_Builder/macros/buildings.cfg:795
 msgid ""
 "Your income from taxes and gold mines is $gold_income gold marks per turn, "
 "your expenses are $gold_expenses per turn. You earn $net_gold_income gold "
@@ -618,7 +618,7 @@ msgstr ""
 "kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:782
+#: add-ons/Empire_Builder/macros/buildings.cfg:805
 msgid ""
 "Your income from taxes and gold mines is $gold_income gold marks per turn, "
 "your expenses are $gold_expenses per turn. You lose $net_gold_income gold "
@@ -628,13 +628,13 @@ msgstr ""
 "výdaje jsou $gold_expenses za kolo. Ztrácíš $net_gold_income zlaťáků za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:796
-#: add-ons/Empire_Builder/macros/buildings.cfg:806
+#: add-ons/Empire_Builder/macros/buildings.cfg:819
+#: add-ons/Empire_Builder/macros/buildings.cfg:829
 msgid "Food"
 msgstr "Jídlo"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:797
+#: add-ons/Empire_Builder/macros/buildings.cfg:820
 msgid ""
 "Your farms produce $food_income food per turn, your soldiers require "
 "$food_expenses per turn. You earn $net_food_income food per turn."
@@ -643,7 +643,7 @@ msgstr ""
 "$food_expenses za kolo. Získáváš $net_food_income jídla za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:807
+#: add-ons/Empire_Builder/macros/buildings.cfg:830
 msgid ""
 "Your farms produce $food_income food per turn, your soldiers require "
 "$food_expenses per turn. You lose $net_food_income food per turn."
@@ -652,22 +652,22 @@ msgstr ""
 "$food_expenses za kolo. Ztrácíš $net_food_income jídla za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:815
+#: add-ons/Empire_Builder/macros/buildings.cfg:838
 msgid "Ore"
 msgstr "Ruda"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:816
+#: add-ons/Empire_Builder/macros/buildings.cfg:839
 msgid "Your ore mines produce $ore_income ore per turn."
 msgstr "Tvé doly vyprodukují $ore_income rudy za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:823
+#: add-ons/Empire_Builder/macros/buildings.cfg:846
 msgid "Your scholars produce $rp_income research points per turn."
 msgstr "Tví učenci vyprodukují $rp_income výzkumných bodů za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:829
+#: add-ons/Empire_Builder/macros/buildings.cfg:852
 msgid ""
 "Your current resources: $current_gold gold marks, "
 "$player_resources[$side_number].food food, $player_resources[$side_number]."
@@ -696,12 +696,12 @@ msgstr "Nápověda Věk říší"
 #. [option]:
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/macros/help.cfg:35
-#: add-ons/Empire_Builder/macros/help.cfg:40
+#: add-ons/Empire_Builder/macros/help.cfg:41
 msgid "About"
 msgstr "O éře"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:41
+#: add-ons/Empire_Builder/macros/help.cfg:42
 msgid ""
 "In this era you can build your own empire. You are able to construct various "
 "buildings here (some of them can be even upgraded), they will produce some "
@@ -712,12 +712,12 @@ msgid ""
 msgstr ""
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/help.cfg:49
+#: add-ons/Empire_Builder/macros/help.cfg:50
 msgid "Noble titles"
 msgstr "Šlechtické tituly"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:54
+#: add-ons/Empire_Builder/macros/help.cfg:56
 msgid ""
 "Your leader is a nobleman (usually Knight at the start of scenario). You can "
 "improve his title after reaching required score and paying certain amount of "
@@ -751,13 +751,13 @@ msgstr ""
 
 #. [option]:
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:71
-#: add-ons/Empire_Builder/macros/help.cfg:76
+#: add-ons/Empire_Builder/macros/help.cfg:73
+#: add-ons/Empire_Builder/macros/help.cfg:79
 msgid "Buildings"
 msgstr "Budovy"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:77
+#: add-ons/Empire_Builder/macros/help.cfg:80
 msgid ""
 "Buildings are constructed by workers for gold and wood. Some of them can be "
 "upgraded to produce more resources/train higher level units. You can "
@@ -812,13 +812,13 @@ msgstr ""
 
 #. [option]:
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:96
-#: add-ons/Empire_Builder/macros/help.cfg:101
+#: add-ons/Empire_Builder/macros/help.cfg:99
+#: add-ons/Empire_Builder/macros/help.cfg:105
 msgid "Resources"
 msgstr "Zdroje"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:102
+#: add-ons/Empire_Builder/macros/help.cfg:106
 msgid ""
 "In Era of Empires, there are 5 resources: gold, food, wood, ore and research "
 "points.\n"
@@ -847,12 +847,12 @@ msgstr ""
 "univerzitami."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:120
+#: add-ons/Empire_Builder/macros/help.cfg:125
 msgid "Technologies"
 msgstr "Technologie"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:121
+#: add-ons/Empire_Builder/macros/help.cfg:126
 msgid ""
 "Can be researched in School/University for research points.\n"
 "Spying (20 rp): allows you to build towers and train scouts in Barracks\n"
@@ -860,6 +860,7 @@ msgid ""
 "Witchcraft (20 rp): allows you to train mages in School/University, unlocks "
 "upgrades Anti-magic Shield I, Anti-magic Shield II, Mystic Power\n"
 "Herbalism (20 rp): allows you to build temples\n"
+"Architecture (25 rp): your buildings will have 15% more hitpoints\n"
 "Diplomacy (40 rp): allows you to build Embassy\n"
 "Smithery (30 rp): allows you to build Blacksmith\n"
 "Trading (30 rp): allows you to build Market\n"
@@ -874,6 +875,7 @@ msgstr ""
 "Čarodějnictví (20 vb): umožňuje ti trénovat mágy ve škole/univerzitě, "
 "odemyká upgrady Antimagický štít 1, Animagický štít 2, Mystická síla\n"
 "Bylinkářství (20 vb): umožňuje ti stavět chrámy\n"
+"Architerktura (20 vb): tvé budovy budou mít o 15% více životů\n"
 "Diplomacie (40 vb): můžeš postavit velvyslanectví\n"
 "Kovářství (30 vb): můžeš postavit kovárnu\n"
 "Obchod (30 vb): můžeš postavit tržiště\n"
@@ -883,12 +885,12 @@ msgstr ""
 "Pokročilé zemědělství (30 vb) tvé farmy vyprodukují více jídla za kolo"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:137
+#: add-ons/Empire_Builder/macros/help.cfg:144
 msgid "Upgrades"
 msgstr "Upgrady"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/help.cfg:138
+#: add-ons/Empire_Builder/macros/help.cfg:145
 msgid ""
 "Can be researched in Blacksmith for ores.\n"
 "Sharp Blade I (15 ores): your units will deal 1 more damage with bladed "
@@ -938,7 +940,7 @@ msgid "You do not have enough research points!"
 msgstr "Nemáš dost výzkumných bodů!"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/research.cfg:85
+#: add-ons/Empire_Builder/macros/research.cfg:86
 msgid ""
 "You currently have $player_resources[$side_number].rp research points. Your "
 "scholars produce $rp_income research points per turn.\n"
@@ -948,6 +950,7 @@ msgid ""
 "- Camouflage: $player_technologies[$side_number].camouflage\n"
 "Witchcraft: $player_technologies[$side_number].witchcraft\n"
 "Herbalism: $player_technologies[$side_number].herbalism\n"
+"Architecture: $player_technologies[$side_number].architecture\n"
 "Diplomacy: $player_technologies[$side_number].diplomacy\n"
 "Smithery: $player_technologies[$side_number].smithery\n"
 "Trading: $player_technologies[$side_number].trading\n"
@@ -964,6 +967,7 @@ msgstr ""
 "- Kamufláž: $player_technologies[$side_number].camouflage\n"
 "Čarodějnictví: $player_technologies[$side_number].witchcraft\n"
 "Bylinkářství: $player_technologies[$side_number].herbalism\n"
+"Architektura: $player_technologies[$side_number].architecture\n"
 "Diplomacie: $player_technologies[$side_number].diplomacy\n"
 "Kovářství: $player_technologies[$side_number].smithery\n"
 "Obchod: $player_technologies[$side_number].trading\n"
@@ -972,29 +976,29 @@ msgstr ""
 "Pokročilá těžba: $player_technologies[$side_number].mining"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:103
+#: add-ons/Empire_Builder/macros/research.cfg:105
 msgid "Research new technology"
 msgstr "Vyzkoumat novou technologii"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/research.cfg:125
+#: add-ons/Empire_Builder/macros/research.cfg:127
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:608
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:733
 msgid "Which technology do you want to research?"
 msgstr "Jakou technologii chcete zkoumat?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:129
+#: add-ons/Empire_Builder/macros/research.cfg:131
 msgid "technology^None"
 msgstr "Žádnou"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:132
+#: add-ons/Empire_Builder/macros/research.cfg:134
 msgid "Spying (20 research points)"
 msgstr "Vyzvědačství (20 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:140
+#: add-ons/Empire_Builder/macros/research.cfg:142
 msgid ""
 "Technology Spying researched. You can build towers and train scouts from now "
 "on."
@@ -1003,12 +1007,12 @@ msgstr ""
 "zvědy."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:144
+#: add-ons/Empire_Builder/macros/research.cfg:146
 msgid "Camouflage (30 research points)"
 msgstr "Kamufláž (30 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:158
+#: add-ons/Empire_Builder/macros/research.cfg:160
 msgid ""
 "Technology Camouflage researched. Your scouts can hide in forests and hills "
 "now."
@@ -1017,12 +1021,12 @@ msgstr ""
 "kopcích."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:178
+#: add-ons/Empire_Builder/macros/research.cfg:180
 msgid "Witchcraft (20 research points)"
 msgstr "Čarodějnictví (20 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:186
+#: add-ons/Empire_Builder/macros/research.cfg:188
 msgid ""
 "Technology Witchcraft researched. You can train mages from now on. New "
 "upgrades are also available in Blacksmith."
@@ -1031,56 +1035,70 @@ msgstr ""
 "dostupné nové upgrady v kovárně."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:190
+#: add-ons/Empire_Builder/macros/research.cfg:192
 msgid "Herbalism (20 research points)"
 msgstr "Bylinkářství (20 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:198
-msgid "Technology herbalism researched. You can build temples from now on."
+#: add-ons/Empire_Builder/macros/research.cfg:200
+msgid "Technology Herbalism researched. You can build temples from now on."
 msgstr "Technologie Bylinkářství vyzkoumána. Odteď můžeš stavět chrámy."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:202
+#: add-ons/Empire_Builder/macros/research.cfg:204
+msgid "Architecture (25 research points)"
+msgstr "Architektura (25 výzkumných bodů)"
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg:212
+msgid ""
+"Technology A researched. Your buildings will have 15% more hitpoints from "
+"now on."
+msgstr ""
+"Technologie Architektura vyzkoumána. Tvé budovy budou mít odteď 15% více "
+"životů."
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/research.cfg:238
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:612
 msgid "Diplomacy (40 research points)"
 msgstr "Diplomacie (40 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:210
+#: add-ons/Empire_Builder/macros/research.cfg:246
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:614
 msgid "Technology Diplomacy researched. You can build embassy now."
 msgstr "Technologie Diplomacie vyzkoumáma. Můžeš postavit velvyslanectví."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:214
+#: add-ons/Empire_Builder/macros/research.cfg:250
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:737
 msgid "Smithery (30 research points)"
 msgstr "Kovářství (30 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:222
+#: add-ons/Empire_Builder/macros/research.cfg:258
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:739
 msgid "Technology Smithery researched. You can build blacksmith now."
 msgstr "Technologie Kovářství vyzkoumána. Můžeš postavit kovárnu."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:226
+#: add-ons/Empire_Builder/macros/research.cfg:262
 msgid "Trading (30 research points)"
 msgstr "Obchod (30 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:234
+#: add-ons/Empire_Builder/macros/research.cfg:270
 msgid "Technology Trading researched. You can build market now."
 msgstr "Technologie Obchod vyzkoumána. Můžeš postavit tržiště."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:238
+#: add-ons/Empire_Builder/macros/research.cfg:274
 msgid "Trading Routes (40 research points)"
 msgstr "Obchodní cesty (40 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:252
+#: add-ons/Empire_Builder/macros/research.cfg:288
 msgid ""
 "Technology Trading Routes researched. Your roads will generate some gold for "
 "you from now on."
@@ -1089,12 +1107,12 @@ msgstr ""
 "nějaké zlato."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:256
+#: add-ons/Empire_Builder/macros/research.cfg:292
 msgid "Economy (45 research points)"
 msgstr "Ekonomie (45 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:270
+#: add-ons/Empire_Builder/macros/research.cfg:306
 msgid ""
 "Technology Economy researched. Your cities will produce more gold from now "
 "on."
@@ -1102,12 +1120,12 @@ msgstr ""
 "Technologie Ekonomie vyzkoumána. Tvá města budou odteď produkovat více zlata."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:274
+#: add-ons/Empire_Builder/macros/research.cfg:310
 msgid "Advanced mining (30 research points)"
 msgstr "Pokročilá těžba (30 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:282
+#: add-ons/Empire_Builder/macros/research.cfg:318
 msgid ""
 "Technology Advanced mining researched. Your mines will produce 1 more gold/"
 "ore per turn."
@@ -1116,12 +1134,12 @@ msgstr ""
 "rudy více za kolo."
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/research.cfg:286
+#: add-ons/Empire_Builder/macros/research.cfg:322
 msgid "Advanced farming (25 research points)"
 msgstr "Pokročilé zemědělstvtí (25 výzkumných bodů)"
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg:294
+#: add-ons/Empire_Builder/macros/research.cfg:330
 msgid ""
 "Technology Advanced farming researched. Your farms will produce more food "
 "per turn."

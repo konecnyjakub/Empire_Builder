@@ -50,12 +50,12 @@ msgid "$wood_gathered wood gathered."
 msgstr ""
 
 #. [objective]: condition = win; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 161
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 162
 msgid "Dominate the area"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 165
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 166
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 259
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 372
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 420
@@ -66,32 +66,32 @@ msgid "Death of your leader"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 169
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 170
 msgid "Destruction of your headquarters"
 msgstr ""
 
 #. [objective]: condition = lose; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 179
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 180
 msgid "You cannot pay taxes"
 msgstr ""
 
 #. [note]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 189
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 190
 msgid "You have to pay taxes to the King every twelfth turn."
 msgstr ""
 
 #. [note]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 198
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 199
 msgid "Your former liege will attack you every twelfth turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 253
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 254
 msgid "Before you can start the game, you have to choose name for your main character. Your noble title will come before it."
 msgstr ""
 
 #. [text_input]: 
-#: add-ons/Empire_Builder/macros/abc_misc.cfg: 258
+#: add-ons/Empire_Builder/macros/abc_misc.cfg: 259
 msgid "The name of your character:"
 msgstr ""
 
@@ -134,8 +134,8 @@ msgstr ""
 
 #. [option]: 
 #: add-ons/Empire_Builder/macros/blacksmith.cfg: 116
-#: add-ons/Empire_Builder/macros/help.cfg: 165
-#: add-ons/Empire_Builder/macros/research.cfg: 100
+#: add-ons/Empire_Builder/macros/help.cfg: 172
+#: add-ons/Empire_Builder/macros/research.cfg: 102
 msgid "Back"
 msgstr ""
 
@@ -267,69 +267,69 @@ msgid "Upgrade Mystic Power researched. Your mages and healers will deal 2 more 
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 44
-#: add-ons/Empire_Builder/macros/buildings.cfg: 94
-#: add-ons/Empire_Builder/macros/buildings.cfg: 243
+#: add-ons/Empire_Builder/macros/buildings.cfg: 67
+#: add-ons/Empire_Builder/macros/buildings.cfg: 117
+#: add-ons/Empire_Builder/macros/buildings.cfg: 266
 #: add-ons/Empire_Builder/macros/training.cfg: 64
 msgid "You do not have enough resources!"
 msgstr ""
 
 #. [set_menu_item]: id = bconstructa; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 108
+#: add-ons/Empire_Builder/macros/buildings.cfg: 131
 msgid "Construct a building"
 msgstr ""
 
 #. [set_menu_item]: id = bdconstructmine; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 140
+#: add-ons/Empire_Builder/macros/buildings.cfg: 163
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 426
 msgid "Build a mine"
 msgstr ""
 
 #. [set_menu_item]: id = bdconstructtower; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 162
+#: add-ons/Empire_Builder/macros/buildings.cfg: 185
 msgid "Build a tower (8 gold, 6 wood)"
 msgstr ""
 
 #. [set_menu_item]: id = bdconstructuroad; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 182
+#: add-ons/Empire_Builder/macros/buildings.cfg: 205
 msgid "Construct road (3 gold)"
 msgstr ""
 
 #. [set_menu_item]: id = zdemolish; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 254
+#: add-ons/Empire_Builder/macros/buildings.cfg: 277
 msgid "Demolish this building"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 272
+#: add-ons/Empire_Builder/macros/buildings.cfg: 295
 msgid "After demolishing the building, you will get half of the invested gold and wood back but lose the score. Do you really want to do that?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 275
+#: add-ons/Empire_Builder/macros/buildings.cfg: 298
 #: add-ons/Empire_Builder/macros/titles.cfg: 141
 msgid "No"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 278
+#: add-ons/Empire_Builder/macros/buildings.cfg: 301
 #: add-ons/Empire_Builder/macros/titles.cfg: 125
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 673
 msgid "Yes"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 297
+#: add-ons/Empire_Builder/macros/buildings.cfg: 320
 msgid "Building demolished. You got $unit.variables.gold_cost gold and $unit.variables.wood_cost wood but lost $unit.variables.score points."
 msgstr ""
 
 #. [set_menu_item]: id = cfoundcity; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 309
+#: add-ons/Empire_Builder/macros/buildings.cfg: 332
 msgid "Found a new city"
 msgstr ""
 
 #. [message]: speaker = unit; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 355
+#: add-ons/Empire_Builder/macros/buildings.cfg: 378
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 298
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 381
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 554
@@ -339,69 +339,69 @@ msgid "What kind of building do you want me to construct?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 358
+#: add-ons/Empire_Builder/macros/buildings.cfg: 381
 msgid "building^None"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 361
+#: add-ons/Empire_Builder/macros/buildings.cfg: 384
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 383
 msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 367
+#: add-ons/Empire_Builder/macros/buildings.cfg: 390
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 300
 msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 373
+#: add-ons/Empire_Builder/macros/buildings.cfg: 396
 msgid "&scenery/temple1.png=Temple (30 gold, 4 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 385
+#: add-ons/Empire_Builder/macros/buildings.cfg: 408
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 556
 msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 391
+#: add-ons/Empire_Builder/macros/buildings.cfg: 414
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 634
 msgid "&scenery/mausoleum01.png~SCALE(72,72)=Embassy (60 gold, 10 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 410
+#: add-ons/Empire_Builder/macros/buildings.cfg: 433
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 759
 msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 429
+#: add-ons/Empire_Builder/macros/buildings.cfg: 452
 msgid "&scenery/leanto.png=Market (60 gold, 10 wood)"
 msgstr ""
 
 #. [message]: speaker = unit; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 455
+#: add-ons/Empire_Builder/macros/buildings.cfg: 478
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 469
 msgid "What kind of mine do you want me to build?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 458
+#: add-ons/Empire_Builder/macros/buildings.cfg: 481
 msgid "mine^None"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 461
+#: add-ons/Empire_Builder/macros/buildings.cfg: 484
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 471
 msgid "Gold mine"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 467
+#: add-ons/Empire_Builder/macros/buildings.cfg: 490
 msgid "Ore mine"
 msgstr ""
 
@@ -410,159 +410,159 @@ msgstr ""
 #. [set_menu_item]: id = dupgrade_avtowerhouse; 
 #. [set_menu_item]: id = aupgrade_building; 
 #. [set_menu_item]: id = aupgrade_barracks; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 481
-#: add-ons/Empire_Builder/macros/buildings.cfg: 498
-#: add-ons/Empire_Builder/macros/buildings.cfg: 515
-#: add-ons/Empire_Builder/macros/buildings.cfg: 532
-#: add-ons/Empire_Builder/macros/buildings.cfg: 564
+#: add-ons/Empire_Builder/macros/buildings.cfg: 504
+#: add-ons/Empire_Builder/macros/buildings.cfg: 521
+#: add-ons/Empire_Builder/macros/buildings.cfg: 538
+#: add-ons/Empire_Builder/macros/buildings.cfg: 555
+#: add-ons/Empire_Builder/macros/buildings.cfg: 587
 msgid "Upgrade this building"
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 493
+#: add-ons/Empire_Builder/macros/buildings.cfg: 516
 msgid "Town Hall upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 510
+#: add-ons/Empire_Builder/macros/buildings.cfg: 533
 msgid "City Hall upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 527
+#: add-ons/Empire_Builder/macros/buildings.cfg: 550
 msgid "Tower House upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 545
+#: add-ons/Empire_Builder/macros/buildings.cfg: 568
 msgid "Gold Mine upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 549
+#: add-ons/Empire_Builder/macros/buildings.cfg: 572
 msgid "Ore Mine upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 553
+#: add-ons/Empire_Builder/macros/buildings.cfg: 576
 msgid "Farm upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 557
+#: add-ons/Empire_Builder/macros/buildings.cfg: 580
 msgid "School upgraded."
 msgstr ""
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg: 576
+#: add-ons/Empire_Builder/macros/buildings.cfg: 599
 msgid "Barracks upgraded."
 msgstr ""
 
 #. [set_menu_item]: id = ccityhall_economy; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 587
+#: add-ons/Empire_Builder/macros/buildings.cfg: 610
 msgid "Economy overview"
 msgstr ""
 
 #. [set_menu_item]: id = ehire_worker; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 603
+#: add-ons/Empire_Builder/macros/buildings.cfg: 626
 msgid "Hire a worker"
 msgstr ""
 
 #. [set_menu_item]: id = aresearch; 
 #. [message]: speaker = narrator; 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 622
-#: add-ons/Empire_Builder/macros/buildings.cfg: 822
-#: add-ons/Empire_Builder/macros/help.cfg: 115
-#: add-ons/Empire_Builder/macros/research.cfg: 82
+#: add-ons/Empire_Builder/macros/buildings.cfg: 645
+#: add-ons/Empire_Builder/macros/buildings.cfg: 845
+#: add-ons/Empire_Builder/macros/help.cfg: 119
+#: add-ons/Empire_Builder/macros/research.cfg: 83
 msgid "Research"
 msgstr ""
 
 #. [set_menu_item]: id = buniversity_train; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 638
+#: add-ons/Empire_Builder/macros/buildings.cfg: 661
 msgid "Train a unit"
 msgstr ""
 
 #. [set_menu_item]: id = blacksmith; 
 #. [unit_type]: id = Blacksmith; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 663
+#: add-ons/Empire_Builder/macros/buildings.cfg: 686
 #: add-ons/Empire_Builder/units/buildings/Blacksmith.cfg: 5
 msgid "Blacksmith"
 msgstr ""
 
 #. [set_menu_item]: id = abarracks; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 679
+#: add-ons/Empire_Builder/macros/buildings.cfg: 702
 msgid "Train soldiers"
 msgstr ""
 
 #. [set_menu_item]: id = diplomacy; 
 #. [option]: 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 698
-#: add-ons/Empire_Builder/macros/help.cfg: 157
+#: add-ons/Empire_Builder/macros/buildings.cfg: 721
+#: add-ons/Empire_Builder/macros/help.cfg: 164
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 659
 msgid "Diplomacy"
 msgstr ""
 
 #. [set_menu_item]: id = atemple; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 714
+#: add-ons/Empire_Builder/macros/buildings.cfg: 737
 msgid "Train a healer"
 msgstr ""
 
 #. [set_menu_item]: id = exchange_resources; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 739
+#: add-ons/Empire_Builder/macros/buildings.cfg: 762
 msgid "Exchange resources"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 771
-#: add-ons/Empire_Builder/macros/buildings.cfg: 781
+#: add-ons/Empire_Builder/macros/buildings.cfg: 794
+#: add-ons/Empire_Builder/macros/buildings.cfg: 804
 msgid "Gold"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 772
+#: add-ons/Empire_Builder/macros/buildings.cfg: 795
 msgid "Your income from taxes and gold mines is $gold_income gold marks per turn, your expenses are $gold_expenses per turn. You earn $net_gold_income gold marks per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 782
+#: add-ons/Empire_Builder/macros/buildings.cfg: 805
 msgid "Your income from taxes and gold mines is $gold_income gold marks per turn, your expenses are $gold_expenses per turn. You lose $net_gold_income gold marks per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 796
-#: add-ons/Empire_Builder/macros/buildings.cfg: 806
+#: add-ons/Empire_Builder/macros/buildings.cfg: 819
+#: add-ons/Empire_Builder/macros/buildings.cfg: 829
 msgid "Food"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 797
+#: add-ons/Empire_Builder/macros/buildings.cfg: 820
 msgid "Your farms produce $food_income food per turn, your soldiers require $food_expenses per turn. You earn $net_food_income food per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 807
+#: add-ons/Empire_Builder/macros/buildings.cfg: 830
 msgid "Your farms produce $food_income food per turn, your soldiers require $food_expenses per turn. You lose $net_food_income food per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 815
+#: add-ons/Empire_Builder/macros/buildings.cfg: 838
 msgid "Ore"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 816
+#: add-ons/Empire_Builder/macros/buildings.cfg: 839
 msgid "Your ore mines produce $ore_income ore per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 823
+#: add-ons/Empire_Builder/macros/buildings.cfg: 846
 msgid "Your scholars produce $rp_income research points per turn."
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/buildings.cfg: 829
+#: add-ons/Empire_Builder/macros/buildings.cfg: 852
 msgid ""
 "Your current resources: $current_gold gold marks, $player_resources[$side_number].food food, $player_resources[$side_number].wood wood, $player_resources[$side_number].ore ores and $player_resources[$side_number].rp research points.\n"
 "Your current score is $player_info[$side_number].score"
@@ -583,22 +583,22 @@ msgstr ""
 #. [option]: 
 #. [message]: speaker = narrator; 
 #: add-ons/Empire_Builder/macros/help.cfg: 35
-#: add-ons/Empire_Builder/macros/help.cfg: 40
+#: add-ons/Empire_Builder/macros/help.cfg: 41
 msgid "About"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 41
+#: add-ons/Empire_Builder/macros/help.cfg: 42
 msgid "In this era you can build your own empire. You are able to construct various buildings here (some of them can be even upgraded), they will produce some resources for you, allow you to train units or research technologies/upgrades. To perform certain actions, you will need a higher noble title. To upgrade your title, you have to acquire certain score (by constructing/upgrading buildings and training units) and pay a certain amount of gold."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/help.cfg: 49
+#: add-ons/Empire_Builder/macros/help.cfg: 50
 msgid "Noble titles"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 54
+#: add-ons/Empire_Builder/macros/help.cfg: 56
 msgid ""
 "Your leader is a nobleman (usually Knight at the start of scenario). You can improve his title after reaching required score and paying certain amount of gold. With higher noble titles, you can build more cities, sometimes it also unlocks new options.\n"
 "Title   Score Gold Cities Additional notes\n"
@@ -614,13 +614,13 @@ msgstr ""
 
 #. [option]: 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 71
-#: add-ons/Empire_Builder/macros/help.cfg: 76
+#: add-ons/Empire_Builder/macros/help.cfg: 73
+#: add-ons/Empire_Builder/macros/help.cfg: 79
 msgid "Buildings"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 77
+#: add-ons/Empire_Builder/macros/help.cfg: 80
 msgid ""
 "Buildings are constructed by workers for gold and wood. Some of them can be upgraded to produce more resources/train higher level units. You can demolish them to get back half of their cost.\n"
 "Town Hall - central building of a village, produces gold. Can be upgraded 3 times.\n"
@@ -638,13 +638,13 @@ msgstr ""
 
 #. [option]: 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 96
-#: add-ons/Empire_Builder/macros/help.cfg: 101
+#: add-ons/Empire_Builder/macros/help.cfg: 99
+#: add-ons/Empire_Builder/macros/help.cfg: 105
 msgid "Resources"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 102
+#: add-ons/Empire_Builder/macros/help.cfg: 106
 msgid ""
 "In Era of Empires, there are 5 resources: gold, food, wood, ore and research points.\n"
 "Gold: is one of necessary resources for constructing/upgrading buildings and training units. Also all your units (except leader) require upkeep every turn. Is produced by gold mines and cities.\n"
@@ -655,18 +655,19 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 120
+#: add-ons/Empire_Builder/macros/help.cfg: 125
 msgid "Technologies"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 121
+#: add-ons/Empire_Builder/macros/help.cfg: 126
 msgid ""
 "Can be researched in School/University for research points.\n"
 "Spying (20 rp): allows you to build towers and train scouts in Barracks\n"
 "- Camouflage (30 rp): your scouts can hide in forests and hills\n"
 "Witchcraft (20 rp): allows you to train mages in School/University, unlocks upgrades Anti-magic Shield I, Anti-magic Shield II, Mystic Power\n"
 "Herbalism (20 rp): allows you to build temples\n"
+"Architecture (25 rp): your buildings will have 15% more hitpoints\n"
 "Diplomacy (40 rp): allows you to build Embassy\n"
 "Smithery (30 rp): allows you to build Blacksmith\n"
 "Trading (30 rp): allows you to build Market\n"
@@ -677,12 +678,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 137
+#: add-ons/Empire_Builder/macros/help.cfg: 144
 msgid "Upgrades"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/help.cfg: 138
+#: add-ons/Empire_Builder/macros/help.cfg: 145
 msgid ""
 "Can be researched in Blacksmith for ores.\n"
 "Sharp Blade I (15 ores): your units will deal 1 more damage with bladed weapons\n"
@@ -704,7 +705,7 @@ msgid "You do not have enough research points!"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/research.cfg: 85
+#: add-ons/Empire_Builder/macros/research.cfg: 86
 msgid ""
 "You currently have $player_resources[$side_number].rp research points. Your scholars produce $rp_income research points per turn.\n"
 "      \n"
@@ -713,6 +714,7 @@ msgid ""
 "- Camouflage: $player_technologies[$side_number].camouflage\n"
 "Witchcraft: $player_technologies[$side_number].witchcraft\n"
 "Herbalism: $player_technologies[$side_number].herbalism\n"
+"Architecture: $player_technologies[$side_number].architecture\n"
 "Diplomacy: $player_technologies[$side_number].diplomacy\n"
 "Smithery: $player_technologies[$side_number].smithery\n"
 "Trading: $player_technologies[$side_number].trading\n"
@@ -723,133 +725,143 @@ msgid ""
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 103
+#: add-ons/Empire_Builder/macros/research.cfg: 105
 msgid "Research new technology"
 msgstr ""
 
 #. [message]: speaker = narrator; 
-#: add-ons/Empire_Builder/macros/research.cfg: 125
+#: add-ons/Empire_Builder/macros/research.cfg: 127
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 608
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 733
 msgid "Which technology do you want to research?"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 129
+#: add-ons/Empire_Builder/macros/research.cfg: 131
 msgid "technology^None"
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 132
+#: add-ons/Empire_Builder/macros/research.cfg: 134
 msgid "Spying (20 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 140
+#: add-ons/Empire_Builder/macros/research.cfg: 142
 msgid "Technology Spying researched. You can build towers and train scouts from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 144
+#: add-ons/Empire_Builder/macros/research.cfg: 146
 msgid "Camouflage (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 158
+#: add-ons/Empire_Builder/macros/research.cfg: 160
 msgid "Technology Camouflage researched. Your scouts can hide in forests and hills now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 178
+#: add-ons/Empire_Builder/macros/research.cfg: 180
 msgid "Witchcraft (20 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 186
+#: add-ons/Empire_Builder/macros/research.cfg: 188
 msgid "Technology Witchcraft researched. You can train mages from now on. New upgrades are also available in Blacksmith."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 190
+#: add-ons/Empire_Builder/macros/research.cfg: 192
 msgid "Herbalism (20 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 198
-msgid "Technology herbalism researched. You can build temples from now on."
+#: add-ons/Empire_Builder/macros/research.cfg: 200
+msgid "Technology Herbalism researched. You can build temples from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 202
+#: add-ons/Empire_Builder/macros/research.cfg: 204
+msgid "Architecture (25 research points)"
+msgstr ""
+
+#. {RESEARCH_TECHNOLOGY ...}:
+#: add-ons/Empire_Builder/macros/research.cfg: 212
+msgid "Technology A researched. Your buildings will have 15% more hitpoints from now on."
+msgstr ""
+
+#. [option]: 
+#: add-ons/Empire_Builder/macros/research.cfg: 238
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 612
 msgid "Diplomacy (40 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 210
+#: add-ons/Empire_Builder/macros/research.cfg: 246
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 614
 msgid "Technology Diplomacy researched. You can build embassy now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 214
+#: add-ons/Empire_Builder/macros/research.cfg: 250
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 737
 msgid "Smithery (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 222
+#: add-ons/Empire_Builder/macros/research.cfg: 258
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg: 739
 msgid "Technology Smithery researched. You can build blacksmith now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 226
+#: add-ons/Empire_Builder/macros/research.cfg: 262
 msgid "Trading (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 234
+#: add-ons/Empire_Builder/macros/research.cfg: 270
 msgid "Technology Trading researched. You can build market now."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 238
+#: add-ons/Empire_Builder/macros/research.cfg: 274
 msgid "Trading Routes (40 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 252
+#: add-ons/Empire_Builder/macros/research.cfg: 288
 msgid "Technology Trading Routes researched. Your roads will generate some gold for you from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 256
+#: add-ons/Empire_Builder/macros/research.cfg: 292
 msgid "Economy (45 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 270
+#: add-ons/Empire_Builder/macros/research.cfg: 306
 msgid "Technology Economy researched. Your cities will produce more gold from now on."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 274
+#: add-ons/Empire_Builder/macros/research.cfg: 310
 msgid "Advanced mining (30 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 282
+#: add-ons/Empire_Builder/macros/research.cfg: 318
 msgid "Technology Advanced mining researched. Your mines will produce 1 more gold/ore per turn."
 msgstr ""
 
 #. [option]: 
-#: add-ons/Empire_Builder/macros/research.cfg: 286
+#: add-ons/Empire_Builder/macros/research.cfg: 322
 msgid "Advanced farming (25 research points)"
 msgstr ""
 
 #. {RESEARCH_TECHNOLOGY ...}:
-#: add-ons/Empire_Builder/macros/research.cfg: 294
+#: add-ons/Empire_Builder/macros/research.cfg: 330
 msgid "Technology Advanced farming researched. Your farms will produce more food per turn."
 msgstr ""
 
