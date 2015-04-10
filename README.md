@@ -4,7 +4,7 @@ User made era for Battle for Wesnoth in which you can build your own empire. You
 ### Progress on features
 * noble titles -  70%
 * diplomacy    -   0%
-* buildings    - 100%
+* buildings    - 90%
 * resources    -  45%
 * research     -  95%
 
