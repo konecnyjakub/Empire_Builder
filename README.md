@@ -10,7 +10,7 @@ User made era for Battle for Wesnoth in which you can build your own empire. You
 
 ### TODO list
 * add a few more upgrades for units
-* add woodcutter's hut and forts
+* add fortresses
 * allow exchange of resources and trading between players
 * code diplomacy and manning towers/forts
 * complete factions (The Cult is missing healers, Drakes worker and mages)
