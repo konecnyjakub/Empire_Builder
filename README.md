@@ -4,14 +4,13 @@ User made era for Battle for Wesnoth in which you can build your own empire. You
 ### Progress on features
 * noble titles -  70%
 * diplomacy    -   0%
-* buildings    - 90%
-* resources    -  45%
+* buildings    - 100%
+* resources    -  50%
 * research     -  95%
 
 ### TODO list
 * add a few more upgrades for units
-* add fortresses
 * allow exchange of resources and trading between players
-* code diplomacy and manning towers/forts
+* code diplomacy
 * complete factions (The Cult is missing healers, Drakes worker and mages)
 * add some scenarios for this era
