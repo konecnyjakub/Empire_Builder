@@ -14,3 +14,6 @@ MP modification for Battle for Wesnoth in which you can build your own empire. Y
 * code diplomacy
 * complete factions (The Cult is missing healers, Drakes worker and mages)
 * add some scenarios for this era
+
+### Custom eras
+All mechanics of this add-on are done via MP modification so it is possible (in theory) to play it with various eras. However, many features require special settings so they have to be defined by the era. The era has to define event set_faction which is called every time a side is initialized (be it player or computer controlled). In this event you have to define units which the side will use. You can also define images for some buildings and default name for leader. For real examples, see files in folder factions.
