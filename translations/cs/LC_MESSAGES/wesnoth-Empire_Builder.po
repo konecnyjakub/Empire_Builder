@@ -9,11 +9,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #. [modification]: id = Empire_Builder;
 #. [campaign]: id = Empire_Builder;
-#: add-ons/Empire_Builder.cfg:5 add-ons/Empire_Builder/_main.cfg:10
+#: add-ons/Empire_Builder.cfg:5 add-ons/Empire_Builder/_main.cfg:31
 msgid "Empire Builder"
 msgstr ""
 
@@ -31,12 +31,12 @@ msgid ""
 msgstr ""
 
 #. [checkbox]: id = headquarters_mode;
-#: add-ons/Empire_Builder.cfg:13
+#: add-ons/Empire_Builder.cfg:14
 msgid "Headquarters mode"
 msgstr "Mód velitelství"
 
 #. [checkbox]: id = headquarters_mode;
-#: add-ons/Empire_Builder.cfg:14
+#: add-ons/Empire_Builder.cfg:15
 msgid ""
 "When enabled, a side is considered defeated also when its headquarters are "
 "destroyed"
@@ -45,22 +45,22 @@ msgstr ""
 "velitelství zničino"
 
 #. [checkbox]: id = score_mode;
-#: add-ons/Empire_Builder.cfg:19
+#: add-ons/Empire_Builder.cfg:20
 msgid "Score mode"
 msgstr ""
 
 #. [checkbox]: id = score_mode;
-#: add-ons/Empire_Builder.cfg:20
+#: add-ons/Empire_Builder.cfg:21
 msgid "First player to reach X score wins"
 msgstr "První hráč, který dosáhne X skóre, vyhrává"
 
 #. [slider]: id = score_mode_score;
-#: add-ons/Empire_Builder.cfg:25
+#: add-ons/Empire_Builder.cfg:26
 msgid "Needed score"
 msgstr "Potřebné skóre"
 
 #. [slider]: id = score_mode_score;
-#: add-ons/Empire_Builder.cfg:26
+#: add-ons/Empire_Builder.cfg:27
 msgid ""
 "If you reach this score, you win. Has effect only if Score mode is enabled"
 msgstr ""
@@ -86,17 +86,17 @@ msgid "This feature is not implemented yet."
 msgstr "Tato funkce ještě není implementovaná."
 
 #. [objective]: condition = win;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:141
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:150
 msgid "Dominate the area"
 msgstr "Ovládni oblast"
 
 #. [objective]: condition = win;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:145
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:154
 msgid "Reach $score_mode_score score"
 msgstr "Dosáhni $score_mode_score skóre"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:155
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:164
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:282
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:399
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:447
@@ -107,32 +107,32 @@ msgid "Death of your leader"
 msgstr "Tvůj vůdce umře"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:159
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:168
 msgid "Destruction of your headquarters"
 msgstr "Tvé velitelství je zničené"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:169
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:178
 msgid "Someone else reach $score_mode_score score"
 msgstr "Někdo jiný dosáhne $score_mode_score skóre"
 
 #. [objective]: condition = lose;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:179
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:188
 msgid "You cannot pay taxes"
 msgstr "Nebudeš moci zaplatit daně"
 
 #. [note]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:189
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:198
 msgid "You have to pay taxes to the King every twelfth turn."
 msgstr "Každé dvanácté kolo musíš platit daně králi."
 
 #. [note]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:198
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:207
 msgid "Your former liege will attack you every twelfth turn."
 msgstr "Tvůj bývalý lenní pán tě bude napadat každé dvanácté kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:219
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:228
 msgid ""
 "Before you can start the game, you have to choose name for your main "
 "character. Your noble title will come before it."
@@ -141,7 +141,7 @@ msgstr ""
 "šlechtický titul mu bude předcházet."
 
 #. [text_input]:
-#: add-ons/Empire_Builder/macros/abc_misc.cfg:224
+#: add-ons/Empire_Builder/macros/abc_misc.cfg:233
 msgid "The name of your character:"
 msgstr "Jméno tvé postavy:"
 
@@ -209,7 +209,7 @@ msgstr ""
 
 #. [option]:
 #: add-ons/Empire_Builder/macros/blacksmith.cfg:116
-#: add-ons/Empire_Builder/macros/forts.cfg:130
+#: add-ons/Empire_Builder/macros/forts.cfg:133
 #: add-ons/Empire_Builder/macros/help.cfg:195
 #: add-ons/Empire_Builder/macros/research.cfg:106
 msgid "Back"
@@ -389,6 +389,7 @@ msgstr ""
 #: add-ons/Empire_Builder/macros/buildings.cfg:117
 #: add-ons/Empire_Builder/macros/buildings.cfg:266
 #: add-ons/Empire_Builder/macros/heroes.cfg:60
+#: add-ons/Empire_Builder/macros/market.cfg:31
 #: add-ons/Empire_Builder/macros/training.cfg:67
 msgid "You do not have enough resources!"
 msgstr "Nemáš dost zdrojů!"
@@ -440,15 +441,15 @@ msgstr ""
 
 #. [option]:
 #: add-ons/Empire_Builder/macros/buildings.cfg:349
-#: add-ons/Empire_Builder/macros/titles.cfg:141
-#: add-ons/Empire_Builder/macros/trees.cfg:62
+#: add-ons/Empire_Builder/macros/titles.cfg:146
+#: add-ons/Empire_Builder/macros/trees.cfg:64
 msgid "No"
 msgstr "Ne"
 
 #. [option]:
 #: add-ons/Empire_Builder/macros/buildings.cfg:352
-#: add-ons/Empire_Builder/macros/titles.cfg:125
-#: add-ons/Empire_Builder/macros/trees.cfg:65
+#: add-ons/Empire_Builder/macros/titles.cfg:130
+#: add-ons/Empire_Builder/macros/trees.cfg:67
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:700
 msgid "Yes"
 msgstr "Ano"
@@ -468,7 +469,7 @@ msgid "Found a new city"
 msgstr "Založit nové město"
 
 #. [message]: speaker = unit;
-#: add-ons/Empire_Builder/macros/buildings.cfg:429
+#: add-ons/Empire_Builder/macros/buildings.cfg:428
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:325
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:408
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:581
@@ -478,75 +479,69 @@ msgid "What kind of building do you want me to construct?"
 msgstr "Jaký druh budovy chcete, abych postavil?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:432
+#: add-ons/Empire_Builder/macros/buildings.cfg:431
 msgid "building^None"
 msgstr "Žádnou"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:435
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:410
-msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
-msgstr "&scenery/windmill-01.png=Farmu (12 zlata, 7 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:434
+msgid "Farm (12 gold, 7 wood)"
+msgstr "Farmu (10 zlata, 7 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:441
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:327
-msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
-msgstr "&scenery/tent-ruin-1.png=Kasárny (25 zlata, 12 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:440
+msgid "Barracks (25 gold, 12 wood)"
+msgstr "Kasárny (25 zlata, 12 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:447
-msgid "&scenery/temple1.png=Temple (30 gold, 4 wood)"
-msgstr "&scenery/temple1.png=Chrám (30 zlata, 4 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:446
+msgid "Temple (30 gold, 4 wood)"
+msgstr "Chrám (30 zlata, 4 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:459
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:583
-msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
-msgstr "&terrain/village/elven2.png=Školu (40 zlata, 4 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:458
+msgid "School (40 gold, 4 wood)"
+msgstr "Školu (40 zlata, 4 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:465
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:661
-msgid "&scenery/mausoleum01.png~SCALE(72,72)=Embassy (60 gold, 10 wood)"
-msgstr ""
-"&scenery/mausoleum01.png~SCALE(72,72)=Velvyslanectví (60 zlata, 10 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:464
+msgid "Embassy (60 gold, 10 wood)"
+msgstr "Velvyslanectví (60 zlata, 10 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:484
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:786
-msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
-msgstr "&scenery/tent-shop-weapons.png=Kovárnu (40 zlata, 8 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:483
+msgid "Blacksmith (40 gold, 8 wood)"
+msgstr "Kovárnu (40 zlata, 8 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:503
-msgid "&scenery/leanto.png=Market (60 gold, 10 wood)"
-msgstr "&scenery/leanto.png=Tržiště (60 zlata, 10 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:502
+msgid "Market (60 gold, 10 wood)"
+msgstr "Tržiště (60 zlata, 10 dřeva)"
 
-#. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:522
-msgid "&terrain/village/drake5.png=Hall of Heroes (30 gold, 30 wood)"
-msgstr "&terrain/village/drake5.png=Síň hrdinů (30 zlata, 30 dřeva)"
+#. {MENU_OPTION ...}:
+#: add-ons/Empire_Builder/macros/buildings.cfg:521
+msgid "Hall of Heroes (30 gold, 30 wood)"
+msgstr "Síň hrdinů (30 zlata, 30 dřeva)"
 
 #. [message]: speaker = unit;
-#: add-ons/Empire_Builder/macros/buildings.cfg:545
+#: add-ons/Empire_Builder/macros/buildings.cfg:544
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:496
 msgid "What kind of mine do you want me to build?"
 msgstr "Jaký druh dolu chcete, abych postavil?"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:548
+#: add-ons/Empire_Builder/macros/buildings.cfg:547
 msgid "mine^None"
 msgstr "Žádný"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:551
+#: add-ons/Empire_Builder/macros/buildings.cfg:550
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:498
 msgid "Gold mine"
 msgstr "Zlatý důl"
 
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:557
+#: add-ons/Empire_Builder/macros/buildings.cfg:556
 msgid "Ore mine"
 msgstr "Rudný důl"
 
@@ -557,140 +552,140 @@ msgstr "Rudný důl"
 #. [set_menu_item]: id = aupgrade_barracks;
 #. [set_menu_item]: id = aupgrade_hallofheroes;
 #. [set_menu_item]: id = aupgrade_fort;
-#: add-ons/Empire_Builder/macros/buildings.cfg:571
-#: add-ons/Empire_Builder/macros/buildings.cfg:588
-#: add-ons/Empire_Builder/macros/buildings.cfg:605
-#: add-ons/Empire_Builder/macros/buildings.cfg:622
-#: add-ons/Empire_Builder/macros/buildings.cfg:658
-#: add-ons/Empire_Builder/macros/buildings.cfg:675
-#: add-ons/Empire_Builder/macros/buildings.cfg:692
+#: add-ons/Empire_Builder/macros/buildings.cfg:570
+#: add-ons/Empire_Builder/macros/buildings.cfg:587
+#: add-ons/Empire_Builder/macros/buildings.cfg:604
+#: add-ons/Empire_Builder/macros/buildings.cfg:621
+#: add-ons/Empire_Builder/macros/buildings.cfg:657
+#: add-ons/Empire_Builder/macros/buildings.cfg:674
+#: add-ons/Empire_Builder/macros/buildings.cfg:691
 msgid "Upgrade this building"
 msgstr "Vylepšit tuto budovu"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:583
+#: add-ons/Empire_Builder/macros/buildings.cfg:582
 msgid "Town Hall upgraded."
 msgstr "Radnice vylepšena"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:600
+#: add-ons/Empire_Builder/macros/buildings.cfg:599
 msgid "City Hall upgraded."
 msgstr "Radnice vylepšena"
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:617
+#: add-ons/Empire_Builder/macros/buildings.cfg:616
 msgid "Tower House upgraded."
 msgstr "Hrad vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:635
+#: add-ons/Empire_Builder/macros/buildings.cfg:634
 msgid "Gold Mine upgraded."
 msgstr "Zlatý důl vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:639
+#: add-ons/Empire_Builder/macros/buildings.cfg:638
 msgid "Ore Mine upgraded."
 msgstr "Rudný důl vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:643
+#: add-ons/Empire_Builder/macros/buildings.cfg:642
 msgid "Farm upgraded."
 msgstr "Farma vylepšena."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:647
+#: add-ons/Empire_Builder/macros/buildings.cfg:646
 msgid "School upgraded."
 msgstr "Škola vylepšena."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:651
+#: add-ons/Empire_Builder/macros/buildings.cfg:650
 msgid "Woodcutter's Hut upgraded."
 msgstr "Dřevařova chata vylepšen."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:670
+#: add-ons/Empire_Builder/macros/buildings.cfg:669
 msgid "Barracks upgraded."
 msgstr "Kasárny vylepšeny."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:687
+#: add-ons/Empire_Builder/macros/buildings.cfg:686
 msgid "Hall of Heroes upgraded."
 msgstr "Síň hrdinů vylepšena."
 
 #. {UPGRADE_BUILDING ...}:
-#: add-ons/Empire_Builder/macros/buildings.cfg:704
+#: add-ons/Empire_Builder/macros/buildings.cfg:703
 msgid "Fortress upgraded."
 msgstr "Pevnost vylepšena."
 
 #. [set_menu_item]: id = ccityhall_economy;
-#: add-ons/Empire_Builder/macros/buildings.cfg:715
+#: add-ons/Empire_Builder/macros/buildings.cfg:714
 msgid "Economy overview"
 msgstr "Ekonomický přehled"
 
 #. [set_menu_item]: id = ehire_worker;
-#: add-ons/Empire_Builder/macros/buildings.cfg:731
+#: add-ons/Empire_Builder/macros/buildings.cfg:730
 msgid "Hire a worker"
 msgstr "Najmout dělníka"
 
 #. [set_menu_item]: id = aresearch;
 #. [message]: speaker = narrator;
 #. [option]:
-#: add-ons/Empire_Builder/macros/buildings.cfg:750
-#: add-ons/Empire_Builder/macros/buildings.cfg:976
+#: add-ons/Empire_Builder/macros/buildings.cfg:749
+#: add-ons/Empire_Builder/macros/buildings.cfg:975
 #: add-ons/Empire_Builder/macros/help.cfg:123
 #: add-ons/Empire_Builder/macros/research.cfg:85
 msgid "Research"
 msgstr "Výzkum"
 
 #. [set_menu_item]: id = buniversity_train;
-#: add-ons/Empire_Builder/macros/buildings.cfg:766
+#: add-ons/Empire_Builder/macros/buildings.cfg:765
 msgid "Train a unit"
 msgstr "Trénovat jednotku"
 
 #. [set_menu_item]: id = blacksmith;
 #. [unit_type]: id = Blacksmith;
-#: add-ons/Empire_Builder/macros/buildings.cfg:791
+#: add-ons/Empire_Builder/macros/buildings.cfg:790
 #: add-ons/Empire_Builder/units/buildings/Blacksmith.cfg:5
 msgid "Blacksmith"
 msgstr "Kovárna"
 
 #. [set_menu_item]: id = abarracks;
-#: add-ons/Empire_Builder/macros/buildings.cfg:807
+#: add-ons/Empire_Builder/macros/buildings.cfg:806
 msgid "Train soldiers"
 msgstr "Trénovat vojáky"
 
 #. [set_menu_item]: id = diplomacy;
 #. [option]:
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:826
+#: add-ons/Empire_Builder/macros/buildings.cfg:825
 #: add-ons/Empire_Builder/macros/help.cfg:170
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:686
 msgid "Diplomacy"
 msgstr "Diplomacie"
 
 #. [set_menu_item]: id = atemple;
-#: add-ons/Empire_Builder/macros/buildings.cfg:842
+#: add-ons/Empire_Builder/macros/buildings.cfg:841
 msgid "Train a healer"
 msgstr "Trénovat léčitele"
 
 #. [set_menu_item]: id = exchange_resources;
-#: add-ons/Empire_Builder/macros/buildings.cfg:867
+#: add-ons/Empire_Builder/macros/buildings.cfg:866
 msgid "Exchange resources"
 msgstr "Vyměnit zdroje"
 
 #. [set_menu_item]: id = asummon_hero;
-#: add-ons/Empire_Builder/macros/buildings.cfg:883
+#: add-ons/Empire_Builder/macros/buildings.cfg:882
 msgid "Summon a Hero"
 msgstr "Povolat hrdinu"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:918
-#: add-ons/Empire_Builder/macros/buildings.cfg:928
+#: add-ons/Empire_Builder/macros/buildings.cfg:917
+#: add-ons/Empire_Builder/macros/buildings.cfg:927
 msgid "Gold"
 msgstr "Zlato"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:919
+#: add-ons/Empire_Builder/macros/buildings.cfg:918
 msgid ""
 "Your income from taxes and gold mines is $gold_income gold marks per turn, "
 "your expenses are $gold_expenses per turn. You earn $net_gold_income gold "
@@ -701,7 +696,7 @@ msgstr ""
 "kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:929
+#: add-ons/Empire_Builder/macros/buildings.cfg:928
 msgid ""
 "Your income from taxes and gold mines is $gold_income gold marks per turn, "
 "your expenses are $gold_expenses per turn. You lose $net_gold_income gold "
@@ -711,13 +706,13 @@ msgstr ""
 "výdaje jsou $gold_expenses za kolo. Ztrácíš $net_gold_income zlaťáků za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:943
-#: add-ons/Empire_Builder/macros/buildings.cfg:953
+#: add-ons/Empire_Builder/macros/buildings.cfg:942
+#: add-ons/Empire_Builder/macros/buildings.cfg:952
 msgid "Food"
 msgstr "Jídlo"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:944
+#: add-ons/Empire_Builder/macros/buildings.cfg:943
 msgid ""
 "Your farms produce $food_income food per turn, your soldiers require "
 "$food_expenses per turn. You earn $net_food_income food per turn."
@@ -726,7 +721,7 @@ msgstr ""
 "$food_expenses za kolo. Získáváš $net_food_income jídla za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:954
+#: add-ons/Empire_Builder/macros/buildings.cfg:953
 msgid ""
 "Your farms produce $food_income food per turn, your soldiers require "
 "$food_expenses per turn. You lose $net_food_income food per turn."
@@ -735,32 +730,32 @@ msgstr ""
 "$food_expenses za kolo. Ztrácíš $net_food_income jídla za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:962
+#: add-ons/Empire_Builder/macros/buildings.cfg:961
 msgid "Wood"
 msgstr "Dřevo"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:963
+#: add-ons/Empire_Builder/macros/buildings.cfg:962
 msgid "Your woodcutters produce $wood_income wood per turn."
 msgstr "Tví dřevaři vyprodukují $wood_income dřeva za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:969
+#: add-ons/Empire_Builder/macros/buildings.cfg:968
 msgid "Ore"
 msgstr "Ruda"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:970
+#: add-ons/Empire_Builder/macros/buildings.cfg:969
 msgid "Your ore mines produce $ore_income ore per turn."
 msgstr "Tvé doly vyprodukují $ore_income rudy za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:977
+#: add-ons/Empire_Builder/macros/buildings.cfg:976
 msgid "Your scholars produce $rp_income research points per turn."
 msgstr "Tví učenci vyprodukují $rp_income výzkumných bodů za kolo."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/buildings.cfg:983
+#: add-ons/Empire_Builder/macros/buildings.cfg:982
 msgid ""
 "Your current resources: $current_gold gold marks, "
 "$player_resources[$side_number].food food, $player_resources[$side_number]."
@@ -780,22 +775,27 @@ msgid "Put this unit into fort"
 msgstr "Poslat tuto jednotku do pevnosti"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/forts.cfg:96
+#: add-ons/Empire_Builder/macros/forts.cfg:99
 msgid "There is no space for this unit on any nearby fort."
 msgstr "Na žádné blízké pevnosti není místo pro tuto jednotku."
 
 #. [set_menu_item]: id = show_stored_units;
-#: add-ons/Empire_Builder/macros/forts.cfg:106
+#: add-ons/Empire_Builder/macros/forts.cfg:109
 msgid "Show units"
 msgstr "Zobrazit jednotky"
 
 #. [value]:
-#: add-ons/Empire_Builder/macros/forts.cfg:127
+#: add-ons/Empire_Builder/macros/forts.cfg:130
 msgid "Units in this fort"
 msgstr "Jednotky v této pevnosti"
 
+#. [option]:
+#: add-ons/Empire_Builder/macros/forts.cfg:136
+msgid "Release all units"
+msgstr ""
+
 #. [value]:
-#: add-ons/Empire_Builder/macros/forts.cfg:138
+#: add-ons/Empire_Builder/macros/forts.cfg:158
 msgid ""
 "&$unit.variables.stored_units.unit[$i].image~TC($side_number,magenta)=$unit."
 "variables.stored_units.unit[$i].name - $unit.variables.stored_units.unit[$i]."
@@ -806,12 +806,12 @@ msgstr ""
 "language_name"
 
 #. [set_menu_item]: id = putintotower;
-#: add-ons/Empire_Builder/macros/forts.cfg:163
+#: add-ons/Empire_Builder/macros/forts.cfg:183
 msgid "Put this unit into tower"
 msgstr "Poslat tuto jednotku do věže"
 
 #. [set_menu_item]: id = dismiss_archer;
-#: add-ons/Empire_Builder/macros/forts.cfg:208
+#: add-ons/Empire_Builder/macros/forts.cfg:228
 msgid "Dismiss archer"
 msgstr "Propustit lučištníka"
 
@@ -1118,93 +1118,160 @@ msgstr "Jaký druh hrdiny chcete povlat?"
 msgid "hero^None"
 msgstr "Žádný"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:83
 msgid ""
-"&$player_recruits[$side_number].hero11.image|=$player_recruits[$side_number]."
-"hero11.name ($player_recruits[$side_number].hero11.gold_cost gold, "
-"$player_recruits[$side_number].hero11.food_cost food)"
+"$player_recruits[$side_number].hero11.name ($player_recruits[$side_number]."
+"hero11.gold_cost gold, $player_recruits[$side_number].hero11.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero11.image|=$player_recruits[$side_number]."
 "hero11.name ($player_recruits[$side_number].hero11.gold_cost zlata, "
 "$player_recruits[$side_number].hero11.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:102
 msgid ""
-"&$player_recruits[$side_number].hero12.image|=$player_recruits[$side_number]."
-"hero12.name ($player_recruits[$side_number].hero12.gold_cost gold, "
-"$player_recruits[$side_number].hero12.food_cost food)"
+"$player_recruits[$side_number].hero12.name ($player_recruits[$side_number]."
+"hero12.gold_cost gold, $player_recruits[$side_number].hero12.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero12.image|=$player_recruits[$side_number]."
 "hero12.name ($player_recruits[$side_number].hero12.gold_cost zlata, "
 "$player_recruits[$side_number].hero12.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:121
 msgid ""
-"&$player_recruits[$side_number].hero21.image|=$player_recruits[$side_number]."
-"hero21.name ($player_recruits[$side_number].hero21.gold_cost gold, "
-"$player_recruits[$side_number].hero21.food_cost food)"
+"$player_recruits[$side_number].hero21.name ($player_recruits[$side_number]."
+"hero21.gold_cost gold, $player_recruits[$side_number].hero21.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero21.image|=$player_recruits[$side_number]."
 "hero21.name ($player_recruits[$side_number].hero21.gold_cost zlata, "
 "$player_recruits[$side_number].hero21.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:140
 msgid ""
-"&$player_recruits[$side_number].hero22.image|=$player_recruits[$side_number]."
-"hero22.name ($player_recruits[$side_number].hero22.gold_cost gold, "
-"$player_recruits[$side_number].hero22.food_cost food)"
+"$player_recruits[$side_number].hero22.name ($player_recruits[$side_number]."
+"hero22.gold_cost gold, $player_recruits[$side_number].hero22.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero22.image|=$player_recruits[$side_number]."
 "hero22.name ($player_recruits[$side_number].hero22.gold_cost zlata, "
 "$player_recruits[$side_number].hero22.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:159
 msgid ""
-"&$player_recruits[$side_number].hero31.image|=$player_recruits[$side_number]."
-"hero31.name ($player_recruits[$side_number].hero31.gold_cost gold, "
-"$player_recruits[$side_number].hero31.food_cost food)"
+"$player_recruits[$side_number].hero31.name ($player_recruits[$side_number]."
+"hero31.gold_cost gold, $player_recruits[$side_number].hero31.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero31.image|=$player_recruits[$side_number]."
 "hero31.name ($player_recruits[$side_number].hero31.gold_cost zlata, "
 "$player_recruits[$side_number].hero31.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:178
 msgid ""
-"&$player_recruits[$side_number].hero32.image|=$player_recruits[$side_number]."
-"hero32.name ($player_recruits[$side_number].hero32.gold_cost gold, "
-"$player_recruits[$side_number].hero32.food_cost food)"
+"$player_recruits[$side_number].hero32.name ($player_recruits[$side_number]."
+"hero32.gold_cost gold, $player_recruits[$side_number].hero32.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero32.image|=$player_recruits[$side_number]."
 "hero32.name ($player_recruits[$side_number].hero32.gold_cost zlata, "
 "$player_recruits[$side_number].hero32.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:197
 msgid ""
-"&$player_recruits[$side_number].hero41.image|=$player_recruits[$side_number]."
-"hero41.name ($player_recruits[$side_number].hero41.gold_cost gold, "
-"$player_recruits[$side_number].hero41.food_cost food)"
+"$player_recruits[$side_number].hero41.name ($player_recruits[$side_number]."
+"hero41.gold_cost gold, $player_recruits[$side_number].hero41.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero41.image|=$player_recruits[$side_number]."
 "hero41.name ($player_recruits[$side_number].hero41.gold_cost zlata, "
 "$player_recruits[$side_number].hero41.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/heroes.cfg:216
 msgid ""
-"&$player_recruits[$side_number].hero42.image|=$player_recruits[$side_number]."
-"hero42.name ($player_recruits[$side_number].hero42.gold_cost gold, "
-"$player_recruits[$side_number].hero42.food_cost food)"
+"$player_recruits[$side_number].hero42.name ($player_recruits[$side_number]."
+"hero42.gold_cost gold, $player_recruits[$side_number].hero42.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].hero42.image|=$player_recruits[$side_number]."
 "hero42.name ($player_recruits[$side_number].hero42.gold_cost zlata, "
 "$player_recruits[$side_number].hero42.food_cost jídla)"
+
+#. [message]: speaker = narrator;
+#: add-ons/Empire_Builder/macros/market.cfg:23
+msgid "Transaction completed."
+msgstr "Transakce dokončena."
+
+#. [message]: speaker = narrator;
+#: add-ons/Empire_Builder/macros/market.cfg:45
+msgid "What do you want exchange?"
+msgstr "Co chcete vyměnit?"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:49
+msgid "Nothing"
+msgstr "Nic"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:52
+msgid "15 gold for 10 food"
+msgstr "15 zlata za 10 jídla"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:58
+msgid "15 gold for 10 wood"
+msgstr "15 zlata za 10 dřeva"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:64
+msgid "15 gold for 10 ore"
+msgstr "15 zlata za 10 rud"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:70
+msgid "10 food for 12 gold"
+msgstr "10 jídla za 12 zlata"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:76
+msgid "12 food for 10 wood"
+msgstr "12 jídla za 10 dřeva"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:82
+msgid "12 food for 10 ore"
+msgstr "12 jídla za 10 rud"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:88
+msgid "10 wood for 12 gold"
+msgstr "10 dřeva za 12 zlata"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:94
+msgid "12 wood for 10 food"
+msgstr "12 dřeva za 10 jídla"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:100
+msgid "12 wood for 10 ore"
+msgstr "12 dřeva za 10 rud"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:106
+msgid "10 ore for 12 gold"
+msgstr "10 rud za 12 dřeva"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:112
+msgid "12 ore for 10 wood"
+msgstr "12 rud za 10 dřeva"
+
+#. [option]:
+#: add-ons/Empire_Builder/macros/market.cfg:118
+msgid "12 ore for 10 food"
+msgstr "12 rud za 10 jídla"
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/macros/research.cfg:54
@@ -1492,52 +1559,52 @@ msgstr ""
 "nezávislým královstvím!"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:4
+#: add-ons/Empire_Builder/macros/titles.cfg:6
 msgid "title^Knight"
 msgstr "Rytíř"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:8
+#: add-ons/Empire_Builder/macros/titles.cfg:10
 msgid "title^Baronet"
 msgstr "Baronet"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:12
+#: add-ons/Empire_Builder/macros/titles.cfg:14
 msgid "title^Baron"
 msgstr "Baron"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:16
+#: add-ons/Empire_Builder/macros/titles.cfg:18
 msgid "title^Marquis"
 msgstr "Markýz"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:20
+#: add-ons/Empire_Builder/macros/titles.cfg:22
 msgid "title^Earl"
 msgstr "Hrabě"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:24
+#: add-ons/Empire_Builder/macros/titles.cfg:26
 msgid "title^Duke"
 msgstr "Vévoda"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:28
+#: add-ons/Empire_Builder/macros/titles.cfg:30
 msgid "title^King"
 msgstr "Král"
 
 #. {VARIABLE ...}:
-#: add-ons/Empire_Builder/macros/titles.cfg:32
+#: add-ons/Empire_Builder/macros/titles.cfg:34
 msgid "title^Emperor"
 msgstr "Císař"
 
 #. [set_menu_item]: id = apromote_leader;
-#: add-ons/Empire_Builder/macros/titles.cfg:77
+#: add-ons/Empire_Builder/macros/titles.cfg:82
 msgid "Promote"
 msgstr "Povýšit"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/titles.cfg:99
+#: add-ons/Empire_Builder/macros/titles.cfg:104
 msgid ""
 "Your current title is $titles[$player_title].name|. To be promoted to "
 "$titles[$next_rank].name|, you need to acquire at least $titles[$next_rank]."
@@ -1548,7 +1615,7 @@ msgstr ""
 "bodů a zaplatit $titles[$next_rank].gold| zlaťáků."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/titles.cfg:109
+#: add-ons/Empire_Builder/macros/titles.cfg:114
 msgid ""
 "Congratulation! You are ready to be promoted to $titles[$next_rank].name|. "
 "Do you really want it?"
@@ -1556,19 +1623,19 @@ msgstr ""
 "Gratuluji! Můžeš být povýšen na $titles[$next_rank].name|. Opravdu to chceš?"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/titles.cfg:134
+#: add-ons/Empire_Builder/macros/titles.cfg:139
 msgid "You are $titles[$next_rank].name| from now on!"
 msgstr "Odteď jsi $titles[$next_rank].name|!"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/titles.cfg:146
+#: add-ons/Empire_Builder/macros/titles.cfg:151
 msgid ""
 "You are not ready for the next promotion yet. Improve your score and try "
 "again."
 msgstr "Ještě nejsi připravený na povýšení. Vylepši své skóre a zkus to znovu."
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/titles.cfg:158
+#: add-ons/Empire_Builder/macros/titles.cfg:163
 msgid ""
 "You are not ready for the next promotion yet. Earn more gold and try again."
 msgstr "Ještě nejsi připravený na povýšení. Získej více zlata a zkus to znovu."
@@ -1584,11 +1651,9 @@ msgstr "Jaký druh vojáka chcete trénovat?"
 msgid "soldier^None"
 msgstr "Žádný"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:90
-#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:367
 msgid ""
-"&$player_recruits[$side_number].fighter1.image|="
 "$player_recruits[$side_number].fighter1.name ($player_recruits[$side_number]."
 "fighter1.gold_cost gold, $player_recruits[$side_number].fighter1.food_cost "
 "food)"
@@ -1598,10 +1663,9 @@ msgstr ""
 "fighter1.gold_cost zlata, $player_recruits[$side_number].fighter1.food_cost "
 "jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:96
 msgid ""
-"&$player_recruits[$side_number].fighter2.image|="
 "$player_recruits[$side_number].fighter2.name ($player_recruits[$side_number]."
 "fighter2.gold_cost gold, $player_recruits[$side_number].fighter2.food_cost "
 "food)"
@@ -1611,32 +1675,29 @@ msgstr ""
 "fighter2.gold_cost zlata, $player_recruits[$side_number].fighter2.food_cost "
 "jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:108
 msgid ""
-"&$player_recruits[$side_number].tank1.image|=$player_recruits[$side_number]."
-"tank1.name ($player_recruits[$side_number].tank1.gold_cost gold, "
-"$player_recruits[$side_number].tank1.food_cost food)"
+"$player_recruits[$side_number].tank1.name ($player_recruits[$side_number]."
+"tank1.gold_cost gold, $player_recruits[$side_number].tank1.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].tank1.image|=$player_recruits[$side_number]."
 "tank1.name ($player_recruits[$side_number].tank1.gold_cost zlata, "
 "$player_recruits[$side_number].tank1.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:114
 msgid ""
-"&$player_recruits[$side_number].tank2.image|=$player_recruits[$side_number]."
-"tank2.name ($player_recruits[$side_number].tank2.gold_cost gold, "
-"$player_recruits[$side_number].tank2.food_cost food)"
+"$player_recruits[$side_number].tank2.name ($player_recruits[$side_number]."
+"tank2.gold_cost gold, $player_recruits[$side_number].tank2.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].tank2.image|=$player_recruits[$side_number]."
 "tank2.name ($player_recruits[$side_number].tank2.gold_cost zlata, "
 "$player_recruits[$side_number].tank2.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:126
 msgid ""
-"&$player_recruits[$side_number].archer1.image|="
 "$player_recruits[$side_number].archer1.name ($player_recruits[$side_number]."
 "archer1.gold_cost gold, $player_recruits[$side_number].archer1.food_cost "
 "food)"
@@ -1646,10 +1707,9 @@ msgstr ""
 "archer1.gold_cost zlata, $player_recruits[$side_number].archer1.food_cost "
 "jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:132
 msgid ""
-"&$player_recruits[$side_number].archer2.image|="
 "$player_recruits[$side_number].archer2.name ($player_recruits[$side_number]."
 "archer2.gold_cost gold, $player_recruits[$side_number].archer2.food_cost "
 "food)"
@@ -1659,23 +1719,21 @@ msgstr ""
 "archer2.gold_cost zlata, $player_recruits[$side_number].archer2.food_cost "
 "jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:144
 msgid ""
-"&$player_recruits[$side_number].scout1.image|=$player_recruits[$side_number]."
-"scout1.name ($player_recruits[$side_number].scout1.gold_cost gold, "
-"$player_recruits[$side_number].scout1.food_cost food)"
+"$player_recruits[$side_number].scout1.name ($player_recruits[$side_number]."
+"scout1.gold_cost gold, $player_recruits[$side_number].scout1.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].scout1.image|=$player_recruits[$side_number]."
 "scout1.name ($player_recruits[$side_number].scout1.gold_cost zlata, "
 "$player_recruits[$side_number].scout1.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:156
 msgid ""
-"&$player_recruits[$side_number].scout2.image|=$player_recruits[$side_number]."
-"scout2.name ($player_recruits[$side_number].scout2.gold_cost gold, "
-"$player_recruits[$side_number].scout2.food_cost food)"
+"$player_recruits[$side_number].scout2.name ($player_recruits[$side_number]."
+"scout2.gold_cost gold, $player_recruits[$side_number].scout2.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].scout2.image|=$player_recruits[$side_number]."
 "scout2.name ($player_recruits[$side_number].scout2.gold_cost zlata, "
@@ -1691,10 +1749,9 @@ msgstr "Jaký druh léčitele chcete trénovat?"
 msgid "healer^None"
 msgstr "Žádný"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:188
 msgid ""
-"&$player_recruits[$side_number].healer1.image|="
 "$player_recruits[$side_number].healer1.name ($player_recruits[$side_number]."
 "healer1.gold_cost gold, $player_recruits[$side_number].healer1.food_cost "
 "food)"
@@ -1704,10 +1761,9 @@ msgstr ""
 "healer1.gold_cost zlata, $player_recruits[$side_number].healer1.food_cost "
 "jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:194
 msgid ""
-"&$player_recruits[$side_number].healer2.image|="
 "$player_recruits[$side_number].healer2.name ($player_recruits[$side_number]."
 "healer2.gold_cost gold, $player_recruits[$side_number].healer2.food_cost "
 "food)"
@@ -1727,23 +1783,22 @@ msgstr "Jaký druh jednotky chcete trénovat?"
 msgid "unit^None"
 msgstr "Žádnou"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:217
 msgid ""
-"&$player_recruits[$side_number].mage1.image|=$player_recruits[$side_number]."
-"mage1.name ($player_recruits[$side_number].mage1.gold_cost gold, "
-"$player_recruits[$side_number].mage1.food_cost food)"
+"$player_recruits[$side_number].mage1.name ($player_recruits[$side_number]."
+"mage1.gold_cost gold, $player_recruits[$side_number].mage1.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].mage1.image|=$player_recruits[$side_number]."
 "mage1.name ($player_recruits[$side_number].mage1.gold_cost zlata, "
 "$player_recruits[$side_number].mage1.food_cost jídla)"
 
-#. [option]:
+#. {MENU_OPTION ...}:
 #: add-ons/Empire_Builder/macros/training.cfg:223
+#, fuzzy
 msgid ""
-"&$player_recruits[$side_number].mage2.image|=$player_recruits[$side_number]."
-"mage2.name ($player_recruits[$side_number].mage2.gold_cost gold, "
-"$player_recruits[$side_number].mage2.food_cost food)"
+"$player_recruits[$side_number].mage2.name ($player_recruits[$side_number]."
+"mage2.gold_cost gold, $player_recruits[$side_number].mage2.food_cost food)"
 msgstr ""
 "&$player_recruits[$side_number].mage2.image|=$player_recruits[$side_number]."
 "mage2.name ($player_recruits[$side_number].mage2.gold_cost zlata, "
@@ -1770,23 +1825,23 @@ msgid "female^heroic"
 msgstr "hrdinná"
 
 #. [set_menu_item]: id = cutdown;
-#: add-ons/Empire_Builder/macros/trees.cfg:6
+#: add-ons/Empire_Builder/macros/trees.cfg:8
 msgid "Cut down a tree"
 msgstr "Pokácet strom"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/trees.cfg:27
-#: add-ons/Empire_Builder/macros/trees.cfg:70
+#: add-ons/Empire_Builder/macros/trees.cfg:29
+#: add-ons/Empire_Builder/macros/trees.cfg:72
 msgid "$wood_gathered wood gathered."
 msgstr "$wood_gathered dřeva nasbíráno."
 
 #. [set_menu_item]: id = cutdown;
-#: add-ons/Empire_Builder/macros/trees.cfg:38
+#: add-ons/Empire_Builder/macros/trees.cfg:40
 msgid "Chop down a tree"
 msgstr "Skácet strom"
 
 #. [message]: speaker = narrator;
-#: add-ons/Empire_Builder/macros/trees.cfg:60
+#: add-ons/Empire_Builder/macros/trees.cfg:62
 msgid ""
 "Completely chopping down a tree will give you a lot of wood but prevents you "
 "from gaining more wood from this hex in the future. Are you sure that you "
@@ -1803,7 +1858,7 @@ msgstr "1p - EB - Jižní země"
 #. [scenario]: id = Southern_Lands;
 #. [campaign]: id = Empire_Builder;
 #: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:15
-#: add-ons/Empire_Builder/_main.cfg:16
+#: add-ons/Empire_Builder/_main.cfg:37
 msgid ""
 "You are a new noble and your task is to found a new province for your "
 "kingdom. The area is fitting for a new settlement but it seems that it is "
@@ -1825,53 +1880,74 @@ msgid "Player"
 msgstr "Hráč"
 
 #. [unit]: type = Town_Hall; id = hq;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:46
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:47
 msgid "South Star"
 msgstr "Jižní hvězda"
 
 #. [side]: type = Orcish Sovereign; id = orc; gender = male;
 #. [modify_side]:
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:59
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:60
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:729
 msgid "Orcs"
 msgstr "Skřeti"
 
 #. [side]: type = Orcish Sovereign; id = orc; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:63
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:64
 msgid "Vrugdush"
 msgstr "Vrugdush"
 
 #. [side]: type = Elvish Shyde; id = elf1; gender = female;
 #. [modify_side]:
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:79
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:81
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:724
 msgid "Elves"
 msgstr "Elfové"
 
 #. [side]: type = Elvish Shyde; id = elf1; gender = female;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:83
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:85
 msgid "Elviniel"
 msgstr "Elviniel"
 
 #. [side]: type = Elvish Champion; id = elf2; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:100
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:103
 msgid "Other Elves"
 msgstr "Jiní elfové"
 
 #. [side]: type = Elvish Champion; id = elf2; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:104
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:107
 msgid "Celundir"
 msgstr "Celundir"
 
 #. [side]: type = Dwarvish Lord; id = dwarf1; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:121
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:125
 msgid "Dwarves"
 msgstr "Trpaslíci"
 
 #. [side]: type = Dwarvish Lord; id = dwarf1; gender = male;
-#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:125
+#: add-ons/Empire_Builder/scenarios/Southern_Lands.cfg:129
 msgid "Narthaol"
 msgstr "Narthaol"
+
+#. [multiplayer]: id = EB Test;
+#: add-ons/Empire_Builder/scenarios/test.cfg:5
+#, fuzzy
+msgid "3p - EB - Test"
+msgstr "1p - EB - Tutoriál"
+
+#. [side]:
+#: add-ons/Empire_Builder/scenarios/test.cfg:15
+msgid "Player 1"
+msgstr "Hráč 1"
+
+#. [side]:
+#: add-ons/Empire_Builder/scenarios/test.cfg:20
+msgid "Player 2"
+msgstr "Hráč 2"
+
+#. [side]:
+#: add-ons/Empire_Builder/scenarios/test.cfg:25
+msgid "Player 3"
+msgstr "Hráč 3"
 
 #. [multiplayer]: id = EB Tutorial;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:20
@@ -1975,6 +2051,11 @@ msgstr ""
 msgid "Train a Spearman"
 msgstr "Vycvíč kopiníka"
 
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:327
+msgid "&scenery/tent-ruin-1.png=Barracks (25 gold, 12 wood)"
+msgstr "&scenery/tent-ruin-1.png=Kasárny (25 zlata, 12 dřeva)"
+
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:344
 msgid ""
@@ -2004,6 +2085,19 @@ msgstr ""
 msgid "But for now we want the Spearman so train one."
 msgstr "Ale teď chceme kopiníka, tak jednoho vycvič."
 
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:367
+msgid ""
+"&$player_recruits[$side_number].fighter1.image|="
+"$player_recruits[$side_number].fighter1.name ($player_recruits[$side_number]."
+"fighter1.gold_cost gold, $player_recruits[$side_number].fighter1.food_cost "
+"food)"
+msgstr ""
+"&$player_recruits[$side_number].fighter1.image|="
+"$player_recruits[$side_number].fighter1.name ($player_recruits[$side_number]."
+"fighter1.gold_cost zlata, $player_recruits[$side_number].fighter1.food_cost "
+"jídla)"
+
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:384
 #, fuzzy
@@ -2031,6 +2125,11 @@ msgstr ""
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:395
 msgid "Build a Farm"
 msgstr "Postav farmu"
+
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:410
+msgid "&scenery/windmill-01.png=Farm (12 gold, 7 wood)"
+msgstr "&scenery/windmill-01.png=Farmu (12 zlata, 7 dřeva)"
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:427
@@ -2141,6 +2240,11 @@ msgstr ""
 "nejdřív školu, pak se naučít jak zkoumat technologie. Dostal jsi na to "
 "dostatek zdrojů."
 
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:583
+msgid "&terrain/village/elven2.png=School (40 gold, 4 wood)"
+msgstr "&terrain/village/elven2.png=Školu (40 zlata, 4 dřeva)"
+
 #. [objective]: condition = win;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:605
 msgid "Build an Embassy"
@@ -2169,6 +2273,12 @@ msgstr ""
 "docela jednoduché. Klikni pravým tlačítkem na školu nebo univerzitu, pak "
 "vyber Vyzkoumat novou technologii a v následujím menu si nějakou vyber. "
 "Právě teď máš jen 1 možnost - Diplomacie. Tak jí vyzkoumej."
+
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:661
+msgid "&scenery/mausoleum01.png~SCALE(72,72)=Embassy (60 gold, 10 wood)"
+msgstr ""
+"&scenery/mausoleum01.png~SCALE(72,72)=Velvyslanectví (60 zlata, 10 dřeva)"
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:678
@@ -2226,11 +2336,19 @@ msgid ""
 "need to research technology Smithery in School firstly. I gave you enough "
 "research points for that."
 msgstr ""
+"Upgrady se zkoumají v kovárně. Ale aby jsi jí mohl postavit, musíš nejdříve "
+"ve škole vyzkoumat technologii kovářství. Dal jsem ti k tomu nezbytné "
+"množství výzkumných bodů."
 
 #. [objective]: condition = win;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:747
 msgid "Build Blacksmith"
 msgstr "Postavit kovárnu"
+
+#. [option]:
+#: add-ons/Empire_Builder/scenarios/Tutorial.cfg:786
+msgid "&scenery/tent-shop-weapons.png=Blacksmith (40 gold, 8 wood)"
+msgstr "&scenery/tent-shop-weapons.png=Kovárnu (40 zlata, 8 dřeva)"
 
 #. [message]: speaker = narrator;
 #: add-ons/Empire_Builder/scenarios/Tutorial.cfg:803
@@ -2966,7 +3084,7 @@ msgid ""
 msgstr ""
 
 #. [campaign]: id = Empire_Builder;
-#: add-ons/Empire_Builder/_main.cfg:11
+#: add-ons/Empire_Builder/_main.cfg:32
 msgid "EB"
 msgstr ""
 
