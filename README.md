@@ -5,12 +5,12 @@ MP modification for Battle for Wesnoth in which you can build your own empire. Y
 * noble titles -  70%
 * diplomacy    -   0%
 * buildings    - 100%
-* resources    -  50%
+* resources    -  75%
 * research     -  95%
 
 ### TODO list
 * add a few more upgrades for units
-* allow exchange of resources and trading between players
+* allow trading between players
 * code diplomacy
 * complete factions (The Cult is missing healers, Drakes worker and mages)
 * add some scenarios for this era
