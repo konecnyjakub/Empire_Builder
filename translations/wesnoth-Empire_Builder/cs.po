@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Empire_Builder-1.12\n"
+"Project-Id-Version: Empire_Builder-1.14\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: James_The_Invisible <jakub.konecny2@seznam.cz>\n"
