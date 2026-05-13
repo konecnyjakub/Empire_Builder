@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Empire_Builder-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-12 18:21 UTC\n"
+"POT-Creation-Date: 2026-05-13 20:19 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1409,7 +1409,7 @@ msgstr ""
 msgid "$wood_gathered wood gathered."
 msgstr ""
 
-#. [set_menu_item]: id=cutdown
+#. [set_menu_item]: id=chopdown
 #: Empire_Builder/macros/trees.cfg:40
 msgid "Chop down a tree"
 msgstr ""
@@ -2196,15 +2196,5 @@ msgstr ""
 #. [unit_type]: id=Orcish Warlock, race=orc
 #: Empire_Builder/units/orcs/Warlock.cfg:19
 msgid "The Orcish Warlocks are seen only when the orcs are on the verge of a bloody revolt. They are well respected among the tribes and their mastery of magic is not to be to underestimated."
-msgstr ""
-
-#. [unit_type]: id=EB Death Baron, race=undead
-#: Empire_Builder/units/undead/Skele_Death_Baron.cfg:5
-msgid "Death Baron"
-msgstr ""
-
-#. [unit_type]: id=EB Death Baron, race=undead
-#: Empire_Builder/units/undead/Skele_Death_Baron.cfg:41
-msgid "Sometimes the mightiest warriors and generals, cursed with hate and angst, come back to this world as Death Knights. Death Barons serve them whilst accruing enough unholy power to become Death Knights. In the process they pick up a good deal of the Knight's power, including the ability to command underlings."
 msgstr ""
 
