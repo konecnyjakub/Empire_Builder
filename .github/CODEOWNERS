@@ -1,0 +1,25 @@
+# Project Management
+/.github/                                   	@konecnyjakub
+/README.md                                  	@konecnyjakub
+/COPYING.txt                                	@konecnyjakub
+.gitignore                                  	@konecnyjakub
+
+# Release Management
+/_server.pbl					                @konecnyjakub
+/CHANGELOG.md                               	@konecnyjakub
+/dist/                                      	@konecnyjakub
+.gitattributes                              	@konecnyjakub
+
+# Continous integration/deployment
+/.gitlab-ci.yml                             	@konecnyjakub
+/.github/workflows/				                @konecnyjakub
+
+# Translations
+/translations/wesnoth-Empire_Builder.pot		@konecnyjakub
+/translations/wesnoth-Empire_Builder/cs.po    	@konecnyjakub
+
+# WML
+*.cfg                                       	@konecnyjakub
+
+# Maps
+*.map                                       	@konecnyjakub
