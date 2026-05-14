@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Empire_Builder-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-13 20:19 UTC\n"
+"POT-Creation-Date: 2026-05-14 20:27 UTC\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jakub Konečný <jakub.konecny2@centrum.cz>\n"
 "Language-Team: none\n"
@@ -2113,20 +2113,30 @@ msgid "Basic Farm"
 msgstr "Základní farma"
 
 #. [unit_type]: id=Farm1, race=buildings
-#: Empire_Builder/units/buildings/Farm.cfg:16
-msgid "Farms produce the necessary food for your subjects. This basic version is able to produce 3 food per turn."
-msgstr "Farmy produkují nezbytné jídlo pro tvé poddané. Tato základní verze dokáže vyprodukovat 3 jídla za kolo."
+#. [unit_type]: id=Farm2, race=buildings
+#: Empire_Builder/units/buildings/Farm.cfg:16 Empire_Builder/units/buildings/Farm.cfg:41
+msgid "Farms produce the necessary food for your subjects."
+msgstr "Farmy produkují nezbytné jídlo pro tvé poddané. "
+
+#. [produces_food]: id=produces_food
+#: Empire_Builder/units/buildings/Farm.cfg:20 Empire_Builder/units/buildings/Farm.cfg:45
+msgid "produces food"
+msgstr ""
+
+#. [produces_food]: id=produces_food
+#: Empire_Builder/units/buildings/Farm.cfg:21
+msgid "This building produces 3 food per turn (4 with technology Advanced Farming)."
+msgstr ""
 
 #. [unit_type]: id=Farm2, race=buildings
-#: Empire_Builder/units/buildings/Farm.cfg:21
+#: Empire_Builder/units/buildings/Farm.cfg:30
 msgid "Advanced Farm"
 msgstr "Vylepšená farma"
 
-#. [unit_type]: id=Farm2, race=buildings
-#: Empire_Builder/units/buildings/Farm.cfg:32
-msgid ""
-"Farms produce the necessary food for your subjects. This advanced version is able to produce 5 food per turn."
-msgstr "Farmy produkují nezbytné jídlo pro tvé poddané. Tato vylepšená verze dokáže vyprodukovat 5 jídla za kolo."
+#. [produces_food]: id=produces_food
+#: Empire_Builder/units/buildings/Farm.cfg:46
+msgid "This building produces 5 food per turn (7 with technology Advanced Farming)."
+msgstr ""
 
 #. [unit_type]: id=Fortress, race=buildings
 #: Empire_Builder/units/buildings/Fortress.cfg:5
@@ -2154,19 +2164,33 @@ msgid "Basic Gold Mine"
 msgstr "Základní zlatý důl"
 
 #. [unit_type]: id=GoldMine1, race=buildings
-#: Empire_Builder/units/buildings/Gold_Mine.cfg:16
-msgid "Miners in this mine extract 1 gold per turn."
-msgstr "Horníci v tomto dole vytěží 1 zlato za kolo."
+#. [unit_type]: id=GoldMine2, race=buildings
+#: Empire_Builder/units/buildings/Gold_Mine.cfg:16 Empire_Builder/units/buildings/Gold_Mine.cfg:42
+msgid "Miners in this mine extract gold."
+msgstr "Horníci v tomto dole těží zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Gold_Mine.cfg:20 Empire_Builder/units/buildings/Gold_Mine.cfg:46
+#: Empire_Builder/units/buildings/Market.cfg:20 Empire_Builder/units/buildings/Town_Hall.cfg:20
+#: Empire_Builder/units/buildings/Town_Hall.cfg:46 Empire_Builder/units/buildings/Town_Hall.cfg:72
+#: Empire_Builder/units/buildings/Town_Hall.cfg:98
+msgid "produces gold"
+msgstr ""
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Gold_Mine.cfg:21
+msgid "This building produces 1 gold mark per turn (2 with technology Advanced Mining)."
+msgstr ""
 
 #. [unit_type]: id=GoldMine2, race=buildings
-#: Empire_Builder/units/buildings/Gold_Mine.cfg:21
+#: Empire_Builder/units/buildings/Gold_Mine.cfg:31
 msgid "Advanced Gold Mine"
 msgstr "Vylepšený zlatý důl"
 
-#. [unit_type]: id=GoldMine2, race=buildings
-#: Empire_Builder/units/buildings/Gold_Mine.cfg:32
-msgid "Miners in this mine extract 2 gold per turn."
-msgstr "Horníci v tomto dole vytěží 2 zlata za kolo."
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Gold_Mine.cfg:47
+msgid "This building produces 2 gold marks per turn (3 with technology Advanced Mining)."
+msgstr ""
 
 #. [unit_type]: id=Hall_of_Heroes1, race=buildings
 #. [unit_type]: id=Hall_of_Heroes2, race=buildings
@@ -2201,8 +2225,13 @@ msgstr "Tržiště"
 
 #. [unit_type]: id=Market, race=buildings
 #: Empire_Builder/units/buildings/Market.cfg:16
-msgid "Market allows you to exchange resources and trade with other states. It also produces 5 gold per turn."
-msgstr "Tržiště ti umožňuje vyměňovat zdroje a obchodovat s ostatními státy. Také produkuje 5 zlata za kolo."
+msgid "Market allows you to exchange resources and trade with other states. It also produces gold."
+msgstr "Tržiště ti umožňuje vyměňovat zdroje a obchodovat s ostatními státy. Také produkuje zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Market.cfg:21
+msgid "This building produces 5 gold mark per turn."
+msgstr "Tato budova produkuje 4 zlata za kolo."
 
 #. [unit_type]: id=OreMine1, race=buildings
 #: Empire_Builder/units/buildings/Ore_Mine.cfg:5
@@ -2210,19 +2239,30 @@ msgid "Basic Ore Mine"
 msgstr "Základní rudný důl"
 
 #. [unit_type]: id=OreMine1, race=buildings
-#: Empire_Builder/units/buildings/Ore_Mine.cfg:16
-msgid "Miners in this mine extract 1 ore per turn. It can be then used by the Blacksmith or sold on market."
-msgstr "Horníci v tomto dole vytěží 1 rudu za kolo. Ta pak může být použita v kovárně nebo prodána na tržišti."
+#. [unit_type]: id=OreMine2, race=buildings
+#: Empire_Builder/units/buildings/Ore_Mine.cfg:16 Empire_Builder/units/buildings/Ore_Mine.cfg:41
+msgid "Miners in this mine extract ore. It can be then used by the Blacksmith or sold on market."
+msgstr "Horníci v tomto dole těží rudu . Ta pak může být použita v kovárně nebo prodána na tržišti."
+
+#. [produces_ore]: id=produces_ore
+#: Empire_Builder/units/buildings/Ore_Mine.cfg:20 Empire_Builder/units/buildings/Ore_Mine.cfg:45
+msgid "produces ore"
+msgstr ""
+
+#. [produces_ore]: id=produces_ore
+#: Empire_Builder/units/buildings/Ore_Mine.cfg:21
+msgid "This building produces 1 ore per turn (2 with technology Advanced Mining)."
+msgstr ""
 
 #. [unit_type]: id=OreMine2, race=buildings
-#: Empire_Builder/units/buildings/Ore_Mine.cfg:21
+#: Empire_Builder/units/buildings/Ore_Mine.cfg:30
 msgid "Advanced Ore Mine"
 msgstr "Vylepšený rudný důl"
 
-#. [unit_type]: id=OreMine2, race=buildings
-#: Empire_Builder/units/buildings/Ore_Mine.cfg:32
-msgid "Miners in this mine extract 2 ore per turn. It can be then used by the Blacksmith or sold on market."
-msgstr "Horníci v tomto dole vytěží 2 rudy za kolo. Ta pak může být použita v kovárně nebo prodána na tržišti."
+#. [produces_ore]: id=produces_ore
+#: Empire_Builder/units/buildings/Ore_Mine.cfg:46
+msgid "This building produces 2 ore per turn (3 with technology Advanced Mining)."
+msgstr ""
 
 #. [unit_type]: id=School, race=buildings
 #: Empire_Builder/units/buildings/School.cfg:5
@@ -2231,18 +2271,33 @@ msgstr "Škola"
 
 #. [unit_type]: id=School, race=buildings
 #: Empire_Builder/units/buildings/School.cfg:16
-msgid "Scholars in school produce 2 research point per turn."
-msgstr "Učenci ve škole vyprodukují 2 výzkumné body za kolo."
+msgid "Scholars in school produce research points."
+msgstr "Učenci ve škole produkují výzkumné body ."
+
+#. [produces_rp]: id=produces_rp
+#: Empire_Builder/units/buildings/School.cfg:20 Empire_Builder/units/buildings/School.cfg:44
+msgid "produces research points"
+msgstr "produkuje výzkumné body"
+
+#. [produces_rp]: id=produces_rp
+#: Empire_Builder/units/buildings/School.cfg:21
+msgid "This building produces 2 research points per turn."
+msgstr "Tato budova produkuje 2 výzkumné body za kolo."
 
 #. [unit_type]: id=University, race=buildings
-#: Empire_Builder/units/buildings/School.cfg:21
+#: Empire_Builder/units/buildings/School.cfg:29
 msgid "University"
 msgstr "Univerzita"
 
 #. [unit_type]: id=University, race=buildings
-#: Empire_Builder/units/buildings/School.cfg:32
-msgid "Scholars in university produce 5 research point per turn."
-msgstr "Učenci v univerzitě vyprodukují 5 výzkumných bodů za kolo."
+#: Empire_Builder/units/buildings/School.cfg:40
+msgid "Scholars in university produce research points."
+msgstr "Učenci v univerzitě produkují výzkumné body."
+
+#. [produces_rp]: id=produces_rp
+#: Empire_Builder/units/buildings/School.cfg:45
+msgid "This building produces 5 research points per turn."
+msgstr "Tato budova produkuje 5 výzkumné body za kolo."
 
 #. [unit_type]: id=Temple, race=buildings
 #: Empire_Builder/units/buildings/Temple.cfg:5
@@ -2288,38 +2343,58 @@ msgstr "Radnice"
 
 #. [unit_type]: id=Town_Hall, race=buildings
 #: Empire_Builder/units/buildings/Town_Hall.cfg:16
-msgid "Town Hall is the central building of a village or small town. It produces 2 gold per turn."
-msgstr "Radnice je hladní budovou vesnice nebo malého města. Produkuje 2 zlata za kolo."
+msgid "Town Hall is the central building of a village or small town. It produces gold."
+msgstr "Radnice je hladní budovou vesnice nebo malého města. Produkuje zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Town_Hall.cfg:21
+msgid "This building produces 2 gold mark per turn (3 with technology Economy)."
+msgstr ""
 
 #. [unit_type]: id=City_Hall, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:21
+#: Empire_Builder/units/buildings/Town_Hall.cfg:31
 msgid "City Hall"
 msgstr "Radnice"
 
 #. [unit_type]: id=City_Hall, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:32
-msgid "City Hall is the central building of a city. It produces 4 gold per turn."
-msgstr "Radnice je hlavní budovou města. Produkuje 4 zlata za kolo."
+#: Empire_Builder/units/buildings/Town_Hall.cfg:42
+msgid "City Hall is the central building of a city. It produces gold."
+msgstr "Radnice je hlavní budovou města. Produkuje zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Town_Hall.cfg:47
+msgid "This building produces 4 gold mark per turn (5 with technology Economy)."
+msgstr ""
 
 #. [unit_type]: id=Tower_House, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:37
+#: Empire_Builder/units/buildings/Town_Hall.cfg:57
 msgid "Tower House"
 msgstr "Hrad"
 
 #. [unit_type]: id=Tower_House, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:48
-msgid "Tower House serves as a residence for a nobleman. It produces 6 gold per turn."
-msgstr "Hrad slouží jako sídlo šlechtice. Vyprodukuje 6 zlata za kolo."
+#: Empire_Builder/units/buildings/Town_Hall.cfg:68
+msgid "Tower House serves as a residence for a nobleman. It produces gold."
+msgstr "Hrad slouží jako sídlo šlechtice. Produkuje zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Town_Hall.cfg:73
+msgid "This building produces 6 gold mark per turn (8 with technology Economy)."
+msgstr ""
 
 #. [unit_type]: id=Castle, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:53
+#: Empire_Builder/units/buildings/Town_Hall.cfg:83
 msgid "Castle"
 msgstr "Zámek"
 
 #. [unit_type]: id=Castle, race=buildings
-#: Empire_Builder/units/buildings/Town_Hall.cfg:64
-msgid "Only a great ruler can build castles. It produces 10 gold per turn."
-msgstr "Jen velký vládce může stavět hrady. Produkuje 10 zlata za kolo."
+#: Empire_Builder/units/buildings/Town_Hall.cfg:94
+msgid "Only a great ruler can build castles. It produces gold."
+msgstr "Jen velký vládce může stavět hrady. Produkuje zlato."
+
+#. [produces_gold]: id=produces_gold
+#: Empire_Builder/units/buildings/Town_Hall.cfg:99
+msgid "This building produces 10 gold mark per turn (13 with technology Economy)."
+msgstr ""
 
 #. [unit_type]: id=Woodcutter1, race=buildings
 #: Empire_Builder/units/buildings/Woodcutter.cfg:5
@@ -2327,23 +2402,30 @@ msgid "Basic Woodcutter's Hut"
 msgstr "Základní dřevařova chata"
 
 #. [unit_type]: id=Woodcutter1, race=buildings
-#: Empire_Builder/units/buildings/Woodcutter.cfg:16
-msgid "This Woodcutter produces 1 wood per turn. It can be used to construct/upgrade buildings or sold on market."
+#. [unit_type]: id=Woodcutter2, race=buildings
+#: Empire_Builder/units/buildings/Woodcutter.cfg:16 Empire_Builder/units/buildings/Woodcutter.cfg:40
+msgid "Woodcutter produces wood. It can be used to construct/upgrade buildings or sold on market."
+msgstr "Dřevař produkuje dřevo. To pak může být použito na stavbu/vylepšení budov nebo prodáno na tržišti."
+
+#. [produces_wood]: id=produces_wood
+#: Empire_Builder/units/buildings/Woodcutter.cfg:20 Empire_Builder/units/buildings/Woodcutter.cfg:44
+msgid "produces wood"
 msgstr ""
-"Tento dřevař vyprodukuje 1 dřeva za kolo. To pak může být použito na stavbu/vylepšení budov nebo prodáno na "
-"tržišti."
+
+#. [produces_wood]: id=produces_wood
+#: Empire_Builder/units/buildings/Woodcutter.cfg:21
+msgid "This building produces 1 wood per turn."
+msgstr "Tato budova produkuje 1 dřevo za kolo."
 
 #. [unit_type]: id=Woodcutter2, race=buildings
-#: Empire_Builder/units/buildings/Woodcutter.cfg:21
+#: Empire_Builder/units/buildings/Woodcutter.cfg:29
 msgid "Advanced Woodcutter's Hut"
 msgstr "Vylepšená dřevařova chata"
 
-#. [unit_type]: id=Woodcutter2, race=buildings
-#: Empire_Builder/units/buildings/Woodcutter.cfg:32
-msgid "This Woodcutter produces 2 wood per turn. It can be used to construct/upgrade buildings or sold on market."
-msgstr ""
-"Tento dřevař vyprodukuje 2 dřeva za kolo. To pak může být použito na stavbu/vylepšení budov nebo prodáno na "
-"tržišti."
+#. [produces_wood]: id=produces_wood
+#: Empire_Builder/units/buildings/Woodcutter.cfg:45
+msgid "This building produces 2 wood per turn."
+msgstr "Tato budova produkuje 2 dřeva za kolo."
 
 #. [unit_type]: id=Dwarvish Alchemist, race=dwarf
 #: Empire_Builder/units/dwarves/Alchemist.cfg:5
@@ -2623,6 +2705,23 @@ msgid ""
 "The Orcish Warlocks are seen only when the orcs are on the verge of a bloody revolt. They are well respected "
 "among the tribes and their mastery of magic is not to be to underestimated."
 msgstr ""
+
+#~ msgid ""
+#~ "Farms produce the necessary food for your subjects. This advanced version is able to produce 5 food per turn."
+#~ msgstr ""
+#~ "Farmy produkují nezbytné jídlo pro tvé poddané. Tato vylepšená verze dokáže vyprodukovat 5 jídla za kolo."
+
+#~ msgid "Miners in this mine extract 2 gold per turn."
+#~ msgstr "Horníci v tomto dole vytěží 2 zlata za kolo."
+
+#~ msgid "Miners in this mine extract 2 ore per turn. It can be then used by the Blacksmith or sold on market."
+#~ msgstr "Horníci v tomto dole vytěží 2 rudy za kolo. Ta pak může být použita v kovárně nebo prodána na tržišti."
+
+#~ msgid ""
+#~ "This Woodcutter produces 2 wood per turn. It can be used to construct/upgrade buildings or sold on market."
+#~ msgstr ""
+#~ "Tento dřevař vyprodukuje 2 dřeva za kolo. To pak může být použito na stavbu/vylepšení budov nebo prodáno na "
+#~ "tržišti."
 
 #~ msgid "Death Baron"
 #~ msgstr "Baron smrti"
