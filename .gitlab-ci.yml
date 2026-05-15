@@ -1,0 +1,39 @@
+stages:
+  - test
+  - announce
+
+.test_job: &test_job
+  stage: test
+  image: konecnyjakub/wesnoth:$WESNOTH_VERSION
+  
+  script:
+    - wmllint --dryrun /usr/share/games/wesnoth/data/core .
+    - wmlindent --dryrun .
+
+.publish_job: &publish_job
+  stage: publish
+  image: konecnyjakub/wesnoth:$WESNOTH_VERSION
+  script:
+    - wesnoth_addon_manager -u . --port $SERVER_PORT --pbl-key passphrase $ADDON_PASSPHRASE
+  rules:
+    - if: $CI_COMMIT_TAG
+  environment:
+    name: addons/$WESNOTH_VERSION
+    url: https://add-ons.wesnoth.org/$WESNOTH_VERSION/
+
+test:1.18:
+  <<: *test_job
+  variables:
+    WESNOTH_VERSION: "1.18"
+
+announce:gitlab:
+  stage: announce
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - echo "Creating GitLab release"
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: "Empire Builder $CI_COMMIT_TAG"
+    description: "./dist/RELEASE_NOTES"
