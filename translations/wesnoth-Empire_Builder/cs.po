@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Empire_Builder-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-16 15:00 UTC\n"
+"POT-Creation-Date: 2026-05-16 16:45 UTC\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jakub Konečný <jakub.konecny2@centrum.cz>\n"
 "Language-Team: none\n"
@@ -78,13 +78,22 @@ msgstr ""
 msgid "Era of Empires"
 msgstr "Věk říší"
 
+#. [era]: id=Era_of_Empires
+#: Empire_Builder/era.cfg:6
+msgid ""
+"The default and recommended era for Empire Builder. It uses mainline units "
+"with a few additions when needed."
+msgstr ""
+"Výchozí a doporučený věk pro Stavitele impéria. Používá výchozí jednotky s "
+"pár dodatečnými, kde to je potřeba."
+
 #. [multiplayer_side]: id=cult, type=Dark Sorcerer
-#: Empire_Builder/era.cfg:50
+#: Empire_Builder/era.cfg:51
 msgid "The Cult"
 msgstr "Kult"
 
 #. [multiplayer_side]: id=gang, type=Bandit
-#: Empire_Builder/era.cfg:58
+#: Empire_Builder/era.cfg:59
 msgid "The Gang"
 msgstr "Gang"
 

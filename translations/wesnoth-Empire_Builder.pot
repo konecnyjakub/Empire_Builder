@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Empire_Builder-1.18\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-16 15:00 UTC\n"
+"POT-Creation-Date: 2026-05-16 16:45 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,13 +57,18 @@ msgstr ""
 msgid "Era of Empires"
 msgstr ""
 
+#. [era]: id=Era_of_Empires
+#: Empire_Builder/era.cfg:6
+msgid "The default and recommended era for Empire Builder. It uses mainline units with a few additions when needed."
+msgstr ""
+
 #. [multiplayer_side]: id=cult, type=Dark Sorcerer
-#: Empire_Builder/era.cfg:50
+#: Empire_Builder/era.cfg:51
 msgid "The Cult"
 msgstr ""
 
 #. [multiplayer_side]: id=gang, type=Bandit
-#: Empire_Builder/era.cfg:58
+#: Empire_Builder/era.cfg:59
 msgid "The Gang"
 msgstr ""
 
