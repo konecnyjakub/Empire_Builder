@@ -15,7 +15,7 @@ msgstr ""
 #. [modification]: id=Empire_Builder, type=mp
 #: Empire_Builder/Empire_Builder.cfg:5
 msgid "Empire Builder"
-msgstr ""
+msgstr "Stavitel impéria"
 
 #. [modification]: id=Empire_Builder, type=mp
 #. [message]: speaker=narrator
@@ -27,6 +27,10 @@ msgid ""
 "have to acquire certain score (by constructing/upgrading buildings and training units) and pay a certain amount of "
 "gold."
 msgstr ""
+"S tímto rozšířením si můžeš vybudovat vlastní impérium. Můžeš zde stavět různé budovy (některé z nich lze dokonce "
+"vylepšovat), ty budou pro tebe produkovat zdroje, umožní ti trénovat jednotky nebo zkoumat technologie/upgrady. K "
+"provedení určitých akcí budeš potřebovat vyšší šlechtický titul. K vylepšení svého titulu musíš získat určitý počet "
+"bodů (stavbou či vylepšováním budov a cvičením jednotek) a zaplatit určité množství zlata."
 
 #. [checkbox]: id=headquarters_mode
 #: Empire_Builder/Empire_Builder.cfg:13
@@ -41,7 +45,7 @@ msgstr "Když je povoleno, strana se pokládá za poraženou také když je jej�
 #. [checkbox]: id=score_mode
 #: Empire_Builder/Empire_Builder.cfg:19
 msgid "Score mode"
-msgstr ""
+msgstr "Mód skóre"
 
 #. [checkbox]: id=score_mode
 #: Empire_Builder/Empire_Builder.cfg:20
@@ -56,7 +60,7 @@ msgstr "Potřebné skóre"
 #. [slider]: id=score_mode_score
 #: Empire_Builder/Empire_Builder.cfg:26
 msgid "If you reach this score, you win. Has effect only if Score mode is enabled"
-msgstr ""
+msgstr "Když dosáhneš toho počtu bodů, vyhraješ.  Funguje jenom, pokud je aktivní Mód skóre"
 
 #. [era]: id=Era_of_Empires
 #: Empire_Builder/era.cfg:5
@@ -276,7 +280,7 @@ msgid ""
 "and fists from now on."
 msgstr ""
 "Upgrade Silný úder II vyzkoumán. Tvé jednotky budou odteď způsobovat o 1 více poškození při útoku kladiv, holemi, "
-"palcáty, cepy, kyji a pěstmi"
+"palcáty, cepy, kyji a pěstmi."
 
 #. [option]
 #: Empire_Builder/macros/blacksmith.cfg:214
@@ -544,12 +548,12 @@ msgstr "Vylepšit tuto budovu"
 #. [command]
 #: Empire_Builder/macros/buildings.cfg:565
 msgid "Town Hall upgraded."
-msgstr "Radnice vylepšena"
+msgstr "Radnice vylepšena."
 
 #. [command]
 #: Empire_Builder/macros/buildings.cfg:582
 msgid "City Hall upgraded."
-msgstr "Radnice vylepšena"
+msgstr "Radnice vylepšena."
 
 #. [command]
 #: Empire_Builder/macros/buildings.cfg:599
@@ -791,7 +795,7 @@ msgstr "Přesunout velitelství zde"
 #. [message]: speaker=narrator
 #: Empire_Builder/macros/help.cfg:10 Empire_Builder/macros/help.cfg:30
 msgid "Empire Builder Help"
-msgstr ""
+msgstr "Nápověda k Staviteli impéria"
 
 #. [message]: speaker=narrator
 #. [option]
@@ -901,7 +905,6 @@ msgstr "Zdroje"
 
 #. [message]: speaker=narrator
 #: Empire_Builder/macros/help.cfg:110
-#, fuzzy
 msgid ""
 "In Empire Builder, there are 5 resources: gold, food, wood, ore and research points.\n"
 "Gold: is one of necessary resources for constructing/upgrading buildings and training units. Also all your units "
@@ -913,9 +916,9 @@ msgid ""
 "Ore: is used to research upgrades for your units in Blacksmith. Is produced by ore mines.\n"
 "Research points: are used to research technologies. Are produced by Schools/Universities."
 msgstr ""
-"Ve Věku říše je 5 zdrojů: zlato, jídlo, dřevo, ruda a výzkumné body.\n"
+"V Staviteli impéria je 5 zdrojů: zlato, jídlo, dřevo, ruda a výzkumné body.\n"
 "Zlato: je jedním z nezbytných zdrojů pro stavbu/vylepšení budov a trénování jednotek. Také všechny tvé jednotky "
-"(kromě vůdce) vyžadují každé kole žold. Je proukováno zlatými doly a městy.\n"
+"(kromě vůdce) vyžadují každé kole žold. Je produkováno zlatými doly a městy.\n"
 "Jídlo: je nezbytné pro trénování jednotek. Také všechny tvé jednotky (kromě vůdce) vyžadují každé kolo jídlo. Je "
 "produkováno farmami.\n"
 "Dřevo: je nezbytné pro stavění/vylepšování budov. Je shromažďováno dělníky. Také může být produkováno dřevařem.\n"
@@ -970,22 +973,6 @@ msgstr "Upgrady"
 
 #. [message]: speaker=narrator
 #: Empire_Builder/macros/help.cfg:151
-#, fuzzy
-#| msgid ""
-#| "Can be researched in Blacksmith for ores.\n"
-#| "Sharp Blade I (15 ores): your units will deal 1 more damage with bladed weapons\n"
-#| "- Sharp Blade II (20 ores): your units will deal 1 more damage with bladed weapons\n"
-#| "Fire Arrows (25 ores): your archers will deal fire damage\n"
-#| "Piercing Arrow I (10 ores): your units will deal 1 more damage with ranged weapons\n"
-#| "- Piercing Arrow II (15 ores): your units will deal 1 more damage with ranged weapons\n"
-#| "Shield (25 ores): your units will have 7% higher defense on all terrains\n"
-#| "Armor I (20 ores): your units will receive 5% less from physical attacks\n"
-#| "- Armor II (30 ores): your units will receive 10% less from physical attacks\n"
-#| "Anti-magic Shield I (20 ores): your units will receive 7% less from magical attacks (requires Witchcraft "
-#| "technology)\n"
-#| "- Anti-magic Shield II (30 ores): your units will receive 8% less from magical attacks (requires Witchcraft "
-#| "technology)\n"
-#| "Mystic Power (30 ores): your mages and healers will deal 2 more damage (requires Witchcraft technology)"
 msgid ""
 "Can be researched in Blacksmith for ores.\n"
 "Sharp Blade I (15 ores): your units will deal 1 more damage with bladed weapons\n"
@@ -1009,6 +996,10 @@ msgstr ""
 "Mohou být vyzkoumány v kovárně za rudy.\n"
 "Ostrá čepel I (15 rud): tvé jednotky budou způsobovat o 1 více poškození zbraněmi s čepelí\n"
 "- Ostrá čepel II (20 rud):  tvé jednotky budou způsobovat o 1 více poškození zbraněmi s čepelí\n"
+"Silný úder I (20 rud): tvé jednotky budou způsobovat o 1 více poškození při útoku kladiv, holemi, palcáty, cepy, "
+"kyji a pěstmi\n"
+"Silný úder II (30 rud): tvé jednotky budou způsobovat o 1 více poškození při útoku kladiv, holemi, palcáty, cepy, "
+"kyji a pěstmi\n"
 "Ohnivé šípy (25 rud): tví lučištníci budou způsobovat ohnivé poškození\n"
 "Pronikavý šíp I (10 rud): tvé jednotky  budou způsobovat o 1 více poškození zbraněmi na dálku\n"
 "- Pronikavý šíp II (15 rud): tvé jednotky  budou způsobovat o 1 více poškození zbraněmi na dálku\n"
@@ -1026,7 +1017,7 @@ msgstr ""
 #. [option]
 #: Empire_Builder/macros/help.cfg:187 Empire_Builder/macros/help.cfg:181
 msgid "Modes"
-msgstr ""
+msgstr "Módy"
 
 #. [message]: speaker=narrator
 #: Empire_Builder/macros/help.cfg:188
@@ -1054,8 +1045,8 @@ msgid ""
 "$player_recruits[$side_number].hero11.name ($player_recruits[$side_number].hero11.gold_cost gold, "
 "$player_recruits[$side_number].hero11.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero11.image|=$player_recruits[$side_number].hero11.name "
-"($player_recruits[$side_number].hero11.gold_cost zlata, $player_recruits[$side_number].hero11.food_cost jídla)"
+"$player_recruits[$side_number].hero11.name ($player_recruits[$side_number].hero11.gold_cost zlata, "
+"$player_recruits[$side_number].hero11.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:102
@@ -1063,8 +1054,8 @@ msgid ""
 "$player_recruits[$side_number].hero12.name ($player_recruits[$side_number].hero12.gold_cost gold, "
 "$player_recruits[$side_number].hero12.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero12.image|=$player_recruits[$side_number].hero12.name "
-"($player_recruits[$side_number].hero12.gold_cost zlata, $player_recruits[$side_number].hero12.food_cost jídla)"
+"$player_recruits[$side_number].hero12.name ($player_recruits[$side_number].hero12.gold_cost zlata, "
+"$player_recruits[$side_number].hero12.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:121
@@ -1072,8 +1063,8 @@ msgid ""
 "$player_recruits[$side_number].hero21.name ($player_recruits[$side_number].hero21.gold_cost gold, "
 "$player_recruits[$side_number].hero21.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero21.image|=$player_recruits[$side_number].hero21.name "
-"($player_recruits[$side_number].hero21.gold_cost zlata, $player_recruits[$side_number].hero21.food_cost jídla)"
+"$player_recruits[$side_number].hero21.name ($player_recruits[$side_number].hero21.gold_cost zlata, "
+"$player_recruits[$side_number].hero21.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:140
@@ -1081,8 +1072,8 @@ msgid ""
 "$player_recruits[$side_number].hero22.name ($player_recruits[$side_number].hero22.gold_cost gold, "
 "$player_recruits[$side_number].hero22.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero22.image|=$player_recruits[$side_number].hero22.name "
-"($player_recruits[$side_number].hero22.gold_cost zlata, $player_recruits[$side_number].hero22.food_cost jídla)"
+"$player_recruits[$side_number].hero22.name ($player_recruits[$side_number].hero22.gold_cost zlata, "
+"$player_recruits[$side_number].hero22.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:159
@@ -1090,8 +1081,8 @@ msgid ""
 "$player_recruits[$side_number].hero31.name ($player_recruits[$side_number].hero31.gold_cost gold, "
 "$player_recruits[$side_number].hero31.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero31.image|=$player_recruits[$side_number].hero31.name "
-"($player_recruits[$side_number].hero31.gold_cost zlata, $player_recruits[$side_number].hero31.food_cost jídla)"
+"$player_recruits[$side_number].hero31.name ($player_recruits[$side_number].hero31.gold_cost zlata, "
+"$player_recruits[$side_number].hero31.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:178
@@ -1099,8 +1090,8 @@ msgid ""
 "$player_recruits[$side_number].hero32.name ($player_recruits[$side_number].hero32.gold_cost gold, "
 "$player_recruits[$side_number].hero32.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero32.image|=$player_recruits[$side_number].hero32.name "
-"($player_recruits[$side_number].hero32.gold_cost zlata, $player_recruits[$side_number].hero32.food_cost jídla)"
+"$player_recruits[$side_number].hero32.name ($player_recruits[$side_number].hero32.gold_cost zlata, "
+"$player_recruits[$side_number].hero32.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:197
@@ -1108,8 +1099,8 @@ msgid ""
 "$player_recruits[$side_number].hero41.name ($player_recruits[$side_number].hero41.gold_cost gold, "
 "$player_recruits[$side_number].hero41.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero41.image|=$player_recruits[$side_number].hero41.name "
-"($player_recruits[$side_number].hero41.gold_cost zlata, $player_recruits[$side_number].hero41.food_cost jídla)"
+"$player_recruits[$side_number].hero41.name ($player_recruits[$side_number].hero41.gold_cost zlata, "
+"$player_recruits[$side_number].hero41.food_cost jídla)"
 
 #. [option]
 #: Empire_Builder/macros/heroes.cfg:216
@@ -1117,8 +1108,8 @@ msgid ""
 "$player_recruits[$side_number].hero42.name ($player_recruits[$side_number].hero42.gold_cost gold, "
 "$player_recruits[$side_number].hero42.food_cost food)"
 msgstr ""
-"&$player_recruits[$side_number].hero42.image|=$player_recruits[$side_number].hero42.name "
-"($player_recruits[$side_number].hero42.gold_cost zlata, $player_recruits[$side_number].hero42.food_cost jídla)"
+"$player_recruits[$side_number].hero42.name ($player_recruits[$side_number].hero42.gold_cost zlata, "
+"$player_recruits[$side_number].hero42.food_cost jídla)"
 
 #. [message]: speaker=narrator
 #: Empire_Builder/macros/market.cfg:23
@@ -1770,13 +1761,12 @@ msgstr "1p - EB - Tutoriál"
 
 #. [multiplayer]: id=EB Tutorial
 #: Empire_Builder/scenarios/Tutorial.cfg:15
-#, fuzzy
 msgid ""
 "Tutorial for Empire Builder. It is a single-scenario that will teach you the basics of this modification. More "
 "detailed info can be found under right-click menu item Empire Builder Help."
 msgstr ""
-"Tutoriál pro Věk říší. Je to scénář pro jednoho hráče, který tě naučí základům tohoto věku. Detailnější informace "
-"můžeš najít pod položkou menu po kliknutí pravým tlačítkem Nápověda Věk říší."
+"Tutoriál pro Stavitele impéria. Je to scénář pro jednoho hráče, který tě naučí základům tohoto rozšíření. "
+"Detailnější informace můžeš najít pod položkou menu po kliknutí pravým tlačítkem Nápověda pro Stavitele impéria."
 
 #. [unit]: type=Town_Hall, id=hq
 #: Empire_Builder/scenarios/Tutorial.cfg:46
@@ -1816,9 +1806,8 @@ msgstr "Učitel"
 
 #. [message]: speaker=mentor
 #: Empire_Builder/scenarios/Tutorial.cfg:227
-#, fuzzy
 msgid "Welcome to tutorial to Empire Builder. You will learn about its special features here."
-msgstr "Vítejte v tutoriálu pro Věk říši. Naučíš se tu o jeho zvláštnostech."
+msgstr "Vítejte v tutoriálu pro Stavitele impéria. Naučíš se tu o jeho zvláštnostech."
 
 #. [message]: speaker=mentor
 #: Empire_Builder/scenarios/Tutorial.cfg:231
@@ -2170,7 +2159,7 @@ msgstr "Základní farma"
 #. [unit_type]: id=Farm2, race=buildings
 #: Empire_Builder/units/buildings/Farm.cfg:16 Empire_Builder/units/buildings/Farm.cfg:41
 msgid "Farms produce the necessary food for your subjects."
-msgstr "Farmy produkují nezbytné jídlo pro tvé poddané. "
+msgstr "Farmy produkují nezbytné jídlo pro tvé poddané."
 
 #. [produces_food]: id=produces_food
 #: Empire_Builder/units/buildings/Farm.cfg:20 Empire_Builder/units/buildings/Farm.cfg:45
@@ -2200,7 +2189,7 @@ msgstr "Pevnost"
 #. [unit_type]: id=Fortress, race=buildings
 #: Empire_Builder/units/buildings/Fortress.cfg:16
 msgid "Fortresses provide food and healing for stationed units."
-msgstr "Pevnosti poskytují jídlo a léčení pro umístěné jednotky. "
+msgstr "Pevnosti poskytují jídlo a léčení pro umístěné jednotky."
 
 #. [garrison]: id=garrison
 #: Empire_Builder/units/buildings/Fortress.cfg:28 Empire_Builder/units/buildings/Fortress.cfg:60
@@ -2635,7 +2624,7 @@ msgstr ""
 "Někteří mágové jsou vyloučeni z magických cechů kvůli pokusům provozovat zapomenutá umění. Když jsou nyní kompletně "
 "mimo zákon, tito mágové se snaží dělat vše nezbytné, aby podpořili své studium černé magie. I když nejsou tak "
 "zkušení jako mágové s klasičtějším výcvikem, jejich magie může být celkem smrtící, zatímco jejich banditství je "
-"zdokonalilo v dovednostech s krátkým mečem. "
+"zdokonalilo v dovednostech s krátkým mečem."
 
 #. [unit_type]: id=EB Shadow Lord, race=human, gender=male
 #: Empire_Builder/units/human-outlaws/Shadow_Lord.cfg:5
@@ -2651,7 +2640,7 @@ msgid ""
 msgstr ""
 "Nemnoho lidí odhalí tajemství světlé i temné magie a udrží si zdravý rozum. Mistři této rovnováhy se stanou "
 "Stínovými Lordy, plně neexistujícími ve světě světla ani ve světě temnoty. Už nepotřebuji fyzické zbraně a nahánějí "
-"strach svým nepřátelům i těm, kterým vládnou. "
+"strach svým nepřátelům i těm, kterým vládnou."
 
 #. [attack]: type=blade
 #: Empire_Builder/units/human-outlaws/Shadow_Lord.cfg:28
