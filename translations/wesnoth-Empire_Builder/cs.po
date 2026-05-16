@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Empire_Builder-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-14 20:27 UTC\n"
+"POT-Creation-Date: 2026-05-16 10:21 UTC\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jakub Konečný <jakub.konecny2@centrum.cz>\n"
 "Language-Team: none\n"
@@ -204,7 +204,7 @@ msgstr ""
 "Mystická síla: $player_upgrades[$side_number].mystic_power"
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:116 Empire_Builder/macros/forts.cfg:133 Empire_Builder/macros/help.cfg:195
+#: Empire_Builder/macros/blacksmith.cfg:116 Empire_Builder/macros/forts.cfg:126 Empire_Builder/macros/help.cfg:195
 #: Empire_Builder/macros/research.cfg:106
 msgid "Back"
 msgstr "Zpět"
@@ -703,27 +703,27 @@ msgid "Put this unit into fort"
 msgstr "Poslat tuto jednotku do pevnosti"
 
 #. [message]: speaker=narrator
-#: Empire_Builder/macros/forts.cfg:99
+#: Empire_Builder/macros/forts.cfg:92
 msgid "There is no space for this unit on any nearby fort."
 msgstr "Na žádné blízké pevnosti není místo pro tuto jednotku."
 
 #. [set_menu_item]: id=show_stored_units
-#: Empire_Builder/macros/forts.cfg:109
+#: Empire_Builder/macros/forts.cfg:102
 msgid "Show units"
 msgstr "Zobrazit jednotky"
 
 #. [value]: speaker=narrator
-#: Empire_Builder/macros/forts.cfg:130
+#: Empire_Builder/macros/forts.cfg:123
 msgid "Units in this fort"
 msgstr "Jednotky v této pevnosti"
 
 #. [option]
-#: Empire_Builder/macros/forts.cfg:136
+#: Empire_Builder/macros/forts.cfg:129
 msgid "Release all units"
 msgstr ""
 
 #. [value]
-#: Empire_Builder/macros/forts.cfg:158
+#: Empire_Builder/macros/forts.cfg:151
 msgid ""
 "&$unit.variables.stored_units.unit[$i].image~TC($side_number,magenta)=$unit.variables.stored_units.unit[$i].name "
 "- $unit.variables.stored_units.unit[$i].language_name"
@@ -732,12 +732,12 @@ msgstr ""
 "- $unit.variables.stored_units.unit[$i].language_name"
 
 #. [set_menu_item]: id=putintotower
-#: Empire_Builder/macros/forts.cfg:183
+#: Empire_Builder/macros/forts.cfg:176
 msgid "Put this unit into tower"
 msgstr "Poslat tuto jednotku do věže"
 
 #. [set_menu_item]: id=dismiss_archer
-#: Empire_Builder/macros/forts.cfg:228
+#: Empire_Builder/macros/forts.cfg:221
 msgid "Dismiss archer"
 msgstr "Propustit lučištníka"
 
@@ -2121,12 +2121,12 @@ msgstr "Farmy produkují nezbytné jídlo pro tvé poddané. "
 #. [produces_food]: id=produces_food
 #: Empire_Builder/units/buildings/Farm.cfg:20 Empire_Builder/units/buildings/Farm.cfg:45
 msgid "produces food"
-msgstr ""
+msgstr "produkuje jídlo"
 
 #. [produces_food]: id=produces_food
 #: Empire_Builder/units/buildings/Farm.cfg:21
 msgid "This building produces 3 food per turn (4 with technology Advanced Farming)."
-msgstr ""
+msgstr "Tato budova produkuje 3 jídla za kolo (4 s technologií Pokročilé zemědělství)."
 
 #. [unit_type]: id=Farm2, race=buildings
 #: Empire_Builder/units/buildings/Farm.cfg:30
@@ -2136,7 +2136,7 @@ msgstr "Vylepšená farma"
 #. [produces_food]: id=produces_food
 #: Empire_Builder/units/buildings/Farm.cfg:46
 msgid "This building produces 5 food per turn (7 with technology Advanced Farming)."
-msgstr ""
+msgstr "Tato budova produkuje 5 jídla za kolo (7 s technologií Pokročilé zemědělství)."
 
 #. [unit_type]: id=Fortress, race=buildings
 #: Empire_Builder/units/buildings/Fortress.cfg:5
@@ -2145,18 +2145,33 @@ msgstr "Pevnost"
 
 #. [unit_type]: id=Fortress, race=buildings
 #: Empire_Builder/units/buildings/Fortress.cfg:16
-msgid "Fortresses provide food and healing for stationed units. This version can accommodate 4 units."
-msgstr "Pevnosti poskytují jídlo a léčení pro umístěné jednotky. Tato verze může pojmout 4 jednotky."
+msgid "Fortresses provide food and healing for stationed units."
+msgstr "Pevnosti poskytují jídlo a léčení pro umístěné jednotky. "
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:28 Empire_Builder/units/buildings/Fortress.cfg:60
+msgid "garrison"
+msgstr "posádka"
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:29
+msgid "This building can accommodate up to 4 units, providing them with food and healing."
+msgstr "Tato budova pojme až 4 jednotky, kterým poskytuje jídlo a léčení."
 
 #. [unit_type]: id=Stronghold, race=buildings
-#: Empire_Builder/units/buildings/Fortress.cfg:29
+#: Empire_Builder/units/buildings/Fortress.cfg:37
 msgid "Stronghold"
 msgstr "Bašta"
 
 #. [unit_type]: id=Stronghold, race=buildings
-#: Empire_Builder/units/buildings/Fortress.cfg:40
-msgid "Strongholds provide food and healing for stationed units. This version can accommodate 8 units."
-msgstr "Bašty  poskytují jídlo a léčení pro umístěné jednotky. Tato verze může pojmout 8 jednotek."
+#: Empire_Builder/units/buildings/Fortress.cfg:48
+msgid "Strongholds provide food and healing for stationed units."
+msgstr "Bašty  poskytují jídlo a léčení pro umístěné jednotky."
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:61
+msgid "This building can accommodate up to 8 units, providing them with food and healing."
+msgstr "Tato budova pojme až 4 jednotky, kterým poskytuje jídlo a léčení."
 
 #. [unit_type]: id=GoldMine1, race=buildings
 #: Empire_Builder/units/buildings/Gold_Mine.cfg:5
@@ -2175,12 +2190,12 @@ msgstr "Horníci v tomto dole těží zlato."
 #: Empire_Builder/units/buildings/Town_Hall.cfg:46 Empire_Builder/units/buildings/Town_Hall.cfg:72
 #: Empire_Builder/units/buildings/Town_Hall.cfg:98
 msgid "produces gold"
-msgstr ""
+msgstr "produkuje zlato"
 
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Gold_Mine.cfg:21
 msgid "This building produces 1 gold mark per turn (2 with technology Advanced Mining)."
-msgstr ""
+msgstr "Tato budova produkuje 1 zlato za kolo (2 s technologií Pokročilá těžba)."
 
 #. [unit_type]: id=GoldMine2, race=buildings
 #: Empire_Builder/units/buildings/Gold_Mine.cfg:31
@@ -2190,7 +2205,7 @@ msgstr "Vylepšený zlatý důl"
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Gold_Mine.cfg:47
 msgid "This building produces 2 gold marks per turn (3 with technology Advanced Mining)."
-msgstr ""
+msgstr "Tato budova produkuje 2 zlata za kolo (3 s technologií Pokročilá těžba)."
 
 #. [unit_type]: id=Hall_of_Heroes1, race=buildings
 #. [unit_type]: id=Hall_of_Heroes2, race=buildings
@@ -2247,12 +2262,12 @@ msgstr "Horníci v tomto dole těží rudu . Ta pak může být použita v ková
 #. [produces_ore]: id=produces_ore
 #: Empire_Builder/units/buildings/Ore_Mine.cfg:20 Empire_Builder/units/buildings/Ore_Mine.cfg:45
 msgid "produces ore"
-msgstr ""
+msgstr "produkuje rudu"
 
 #. [produces_ore]: id=produces_ore
 #: Empire_Builder/units/buildings/Ore_Mine.cfg:21
 msgid "This building produces 1 ore per turn (2 with technology Advanced Mining)."
-msgstr ""
+msgstr "Tato budova produkuje 1 rudu za kolo (2 s technologií Pokročilá těžba)."
 
 #. [unit_type]: id=OreMine2, race=buildings
 #: Empire_Builder/units/buildings/Ore_Mine.cfg:30
@@ -2262,7 +2277,7 @@ msgstr "Vylepšený rudný důl"
 #. [produces_ore]: id=produces_ore
 #: Empire_Builder/units/buildings/Ore_Mine.cfg:46
 msgid "This building produces 2 ore per turn (3 with technology Advanced Mining)."
-msgstr ""
+msgstr "Tato budova produkuje 2 rudy za kolo (3 s technologií Pokročilá těžba)."
 
 #. [unit_type]: id=School, race=buildings
 #: Empire_Builder/units/buildings/School.cfg:5
@@ -2349,7 +2364,7 @@ msgstr "Radnice je hladní budovou vesnice nebo malého města. Produkuje zlato.
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Town_Hall.cfg:21
 msgid "This building produces 2 gold mark per turn (3 with technology Economy)."
-msgstr ""
+msgstr "Tato budova produkuje 2 zlata za kolo (3 s technologií Ekonomie)."
 
 #. [unit_type]: id=City_Hall, race=buildings
 #: Empire_Builder/units/buildings/Town_Hall.cfg:31
@@ -2364,7 +2379,7 @@ msgstr "Radnice je hlavní budovou města. Produkuje zlato."
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Town_Hall.cfg:47
 msgid "This building produces 4 gold mark per turn (5 with technology Economy)."
-msgstr ""
+msgstr "Tato budova produkuje 4 zlata za kolo (5 s technologií Ekonomie)."
 
 #. [unit_type]: id=Tower_House, race=buildings
 #: Empire_Builder/units/buildings/Town_Hall.cfg:57
@@ -2379,7 +2394,7 @@ msgstr "Hrad slouží jako sídlo šlechtice. Produkuje zlato."
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Town_Hall.cfg:73
 msgid "This building produces 6 gold mark per turn (8 with technology Economy)."
-msgstr ""
+msgstr "Tato budova produkuje 6 zlata za kolo (8 s technologií Ekonomie)."
 
 #. [unit_type]: id=Castle, race=buildings
 #: Empire_Builder/units/buildings/Town_Hall.cfg:83
@@ -2394,7 +2409,7 @@ msgstr "Jen velký vládce může stavět hrady. Produkuje zlato."
 #. [produces_gold]: id=produces_gold
 #: Empire_Builder/units/buildings/Town_Hall.cfg:99
 msgid "This building produces 10 gold mark per turn (13 with technology Economy)."
-msgstr ""
+msgstr "Tato budova produkuje 10 zlata za kolo (13 s technologií Ekonomie)."
 
 #. [unit_type]: id=Woodcutter1, race=buildings
 #: Empire_Builder/units/buildings/Woodcutter.cfg:5
@@ -2410,7 +2425,7 @@ msgstr "Dřevař produkuje dřevo. To pak může být použito na stavbu/vylepš
 #. [produces_wood]: id=produces_wood
 #: Empire_Builder/units/buildings/Woodcutter.cfg:20 Empire_Builder/units/buildings/Woodcutter.cfg:44
 msgid "produces wood"
-msgstr ""
+msgstr "produkuje dřevo"
 
 #. [produces_wood]: id=produces_wood
 #: Empire_Builder/units/buildings/Woodcutter.cfg:21

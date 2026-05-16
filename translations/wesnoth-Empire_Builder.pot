@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Empire_Builder-1.18\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-14 20:27 UTC\n"
+"POT-Creation-Date: 2026-05-16 10:21 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,7 +180,7 @@ msgstr ""
 
 #. [option]
 #: Empire_Builder/macros/blacksmith.cfg:116
-#: Empire_Builder/macros/forts.cfg:133
+#: Empire_Builder/macros/forts.cfg:126
 #: Empire_Builder/macros/help.cfg:195
 #: Empire_Builder/macros/research.cfg:106
 msgid "Back"
@@ -675,37 +675,37 @@ msgid "Put this unit into fort"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Empire_Builder/macros/forts.cfg:99
+#: Empire_Builder/macros/forts.cfg:92
 msgid "There is no space for this unit on any nearby fort."
 msgstr ""
 
 #. [set_menu_item]: id=show_stored_units
-#: Empire_Builder/macros/forts.cfg:109
+#: Empire_Builder/macros/forts.cfg:102
 msgid "Show units"
 msgstr ""
 
 #. [value]: speaker=narrator
-#: Empire_Builder/macros/forts.cfg:130
+#: Empire_Builder/macros/forts.cfg:123
 msgid "Units in this fort"
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/forts.cfg:136
+#: Empire_Builder/macros/forts.cfg:129
 msgid "Release all units"
 msgstr ""
 
 #. [value]
-#: Empire_Builder/macros/forts.cfg:158
+#: Empire_Builder/macros/forts.cfg:151
 msgid "&$unit.variables.stored_units.unit[$i].image~TC($side_number,magenta)=$unit.variables.stored_units.unit[$i].name - $unit.variables.stored_units.unit[$i].language_name"
 msgstr ""
 
 #. [set_menu_item]: id=putintotower
-#: Empire_Builder/macros/forts.cfg:183
+#: Empire_Builder/macros/forts.cfg:176
 msgid "Put this unit into tower"
 msgstr ""
 
 #. [set_menu_item]: id=dismiss_archer
-#: Empire_Builder/macros/forts.cfg:228
+#: Empire_Builder/macros/forts.cfg:221
 msgid "Dismiss archer"
 msgstr ""
 
@@ -1808,17 +1808,33 @@ msgstr ""
 
 #. [unit_type]: id=Fortress, race=buildings
 #: Empire_Builder/units/buildings/Fortress.cfg:16
-msgid "Fortresses provide food and healing for stationed units. This version can accommodate 4 units."
+msgid "Fortresses provide food and healing for stationed units."
+msgstr ""
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:28
+#: Empire_Builder/units/buildings/Fortress.cfg:60
+msgid "garrison"
+msgstr ""
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:29
+msgid "This building can accommodate up to 4 units, providing them with food and healing."
 msgstr ""
 
 #. [unit_type]: id=Stronghold, race=buildings
-#: Empire_Builder/units/buildings/Fortress.cfg:29
+#: Empire_Builder/units/buildings/Fortress.cfg:37
 msgid "Stronghold"
 msgstr ""
 
 #. [unit_type]: id=Stronghold, race=buildings
-#: Empire_Builder/units/buildings/Fortress.cfg:40
-msgid "Strongholds provide food and healing for stationed units. This version can accommodate 8 units."
+#: Empire_Builder/units/buildings/Fortress.cfg:48
+msgid "Strongholds provide food and healing for stationed units."
+msgstr ""
+
+#. [garrison]: id=garrison
+#: Empire_Builder/units/buildings/Fortress.cfg:61
+msgid "This building can accommodate up to 8 units, providing them with food and healing."
 msgstr ""
 
 #. [unit_type]: id=GoldMine1, race=buildings
