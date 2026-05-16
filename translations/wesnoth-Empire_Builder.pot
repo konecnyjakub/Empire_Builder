@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Empire_Builder-1.18\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-05-16 10:21 UTC\n"
+"POT-Creation-Date: 2026-05-16 12:27 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,12 +132,12 @@ msgid "Someone else reach $score_mode_score score"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Empire_Builder/macros/abc_misc.cfg:374
+#: Empire_Builder/macros/abc_misc.cfg:377
 msgid "Before you can start the game, you have to choose name for your main character. Your noble title will come before it."
 msgstr ""
 
 #. [text_input]
-#: Empire_Builder/macros/abc_misc.cfg:379
+#: Empire_Builder/macros/abc_misc.cfg:382
 msgid "The name of your character:"
 msgstr ""
 
@@ -160,157 +160,190 @@ msgid "You do not have enough ores!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Empire_Builder/macros/blacksmith.cfg:99
+#: Empire_Builder/macros/blacksmith.cfg:102
 msgid ""
 "You currently have $player_resources[$side_number].ore ores. Your mines produce $ore_income ores per turn.\n"
 "      \n"
 "Researched upgrades\n"
 "Sharp Blade I: $player_upgrades[$side_number].sharp_blade1\n"
 "Sharp Blade II: $player_upgrades[$side_number].sharp_blade2\n"
+"Heavy Impact I: $player_upgrades[$side_number].heavy_impact1\n"
+"Heavy Impact II: $player_upgrades[$side_number].heavy_impact2\n"
 "Fire Arrows: $player_upgrades[$side_number].fire_arrows\n"
 "Piercing Arrow I: $player_upgrades[$side_number].piercing_arrow1\n"
 "Piercing Arrow II: $player_upgrades[$side_number].piercing_arrow2\n"
 "Shield: $player_upgrades[$side_number].shield\n"
 "Armor I: $player_upgrades[$side_number].armor1\n"
 "Armor II: $player_upgrades[$side_number].armor2\n"
+"Speed: $player_upgrades[$side_number].speed\n"
 "Anti-magic Shield I: $player_upgrades[$side_number].magic_shield1\n"
 "Anti-magic Shield II: $player_upgrades[$side_number].magic_shield2\n"
 "Mystic Power: $player_upgrades[$side_number].mystic_power"
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:116
+#: Empire_Builder/macros/blacksmith.cfg:122
 #: Empire_Builder/macros/forts.cfg:126
-#: Empire_Builder/macros/help.cfg:195
+#: Empire_Builder/macros/help.cfg:198
 #: Empire_Builder/macros/research.cfg:106
 msgid "Back"
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:119
+#: Empire_Builder/macros/blacksmith.cfg:125
 msgid "Research new upgrade"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [message]: speaker=mentor
-#: Empire_Builder/macros/blacksmith.cfg:141
+#: Empire_Builder/macros/blacksmith.cfg:147
 #: Empire_Builder/scenarios/Tutorial.cfg:747
 msgid "Which upgrade do you want to research?"
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:145
+#: Empire_Builder/macros/blacksmith.cfg:151
 msgid "upgrade^None"
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:148
+#: Empire_Builder/macros/blacksmith.cfg:154
 msgid "Sharp Blade I (15 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:156
+#: Empire_Builder/macros/blacksmith.cfg:162
 msgid "Upgrade Sharp Blade I researched. Your units will deal 1 more damage with bladed weapons from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:160
+#: Empire_Builder/macros/blacksmith.cfg:166
 msgid "Sharp Blade II (20 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:174
+#: Empire_Builder/macros/blacksmith.cfg:180
 msgid "Upgrade Sharp Blade II researched. Your units will deal 1 more damage with bladed weapons from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:178
+#: Empire_Builder/macros/blacksmith.cfg:184
+msgid "Heavy Impact I (20 ores)"
+msgstr ""
+
+#. [command]
+#: Empire_Builder/macros/blacksmith.cfg:192
+msgid "Upgrade Heavy Impact I researched. Your units will deal 1 more damage with hammers, staves, maces, flails, clubs and fists from now on."
+msgstr ""
+
+#. [option]
+#: Empire_Builder/macros/blacksmith.cfg:196
+msgid "Heavy Impact II (30 ores)"
+msgstr ""
+
+#. [command]
+#: Empire_Builder/macros/blacksmith.cfg:210
+msgid "Upgrade Heavy Impact II researched. Your units will deal 1 more damage with hammers, staves, maces, flails, clubs and fists from now on."
+msgstr ""
+
+#. [option]
+#: Empire_Builder/macros/blacksmith.cfg:214
 msgid "Fire Arrows (25 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:186
+#: Empire_Builder/macros/blacksmith.cfg:222
 msgid "Upgrade Fire Arrows researched. Your archers will deal fire damage now."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:190
+#: Empire_Builder/macros/blacksmith.cfg:226
 msgid "Piercing Arrow I (10 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:198
+#: Empire_Builder/macros/blacksmith.cfg:234
 msgid "Upgrade Piercing Arrow I researched. Your units will deal 1 more damage with ranged weapons from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:202
+#: Empire_Builder/macros/blacksmith.cfg:238
 msgid "Piercing Arrow II (15 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:216
+#: Empire_Builder/macros/blacksmith.cfg:252
 msgid "Upgrade Piercing Arrow II researched. Your units will deal 1 more damage with ranged weapons from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:220
+#: Empire_Builder/macros/blacksmith.cfg:256
 msgid "Shield (25 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:228
+#: Empire_Builder/macros/blacksmith.cfg:264
 msgid "Upgrade Shield researched. Your units will have 7% higher defense on all terrains."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:232
+#: Empire_Builder/macros/blacksmith.cfg:268
 #: Empire_Builder/scenarios/Tutorial.cfg:750
 msgid "Armor I (20 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:240
+#: Empire_Builder/macros/blacksmith.cfg:276
 msgid "Upgrade Armor I researched. Your units will receive 5% less damage from physical attacks from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:244
+#: Empire_Builder/macros/blacksmith.cfg:280
 msgid "Armor II (30 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:258
+#: Empire_Builder/macros/blacksmith.cfg:294
 msgid "Upgrade Armor II researched. Your units will receive 10% less damage from physical attacks from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:262
+#: Empire_Builder/macros/blacksmith.cfg:298
+msgid "Speed (20 ores)"
+msgstr ""
+
+#. [command]
+#: Empire_Builder/macros/blacksmith.cfg:306
+msgid "Upgrade Speed researched. Your units will have 1 more movement point."
+msgstr ""
+
+#. [option]
+#: Empire_Builder/macros/blacksmith.cfg:310
 msgid "Anti-magic shield I (20 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:276
+#: Empire_Builder/macros/blacksmith.cfg:324
 msgid "Upgrade Anti-magic Shield I researched. Your units will receive 7% less damage from magical attacks from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:280
+#: Empire_Builder/macros/blacksmith.cfg:328
 msgid "Anti-magic shield II (30 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:300
+#: Empire_Builder/macros/blacksmith.cfg:348
 msgid "Upgrade Anti-magic Shield II researched. Your units will receive 8% less damage from magical attacks from now on."
 msgstr ""
 
 #. [option]
-#: Empire_Builder/macros/blacksmith.cfg:304
+#: Empire_Builder/macros/blacksmith.cfg:352
 msgid "Mystic Power (25 ores)"
 msgstr ""
 
 #. [command]
-#: Empire_Builder/macros/blacksmith.cfg:318
+#: Empire_Builder/macros/blacksmith.cfg:366
 msgid "Upgrade Mystic Power researched. Your mages and healers will deal 2 more damage from now on."
 msgstr ""
 
@@ -585,7 +618,7 @@ msgstr ""
 #. [option]
 #. [message]: speaker=mentor
 #: Empire_Builder/macros/buildings.cfg:808
-#: Empire_Builder/macros/help.cfg:170
+#: Empire_Builder/macros/help.cfg:173
 #: Empire_Builder/scenarios/Tutorial.cfg:620
 msgid "Diplomacy"
 msgstr ""
@@ -695,17 +728,17 @@ msgid "Release all units"
 msgstr ""
 
 #. [value]
-#: Empire_Builder/macros/forts.cfg:151
-msgid "&$unit.variables.stored_units.unit[$i].image~TC($side_number,magenta)=$unit.variables.stored_units.unit[$i].name - $unit.variables.stored_units.unit[$i].language_name"
+#: Empire_Builder/macros/forts.cfg:152
+msgid "$unit.variables.stored_units.unit[$i].name - $unit.variables.stored_units.unit[$i].language_name"
 msgstr ""
 
 #. [set_menu_item]: id=putintotower
-#: Empire_Builder/macros/forts.cfg:176
+#: Empire_Builder/macros/forts.cfg:177
 msgid "Put this unit into tower"
 msgstr ""
 
 #. [set_menu_item]: id=dismiss_archer
-#: Empire_Builder/macros/forts.cfg:221
+#: Empire_Builder/macros/forts.cfg:222
 msgid "Dismiss archer"
 msgstr ""
 
@@ -835,12 +868,15 @@ msgid ""
 "Can be researched in Blacksmith for ores.\n"
 "Sharp Blade I (15 ores): your units will deal 1 more damage with bladed weapons\n"
 "- Sharp Blade II (20 ores): your units will deal 1 more damage with bladed weapons\n"
+"Heavy Impact I (20 ores): your units will deal 1 more damage with hammers, staves, maces, flails, clubs and fists\n"
+"- Heavy Impact II (30 ores): your units will deal 1 more damage with hammers, staves, maces, flails, clubs and fists\n"
 "Fire Arrows (25 ores): your archers will deal fire damage\n"
 "Piercing Arrow I (10 ores): your units will deal 1 more damage with ranged weapons\n"
 "- Piercing Arrow II (15 ores): your units will deal 1 more damage with ranged weapons\n"
 "Shield (25 ores): your units will have 7% higher defense on all terrains\n"
 "Armor I (20 ores): your units will receive 5% less from physical attacks\n"
 "- Armor II (30 ores): your units will receive 10% less from physical attacks\n"
+"Speed (20 ores): your units will have 1 more movement point\n"
 "Anti-magic Shield I (20 ores): your units will receive 7% less from magical attacks (requires Witchcraft technology)\n"
 "- Anti-magic Shield II (30 ores): your units will receive 8% less from magical attacks (requires Witchcraft technology)\n"
 "Mystic Power (30 ores): your mages and healers will deal 2 more damage (requires Witchcraft technology)"
@@ -848,13 +884,13 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: Empire_Builder/macros/help.cfg:184
-#: Empire_Builder/macros/help.cfg:178
+#: Empire_Builder/macros/help.cfg:187
+#: Empire_Builder/macros/help.cfg:181
 msgid "Modes"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Empire_Builder/macros/help.cfg:185
+#: Empire_Builder/macros/help.cfg:188
 msgid ""
 "This modification comes with 2 additional modes that can be enabled by player's will (though certain scenarios force/forbid them).\n"
 "Headquarters mode: a side is considered defeated also when its headquarters are destroyed. Players can move their headquarters to another Town Hall/City Hall/Tower House/Castle\n"
