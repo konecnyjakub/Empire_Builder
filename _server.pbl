@@ -2,5 +2,7 @@ name="Empire Builder"
 description="Build your own empire. With this modification, you are able to construct various buildings here (some of them can be even upgraded), they will produce some resources for you, allow you to train units or research technologies/upgrades. To perform certain actions, you will need a higher noble title. To upgrade your title, you have to acquire certain score (by constructing/upgrading buildings and training units) and pay a certain amount of gold."
 icon="scenery/village-human-burned3.png"
 author="James_The_Invisible"
+email="jakub.konecny2@centrum.cz"
+tags=empire,builder,buildings,roads,research,terraforming
 type="mod_mp"
 version="0.1.0"
